@@ -1,0 +1,85 @@
+@require './theme/styles/config'
+
+.navbar .site-name.can-hide { 
+    display none 
+}
+
+.navbar {
+    height: 5rem
+    padding-top: 1.4rem
+    padding-bottom: 1.4rem
+    border-bottom: none
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.05);
+}
+
+.navbar .links {
+    top: 1.4rem
+}
+
+.versions-link {
+    line-height: 1.5rem
+    vertical-align: bottom
+}
+
+.sidebar {
+    top: 5rem
+    background-color: #fbfbfb
+}
+
+.sidebar-heading {
+    font-size: 1rem
+    color: #2c3e50
+}
+
+.sidebar-heading .arrow {
+    opacity: 0.7
+}
+
+.content:not(.custom) > h1, 
+.content:not(.custom) > h2, 
+.content:not(.custom) > h3, 
+.content:not(.custom) > h4, 
+.content:not(.custom) > h5, 
+.content:not(.custom) > h6 {
+    margin-top: -5.1rem;
+    padding-top: 6.6rem;
+}
+
+.content:not(.custom) > h1:first-child, 
+.content:not(.custom) > h2:first-child, 
+.content:not(.custom) > h3:first-child, 
+.content:not(.custom) > h4:first-child, 
+.content:not(.custom) > h5:first-child, 
+.content:not(.custom) > h6:first-child {
+    margin-top: -1rem;
+}
+
+.icon.outbound {
+    margin: 0 0 -.1rem .25rem;
+}
+
+.page-edit .edit-link a { margin-right: 0 }
+
+@media (max-width: $MQMobile) {
+    .navbar {
+        padding-left: inherit;
+        height 4rem;
+        padding-top: 0.9rem;
+        padding-bottom: 0.9rem;
+    }
+    .navbar .logo-wrapper {
+        text-align: center
+    }
+    .navbar .links {
+        top: 50%;
+        margin-top: -1.2rem;    
+    }
+    .sidebar-button {
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    .sidebar {
+        top: 4rem;   
+        padding-top: 0; 
+    }
+}
