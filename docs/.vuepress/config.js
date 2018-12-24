@@ -10,6 +10,7 @@ module.exports = {
     editLinks: true,                                //  "Edit this page" at the bottom of each page
     lastUpdated: 'Last Updated',                    //  "Last Updated" at the bottom of each page
     repo: 'teacommerce/tea-commerce-docs', 
+    docsDir: 'docs/',
     versions: {
       selected: versioning.versions.current,
       next: versioning.versions.next,
