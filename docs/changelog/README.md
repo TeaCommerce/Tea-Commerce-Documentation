@@ -1,6 +1,6 @@
 <script>
 export default {
-  mounted() {
+  created() {
     this.$router.push('/changelog/3.x/')
   }
 }
