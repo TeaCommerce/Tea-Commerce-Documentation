@@ -217,7 +217,7 @@ function resolveItem (item, pages, base, isNested) {
     const children = item.children || []
     return {
       type: 'group',
-      title: item.title,
+      title: item.title || item.path,
       children: children.map(child => resolveItem(child, pages, base, true)),
       collapsable: item.collapsable !== false
     }
