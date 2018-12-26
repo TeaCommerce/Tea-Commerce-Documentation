@@ -17,7 +17,7 @@ When Tea Commerce is installed you need to do the following things.
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/3.51/jquery.form.min.js"></script>
 <script type="text/javascript" src="/App_Plugins/TeaCommerce/Assets/Scripts/tea-commerce.min.js"></script>
 <script type="text/javascript">
-    var storeId = @Model.Content.GetPropertyValue("store", true);
+    var _storeId = @Model.Content.GetPropertyValue("store", true);
 </script>
 ````
 

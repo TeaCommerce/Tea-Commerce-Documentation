@@ -85,7 +85,7 @@ To work with the JavaScript API you need to include the tea-commerce.min.js file
     <script type="text/javascript" src="/App_Plugins/teacommerce/assets/scripts/tea-commerce.min.js"></script>
 
     <script type="text/javascript">
-      var storeId = 1;
+      var _storeId = 1;
 
       function updateMiniCart() {
         var order = TC.getCurrentOrder(),
