@@ -1,4 +1,5 @@
 import { getVersionFromPath } from './theme/util'
+import Tabs from 'vue-tabs-component'
 
 export default ({
     Vue, // the version of Vue being used in the VuePress app
@@ -7,6 +8,8 @@ export default ({
     siteData // site metadata
   }) => {
   
+    Vue.use(Tabs)
+
     // Select docs version based on url path
     // Example: "/2.6/guides/installation.html" will use "2.6"
     router.afterEach((to, from) => {

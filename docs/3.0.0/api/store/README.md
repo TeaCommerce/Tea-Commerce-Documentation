@@ -4,7 +4,9 @@
 
 Gets a specific store.
 
-### Razor API
+:::: tabs
+
+::: tab "Razor API" id="tab-001"
 
 ### Arguments
 
@@ -43,3 +45,7 @@ Gets a specific store.
   Store store = TC.GetStore( 1 );
 }
 ````
+
+:::
+
+::::

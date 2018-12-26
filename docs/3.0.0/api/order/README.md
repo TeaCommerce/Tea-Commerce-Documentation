@@ -4,7 +4,9 @@
 
 Gets the customers current order.
 
-### JavaScript API
+:::: tabs
+
+::: tab "JavaScript API" id="getcurrentorder-javascript"
 
 ### Arguments
 
@@ -66,7 +68,9 @@ Gets the customers current order.
 var order = TC.getCurrentOrder({storeId:1});
 ````
 
-### Razor API
+:::
+
+::: tab "Razor API" id="getcurrentorder-razor"
 
 ### Arguments
 
@@ -110,12 +114,17 @@ var order = TC.getCurrentOrder({storeId:1});
   Order order = TC.GetCurrentOrder( 1 );
 }
 ````
+:::
+
+::::
 
 ## SetCurrentOrder
 
 Sets the customers current order.
 
-### Razor API
+:::: tabs
+
+::: tab "Razor API" id="setcurrentorder-razor"
 
 ### Arguments
 
@@ -160,11 +169,17 @@ Sets the customers current order.
 }
 ````
 
+:::
+
+::::
+
 ## RemoveCurrentOrder
 
 Removes the customers current order from session. The order will not be deleted.
 
-### HTML API
+:::: tabs
+
+::: tab "HTML API" id="removecurrentorder-html"
 
 ### Arguments
 
@@ -191,7 +206,8 @@ Removes the customers current order from session. The order will not be deleted.
 </form>
 ````
 
-### JavaScript API
+:::
+::: tab "JavaScript API" id="removecurrentorder-javascript"
 
 ### Arguments
 
@@ -248,7 +264,8 @@ Will only be returned if you use async = false</td>
 TC.removeCurrentOrder({storeId:1});
 ````
 
-### Razor API
+:::
+::: tab "Razor API" id="removecurrentorder-razor"
 
 ### Arguments
 
@@ -288,11 +305,17 @@ TC.removeCurrentOrder({storeId:1});
 }
 ````
 
+:::
+
+::::
+
 ## GetCurrentFinalizedOrder
 
 Gets the customers current finalized order.
 
-### JavaScript API
+:::: tabs
+
+::: tab "JavaScript API" id="getcurrentfinalizedorder-javascript"
 
 ### Arguments
 
@@ -348,7 +371,9 @@ Gets the customers current finalized order.
 var order = TC.getCurrentFinalizedOrder({storeId:1});
 ````
 
-### Razor API
+:::
+
+::: tab "Razor API" id="getcurrentfinalizedorder-razor"
 
 ### Arguments
 
@@ -388,11 +413,17 @@ var order = TC.getCurrentFinalizedOrder({storeId:1});
 }
 ````
 
+:::
+
+::::
+
 ## GetOrder
 
 Gets a specific order.
 
-### JavaScript API
+:::: tabs
+
+::: tab "JavaScript API" id="getorder-javascript"
 
 ### Arguments
 
@@ -454,7 +485,9 @@ Gets a specific order.
 var order = TC.getOrder({storeId:1, orderId:'dc354705-c1de-413e-a9d2-756294cfa2ec'});
 ````
 
-### Razor API
+:::
+
+::: tab "Razor API" id="getorder-razor"
 
 ### Arguments
 
@@ -499,11 +532,17 @@ var order = TC.getOrder({storeId:1, orderId:'dc354705-c1de-413e-a9d2-756294cfa2e
 }
 ````
 
+:::
+
+::::
+
 ## GetOrders
 
 Gets a collection of orders.
 
-### JavaScript API
+:::: tabs
+
+::: tab "JavaScript API" id="getorders-javascript"
 
 ### Arguments
 
@@ -565,7 +604,9 @@ Gets a collection of orders.
 var orders = TC.getOrders({storeId:1, orderIds:['dc354705-c1de-413e-a9d2-756294cfa2ec', '066B0680-E955-4A63-BE24-7D1E7A1F08AE']});
 ````
 
-### Razor API
+:::
+
+::: tab "Razor API" id="getorders-razor"
 
 ### Arguments
 
@@ -613,11 +654,17 @@ var orders = TC.getOrders({storeId:1, orderIds:['dc354705-c1de-413e-a9d2-756294c
 }
 ````
 
+:::
+
+::::
+
 ## GetFinalizedOrdersForCustomer
 
 Gets all finalized orders for a specific customer.
 
-### JavaScript API
+:::: tabs
+
+::: tab "JavaScript API" id="getfinalizedordersforcustomer-javascript"
 
 ### Arguments
 
@@ -679,7 +726,9 @@ Gets all finalized orders for a specific customer.
 var orders = TC.getFinalizedOrdersForCustomer({storeId:1, customerId:'10245'});
 ````
 
-### Razor API
+:::
+
+::: tab "Razor API" id="getfinalizedordersforcustomer-razor"
 
 ### Arguments
 
@@ -724,3 +773,6 @@ var orders = TC.getFinalizedOrdersForCustomer({storeId:1, customerId:'10245'});
 }
 ````
 
+:::
+
+::::

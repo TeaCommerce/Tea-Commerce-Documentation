@@ -4,7 +4,9 @@
 
 This method has multiple use cases, but common for all is that its updating the customer's current order. The most simple scenario is adding an order line. The other uses are updating the quantity of an existing order line, add unique order lines, add bundled products etc.
 
-### HTML API
+:::: tabs
+
+::: tab "HTML API" id="addorupdateorderline-html"
 
 ### Arguments
 
@@ -119,7 +121,9 @@ This example demonstrates how to add product bundles. A computer is added as the
 </form>
 ````
 
-### JavaScript API
+:::
+
+::: tab "JavaScript API" id="addorupdateorderline-javascript"
 
 ### Arguments
 
@@ -245,7 +249,9 @@ TC.addOrUpdateOrderLine({storeId:1, productIdentifier:1072, quantity:1, bundleId
 TC.addOrUpdateOrderLine({storeId:1, productIdentifier:1073, quantity:1, parentBundleIdentifier:'Computer'});
 ````
 
-### Razor API
+:::
+
+::: tab "Razor API" id="addorupdateorderline-razor"
 
 ### Arguments
 
@@ -357,11 +363,17 @@ This example demonstrates how to add product bundles. A computer is added as the
 }
 ````
 
+:::
+
+::::
+
 ## UpdateOrderLine
 
 Updates a single order line on the current order. If the customer does not have a current order a new one will be created.
 
-### Razor API
+:::: tabs
+
+::: tab "Razor API" id="updateorderline-razor"
 
 ### Arguments
 
@@ -421,11 +433,17 @@ Updates a single order line on the current order. If the customer does not have 
 }
 ````
 
+:::
+
+::::
+
 ## RemoveOrderLine
 
 Removes a single order line from the customer's current order.
 
-### HTML API
+:::: tabs
+
+::: tab "HTML API" id="removeorderline-html"
 
 ### Arguments
 
@@ -458,7 +476,9 @@ Removes a single order line from the customer's current order.
 </form>
 ````
 
-### JavaScript API
+:::
+
+::: tab "JavaScript API" id="removeorderline-javascript"
 
 ### Arguments
 
@@ -521,7 +541,9 @@ Will only be returned if you use async = false</td>
 TC.removeOrderLine({storeId:1, orderLineId: 172});
 ````
 
-### Razor API
+:::
+
+::: tab "Razor API" id="removeorderline-razor"
 
 ### Arguments
 
@@ -566,11 +588,17 @@ TC.removeOrderLine({storeId:1, orderLineId: 172});
 }
 ````
 
+:::
+
+::::
+
 ## RemoveAllOrderLines
 
 Removes all order lines from the customer's current order.
 
-### HTML API
+:::: tabs
+
+::: tab "HTML API" id="removeallorderlines-html"
 
 ### Arguments
 
@@ -597,7 +625,9 @@ Removes all order lines from the customer's current order.
 </form>
 ````
 
-### JavaScript API
+:::
+
+::: tab "JavaScript API" id="removeallorderlines-javascript"
 
 ### Arguments
 
@@ -654,7 +684,9 @@ Will only be returned if you use async = false</td>
 TC.removeAllOrderLines({storeId:1});
 ````
 
-### Razor API
+:::
+
+::: tab "Razor API" id="removeallorderlines-razor"
 
 ### Arguments
 
@@ -694,3 +726,6 @@ TC.removeAllOrderLines({storeId:1});
 }
 ````
 
+:::
+
+::::

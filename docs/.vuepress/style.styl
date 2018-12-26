@@ -1,4 +1,5 @@
 @require './theme/styles/config'
+@require './styles/vuepress-tabs.styl'
 
 .navbar .site-name.can-hide { 
     display none 
@@ -67,6 +68,39 @@ hr {
 }
 
 .page-edit .edit-link a { margin-right: 0 }
+
+.tabs-component-tabs {
+    border-radius: 0
+}
+
+.tabs-component-tab-a {
+   padding: 0.5rem 1rem; 
+}
+
+.tabs-component-panels {
+    border-left: 0
+    border-right: 0
+    border-bottom: 0
+    box-shadow: none
+    padding: 0
+}
+
+.tabs-component-tab {
+    font-size: 1rem
+}
+
+@media (min-width: ($MQMobile + 1px)) {
+    .tabs-component-tab {
+        border-radius: 0
+        border-color: transparent
+        border-bottom-color: #ddd;
+    }
+
+    .tabs-component-tab.is-active {
+        border: solid 1px #ddd
+        border-bottom: solid 1px #fff
+    }
+}
 
 @media (max-width: $MQMobile) {
     .navbar {

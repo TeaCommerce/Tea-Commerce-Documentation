@@ -28,5 +28,11 @@ module.exports = {
       '/versions/': require('../versions/sidebar.js'),
       ...versioning.sidebars
     }
-  }
+  },
+  markdown: {
+    config: md => {
+      const vuepressTabs = require('vuepress-tabs')
+      vuepressTabs(md)
+    }
+  },
 }
