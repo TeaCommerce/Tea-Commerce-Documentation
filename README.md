@@ -52,7 +52,9 @@ When writing documentation there are a number of principles that should be follo
 
 #### Markdown
 
-Documentation files are written using markdown. If you need something more complex than is possible with markdown, you can write bespoke HTML instead. You should, however, aim to write as much as you can in the markdown format.
+Documentation files are written using markdown. If you need something more complex than is possible with markdown, you can write bespoke HTML instead, you should aim to write as much as you can in the markdown format.
+
+For details on the various supported markdown tags, checkout the [Vuepress documentation](https://vuepress.vuejs.org/guide/markdown.html).
 
 #### Static files
 
@@ -61,8 +63,6 @@ If your documentation requires an image or static file to link to, these files s
 For example, if you place a file `myimage.png` into the `docs/.vuepress/public/img` folder, you can reference this image in your markdown using the path `/img/myimage.png`.
 
 #### Tabs
-
-#### Callout Boxes
 
 #### Custom styles
 
