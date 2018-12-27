@@ -1,0 +1,40 @@
+# Old docs site redirects
+
+/docs					            /3.0.0/						                301
+/docs/installation			        /3.0.0/getting-started/installation/		301
+/docs/develop-an-e-commerce-site	/3.0.0/guides/building-an-ecommerce-site/	301
+/docs/configure-the-store		    /3.0.0/guides/building-an-ecommerce-site/	301
+/docs/create-document-types		    /3.0.0/guides/building-an-ecommerce-site/	301
+/docs/list-product-categories		/3.0.0/guides/building-an-ecommerce-site/	301
+/docs/list-products			        /3.0.0/guides/building-an-ecommerce-site/	301
+/docs/product-details			    /3.0.0/guides/building-an-ecommerce-site/	301
+/docs/add-product-to-cart		    /3.0.0/guides/building-an-ecommerce-site/	301
+/docs/mini-cart				        /3.0.0/guides/building-an-ecommerce-site/	301
+/docs/checkout-general			    /3.0.0/guides/building-an-ecommerce-site/	301
+/docs/checkout-cart-content		    /3.0.0/guides/building-an-ecommerce-site/	301
+/docs/checkout-customer-information	/3.0.0/guides/building-an-ecommerce-site/	301
+/docs/checkout-order-acceptance		/3.0.0/guides/building-an-ecommerce-site/	301
+/docs/checkout-order-confirmation	/3.0.0/guides/building-an-ecommerce-site/	301
+
+/docs/gateways				        /3.0.0/payment-providers/		        	301
+/docs/:provider				        /3.0.0/payment-providers/:provider/		    301
+
+/docs/orders				        /3.0.0/getting-started/user-interface/		301
+/docs/marketing				        /3.0.0/getting-started/user-interface/		301
+/docs/gift-cards			        /3.0.0/getting-started/user-interface/		301
+/docs/settings				        /3.0.0/getting-started/user-interface/		301
+/docs/order-statuses			    /3.0.0/getting-started/user-interface/		301
+/docs/shipping-methods			    /3.0.0/getting-started/user-interface/		301
+/docs/payment-methods			    /3.0.0/getting-started/user-interface/		301
+/docs/countries				        /3.0.0/getting-started/user-interface/		301
+/docs/currencies			        /3.0.0/getting-started/user-interface/		301
+/docs/vat-groups			        /3.0.0/getting-started/user-interface/		301
+/docs/email-templates			    /3.0.0/getting-started/user-interface/		301
+/docs/security				        /3.0.0/getting-started/configuration/		301
+/docs/licenses				        /3.0.0/getting-started/configuration/		301
+
+/blog					            /changelog/				                	301
+/blog/*					            /changelog/             					301
+
+/reference				/3.0.0/api/					301
+/v3.0.0/reference			/3.0.0/api/					301
