@@ -4,7 +4,8 @@
 
 # Tea Commerce Documentation
 
-This repository contains the raw source files for the documentation of the Umbraco eCommerce platform [Tea Commerce](https://www.teacommerce.net). The live version of these docs can be found at [https://docs.teacommerce.net](https://docs.teacommerce.net).
+This repository contains the raw source files for the documentation of the Umbraco eCommerce platform [Tea Commerce](https://www.teacommerce.net).
+The live version of these docs can be found at [https://docs.teacommerce.net](https://docs.teacommerce.net).
 
 </div>
 
@@ -22,7 +23,15 @@ All contributions / contributors are expected to abide by our [Code of Conduct](
 
 ### Getting Setup
 
-To run the documentation site locally, clone 
+1. Fork this repository on GitHub.
+2. Clone your forked repository (not our original one) to your hard drive with git clone https://github.com/YOURUSERNAME/tea-commerce-documentation.git
+3. Open the `tea-commerce-documentation` directory
+4. Initialize and start a local instance of the site.
+
+````
+yarn install
+yarn docs:dev
+````
 
 ### Writing Documentation
 
