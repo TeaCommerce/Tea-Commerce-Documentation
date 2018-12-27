@@ -15,7 +15,7 @@ The live version of these docs can be found at [https://docs.teacommerce.net](ht
 
 ## Contributing
 
-If you would like to help improve our documentation, contributions via pull requests are our prefered method. I guide for which follows:
+If you would like to help improve our documentation, contributions via pull request are our prefered method. I guide for which follows:
 
 ### Code of Conduct
 
@@ -26,9 +26,9 @@ All contributions / contributors are expected to abide by our [Code of Conduct](
 1. Fork this repository on GitHub.
 2. Clone your forked repository (not our original one) to your hard drive with git clone https://github.com/YOURUSERNAME/tea-commerce-documentation.git
 3. Open the `tea-commerce-documentation` directory
-4. Initialize and start a local instance of the site.
+4. Open a command window and start a local instance of the site via:
 
-````
+````bash
 yarn install
 yarn docs:dev
 ````
