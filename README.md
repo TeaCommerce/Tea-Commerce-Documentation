@@ -1,3 +1,5 @@
+![Tea Commerce](docs/.vuepress/public/logo.png)
+
 # Tea Commerce Documentation
 
-Documentation for Tea Commerce, the Umbraco eCommerce package
+This repository contains the documentation for the Umbraco eCommerce platform Tea Commerce
