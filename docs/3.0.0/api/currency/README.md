@@ -6,7 +6,7 @@ Gets a currency from a specfic store.
 
 :::: tabs
 
-::: tab "JavaScript API" id="getcurrency-javascript"
+::: tab "JavaScript API"
 
 ### Arguments
 
@@ -70,7 +70,7 @@ var currency = TC.getCurrency({storeId:1, currencyId:2});
 
 :::
 
-::: tab "Razor API" id="getcurrency-razor"
+::: tab "Razor API"
 
 ### Arguments
 
@@ -125,7 +125,7 @@ Gets the currencies for a specific store that are allowed in the current payment
 
 :::: tabs
 
-::: tab "JavaScript API" id="getcurrencies-javascript"
+::: tab "JavaScript API"
 
 ### Arguments
 
@@ -189,7 +189,7 @@ var currencies = TC.getCurrencies({storeId:1});
 
 :::
 
-::: tab "Razor API" id="getcurrencies-razor"
+::: tab "Razor API"
 
 ### Arguments
 
@@ -244,7 +244,7 @@ Gets the current currency of the customer's session. If the customer has a curre
 
 :::: tabs
 
-::: tab "JavaScript API" id="getcurrentcurrency-javascript"
+::: tab "JavaScript API"
 
 ### Arguments
 
@@ -302,7 +302,7 @@ var currency = TC.getCurrency({storeId:1});
 
 :::
 
-::: tab "Razor API" id="getcurrentcurrency-razor"
+::: tab "Razor API"
 
 ### Arguments
 
@@ -352,7 +352,7 @@ Changes the current currency of the customer's session. The currency is also cha
 
 :::: tabs
 
-::: tab "HTML API" id="setcurrentcurrency-html"
+::: tab "HTML API"
 
 ### Arguments
 
@@ -387,7 +387,7 @@ Changes the current currency of the customer's session. The currency is also cha
 
 :::
 
-::: tab "JavaScript API" id="setcurrentcurrency-javascript"
+::: tab "JavaScript API"
 
 ### Arguments
 
@@ -452,7 +452,7 @@ TC.setCurrency({storeId:1, currencyId:2});
 
 :::
 
-::: tab "Razor API" id="setcurrentcurrency-razor"
+::: tab "Razor API"
 
 ### Arguments
 

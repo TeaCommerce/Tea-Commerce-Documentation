@@ -32,7 +32,7 @@ module.exports = {
   },
   markdown: {
     config: md => {
-      const vuepressTabs = require('vuepress-tabs')
+      const vuepressTabs = require('./lib/vuepress-tabs');
       vuepressTabs(md)
     }
   },

@@ -6,7 +6,7 @@ Add a discount code to the customer's current order.
 
 :::: tabs 
 
-::: tab "HTML API" id="adddiscountcode-html"
+::: tab "HTML API"
 
 ### Arguments
 
@@ -41,7 +41,7 @@ Add a discount code to the customer's current order.
 
 :::
 
-::: tab "JavaScript API" id="adddiscountcode-javascript"
+::: tab "JavaScript API"
 
 ### Arguments
 
@@ -106,7 +106,7 @@ TC.addDiscountCode({storeId:1, code:'hsn7tl'});
 
 :::
 
-::: tab "Razor API" id="adddiscountcode-razor"
+::: tab "Razor API"
 
 ### Arguments
 
@@ -162,7 +162,7 @@ Remove a discount code from the customer's current order.
 
 :::: tabs
 
-::: tab "HTML API" id="removediscountcode-html"
+::: tab "HTML API"
 
 ### Arguments
 
@@ -197,7 +197,7 @@ Remove a discount code from the customer's current order.
 
 :::
 
-::: tab "JavaScript API" id="removediscountcode-javascript"
+::: tab "JavaScript API"
 
 ### Arguments
 
@@ -262,7 +262,7 @@ TC.removeDiscountCode({storeId:1, code:'hsn7tl'});
 
 :::
 
-::: tab "Razor API" id="removediscountcode-razor"
+::: tab "Razor API"
 
 ### Arguments
 

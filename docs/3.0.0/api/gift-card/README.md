@@ -6,7 +6,7 @@ Add a gift card code to the customer's current order.
 
 :::: tabs 
 
-::: tab "HTML API" id="addgiftcard-html"
+::: tab "HTML API"
 
 ### Arguments
 
@@ -41,7 +41,7 @@ Add a gift card code to the customer's current order.
 
 :::
 
-::: tab "JavaScript API" id="addgiftcard-javascript"
+::: tab "JavaScript API"
 
 ### Arguments
 
@@ -106,7 +106,7 @@ TC.addGiftCard({storeId:1, code:'hsn7tl'});
 
 :::
 
-::: tab "Razor API" id="addgiftcard-razor"
+::: tab "Razor API"
 
 ### Arguments
 
@@ -161,7 +161,7 @@ Remove a gift card code from the customer's current order.
 
 :::: tabs 
 
-::: tab "HTML API" id="removegiftcard-html"
+::: tab "HTML API"
 
 ### Arguments
 
@@ -196,7 +196,7 @@ Remove a gift card code from the customer's current order.
 
 :::
 
-::: tab "JavaScript API" id="removegiftcard-javascript"
+::: tab "JavaScript API"
 
 ### Arguments
 
@@ -261,7 +261,7 @@ TC.removeGiftCard({storeId:1, code:'hsn7tl'});
 
 :::
 
-::: tab "Razor API" id="removegiftcard-razor"
+::: tab "Razor API"
 
 ### Arguments
 

@@ -6,7 +6,7 @@ Gets a shipping method from a specfic store.
 
 :::: tabs
 
-::: tab "JavaScript API" id="getshippingmethod-javascript"
+::: tab "JavaScript API"
 
 ### Arguments
 
@@ -70,7 +70,7 @@ var shippingMethod = TC.getshippingMethod({storeId:1, shippingMethodId:2});
 
 :::
 
-::: tab "Razor API" id="getshippingmethod-razor"
+::: tab "Razor API"
 
 ### Arguments
 
@@ -125,7 +125,7 @@ Gets a collection of all shipping methods that are allowed in the current shippi
 
 :::: tabs
 
-::: tab "JavaScript API" id="getshippingmethods-javascript"
+::: tab "JavaScript API"
 
 ### Arguments
 
@@ -189,7 +189,7 @@ var shippingMethods = TC.getShippingMethods({storeId:1});
 
 :::
 
-::: tab "Razor API" id="getshippingmethods-razor"
+::: tab "Razor API"
 
 ### Arguments
 
@@ -244,7 +244,7 @@ Gets the current shipping method of the customer's session. If the customer has 
 
 :::: tabs
 
-::: tab "JavaScript API" id="getcurrentshippingmethod-javascript"
+::: tab "JavaScript API"
 
 ### Arguments
 
@@ -302,7 +302,7 @@ var shippingMethod = TC.getCurrentShippingMethod({storeId:1});
 
 :::
 
-::: tab "Razor API" id="getcurrentshippingmethod-razor"
+::: tab "Razor API"
 
 ### Arguments
 
@@ -352,7 +352,7 @@ Changes the current shipping method of the customer's session. The shipping meth
 
 :::: tabs
 
-::: tab "HTML API" id="setcurrentshippingmethod-html"
+::: tab "HTML API"
 
 ### Arguments
 
@@ -387,7 +387,7 @@ Changes the current shipping method of the customer's session. The shipping meth
 
 :::
 
-::: tab "JavaScript API" id="setcurrentshippingmethod-javascript"
+::: tab "JavaScript API"
 
 ### Arguments
 
@@ -452,7 +452,7 @@ TC.setCurrentShippingMethod({storeId:1, shippingMethodId:2});
 
 :::
 
-::: tab "Razor API" id="setcurrentshippingmethod-razor"
+::: tab "Razor API"
 
 ### Arguments
 
@@ -507,7 +507,7 @@ Get the price for a specific shipping method, based on the customers current cur
 
 :::: tabs
 
-::: tab "JavaScript API" id="getpriceforshippingmethod-javascript"
+::: tab "JavaScript API"
 
 ### Arguments
 
@@ -571,7 +571,7 @@ var price = TC.getPriceForShippingMethod({storeId:1, shippingMethodId:2});
 
 :::
 
-::: tab "Razor API" id="getpriceforshippingmethod-razor"
+::: tab "Razor API"
 
 ### Arguments
 

@@ -3,7 +3,7 @@
         <slot />
     </table>
 </template>
-
+ 
 <style lang="stylus">
     .changelog
         tr, th, td 

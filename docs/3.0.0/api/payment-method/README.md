@@ -6,7 +6,7 @@ Gets a payment method from a specfic store.
 
 :::: tabs
 
-::: tab "JavaScript API" id="getpaymentmethod-javascript"
+::: tab "JavaScript API"
 
 ### Arguments
 
@@ -70,7 +70,7 @@ var paymentMethod = TC.getPaymentMethod({storeId:1, paymentMethodId:2});
 
 :::
 
-::: tab "Razor API" id="getpaymentmethod-razor"
+::: tab "Razor API"
 
 ### Arguments
 
@@ -125,7 +125,7 @@ Gets a collection of all payment methods that are allowed in the current payment
 
 :::: tabs
 
-::: tab "JavaScript API" id="getpaymentmethods-javascript"
+::: tab "JavaScript API"
 
 ### Arguments
 
@@ -189,7 +189,7 @@ var paymentMethods = TC.getPaymentMethods({storeId:1});
 
 :::
 
-::: tab "Razor API" id="getpaymentmethods-razor"
+::: tab "Razor API"
 
 ### Arguments
 
@@ -245,7 +245,7 @@ Gets the current payment method of the customer's session. If the customer has a
 
 :::: tabs
 
-::: tab "JavaScript API" id="getcurrentpaymentmethod-javascript"
+::: tab "JavaScript API"
 
 ### Arguments
 
@@ -303,7 +303,7 @@ var paymentMethod = TC.getCurrentPaymentMethod({storeId:1});
 
 :::
 
-::: tab "Razor API" id="getcurrentpaymentmethod-razor"
+::: tab "Razor API"
 
 ### Arguments
 
@@ -353,7 +353,7 @@ Changes the current payment method of the customer's session. The payment method
 
 :::: tabs 
 
-::: tab "HTML API" id="setcurrentpaymentmethod-html"
+::: tab "HTML API"
 
 ### Arguments
 
@@ -388,7 +388,7 @@ Changes the current payment method of the customer's session. The payment method
 
 :::
 
-::: tab "JavaScript API" id="setcurrentpaymentmethod-javascript"
+::: tab "JavaScript API"
 
 ### Arguments
 
@@ -453,7 +453,7 @@ TC.setCurrentPaymentMethod({storeId:1, paymentMethodId:2});
 
 :::
 
-::: tab "Razor API" id="setcurrentpaymentmethod-razor"
+::: tab "Razor API"
 
 ### Arguments
 
@@ -508,7 +508,7 @@ Get the price for a specific payment method, based on the customers current curr
 
 :::: tabs 
 
-::: tab "JavaScript API" id="getpriceforpaymentmethod-javascript"
+::: tab "JavaScript API"
 
 ### Arguments
 
@@ -572,7 +572,7 @@ var price = TC.getPriceForPaymentMethod({storeId:1, paymentMethodId:2});
 
 :::
 
-::: tab "Razor API" id="getpriceforpaymentmethod-razor"
+::: tab "Razor API"
 
 ### Arguments
 

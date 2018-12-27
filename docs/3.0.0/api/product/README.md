@@ -6,7 +6,7 @@ Format a decimal to a price using the current currency.
 
 :::: tabs
 
-::: tab "JavaScript API" id="formatprice-javascript"
+::: tab "JavaScript API"
 
 ### Arguments
 
@@ -70,7 +70,7 @@ var price = TC.formatPrice({storeId:1, price:99.99});
 
 :::
 
-::: tab "Razor API" id="formatprice-razor"
+::: tab "Razor API"
 
 ### Arguments
 
@@ -125,7 +125,7 @@ Gets a price for a specific product in the current currency.
 
 :::: tabs 
 
-::: tab "JavaScript API" id="getprice-javascript"
+::: tab "JavaScript API"
 
 ### Arguments
 
@@ -189,7 +189,7 @@ var price = TC.getPrice({storeId:1, productIdentifier:'1076'});
 
 :::
 
-::: tab "Razor API" id="getprice-razor"
+::: tab "Razor API"
 
 ### Arguments
 
@@ -257,7 +257,7 @@ Gets the current stock for a specific product.
 
 :::: tabs 
 
-::: tab "JavaScript API" id="getstock-javascript"
+::: tab "JavaScript API"
 
 ### Arguments
 
@@ -321,7 +321,7 @@ var stock = TC.getStock({storeId:1, productIdentifier:'1076'});
 
 :::
 
-::: tab "Razor API" id="getstock-razor"
+::: tab "Razor API"
 
 ### Arguments
 
@@ -375,7 +375,7 @@ Returns a single variant from a product node. The product must have a property w
 
 :::: tabs 
 
-::: tab "Razor API" id="getvariant-razor"
+::: tab "Razor API"
 
 ### Arguments
 
@@ -440,7 +440,7 @@ Returns a a list of variants from a product node. The product must have a proper
 
 :::: tabs 
 
-::: tab "Razor API" id="getvariants-razor"
+::: tab "Razor API"
 
 ### Arguments
 
@@ -500,7 +500,7 @@ Returns a list of variant groups that define the product variants. You can use t
 
 :::: tabs 
 
-::: tab "Razor API" id="getvariantgroups-razor"
+::: tab "Razor API"
 
 ### Arguments
 
@@ -558,7 +558,7 @@ Returns a json object containing all variants for the product. The data contains
 
 :::: tabs 
 
-::: tab "Razor API" id="getvariantjson-razor"
+::: tab "Razor API"
 
 ### Arguments
 
@@ -675,7 +675,7 @@ If you have a IPublishedContent model use that instead of the string productIden
 
 :::: tabs 
 
-::: tab "Razor API" id="getpropertyvalue-razor"
+::: tab "Razor API"
 
 ### Arguments 1
 

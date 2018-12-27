@@ -6,7 +6,7 @@ Gets a vat group from a specfic store.
 
 :::: tabs
 
-::: tab "Razor API" id="getvatgroup-javascript"
+::: tab "Razor API"
 
 ### Arguments
 
@@ -61,7 +61,7 @@ Gets all vat groups for a specific store.
 
 :::: tabs 
 
-::: tab "Razor API" id="getvatgroups-razor"
+::: tab "Razor API"
 
 ### Arguments
 
@@ -111,7 +111,7 @@ Gets the current vat group of the customer's session. If the customer has a curr
 
 :::: tabs 
 
-::: tab "Razor API" id="getcurrentvatgroup-razor"
+::: tab "Razor API"
 
 ### Arguments
 
@@ -161,7 +161,7 @@ Changes the current vat group of the customer's session. The vat group is also c
 
 :::: tabs 
 
-::: tab "Razor API" id="setcurrentvatgroup-razor"
+::: tab "Razor API"
 
 ### Arguments
 

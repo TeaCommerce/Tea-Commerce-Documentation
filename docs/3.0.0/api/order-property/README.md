@@ -6,7 +6,7 @@ Adds or updates a single custom order property on the current order. If the cust
 
 :::: tabs
 
-::: tab "Razor API" id="addorupdateorderproperty-razor"
+::: tab "Razor API"
 
 ### Arguments
 
@@ -66,7 +66,7 @@ Adds or updates a collection of custom order properties on the current order. If
 
 :::: tabs
 
-::: tab "HTML API" id="addorupdateorderproperties-html"
+::: tab "HTML API"
 
 ### Arguments
 
@@ -104,7 +104,7 @@ Adds or updates a collection of custom order properties on the current order. If
 
 :::
 
-::: tab "JavaScript API" id="addorupdateorderproperties-javascript"
+::: tab "JavaScript API"
 
 ### Arguments
 
@@ -169,7 +169,7 @@ TC.addOrUpdateOrderProperties({storeId:1, properties: {company: 'Tea Commerce', 
 
 :::
 
-::: tab "Razor API" id="addorupdateorderproperties-razor"
+::: tab "Razor API"
 
 ### Arguments
 

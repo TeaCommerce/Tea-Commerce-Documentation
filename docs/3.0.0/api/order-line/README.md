@@ -6,7 +6,7 @@ This method has multiple use cases, but common for all is that its updating the 
 
 :::: tabs
 
-::: tab "HTML API" id="addorupdateorderline-html"
+::: tab "HTML API"
 
 ### Arguments
 
@@ -123,7 +123,7 @@ This example demonstrates how to add product bundles. A computer is added as the
 
 :::
 
-::: tab "JavaScript API" id="addorupdateorderline-javascript"
+::: tab "JavaScript API"
 
 ### Arguments
 
@@ -251,7 +251,7 @@ TC.addOrUpdateOrderLine({storeId:1, productIdentifier:1073, quantity:1, parentBu
 
 :::
 
-::: tab "Razor API" id="addorupdateorderline-razor"
+::: tab "Razor API"
 
 ### Arguments
 
@@ -373,7 +373,7 @@ Updates a single order line on the current order. If the customer does not have 
 
 :::: tabs
 
-::: tab "Razor API" id="updateorderline-razor"
+::: tab "Razor API"
 
 ### Arguments
 
@@ -443,7 +443,7 @@ Removes a single order line from the customer's current order.
 
 :::: tabs
 
-::: tab "HTML API" id="removeorderline-html"
+::: tab "HTML API"
 
 ### Arguments
 
@@ -478,7 +478,7 @@ Removes a single order line from the customer's current order.
 
 :::
 
-::: tab "JavaScript API" id="removeorderline-javascript"
+::: tab "JavaScript API"
 
 ### Arguments
 
@@ -543,7 +543,7 @@ TC.removeOrderLine({storeId:1, orderLineId: 172});
 
 :::
 
-::: tab "Razor API" id="removeorderline-razor"
+::: tab "Razor API"
 
 ### Arguments
 
@@ -598,7 +598,7 @@ Removes all order lines from the customer's current order.
 
 :::: tabs
 
-::: tab "HTML API" id="removeallorderlines-html"
+::: tab "HTML API"
 
 ### Arguments
 
@@ -627,7 +627,7 @@ Removes all order lines from the customer's current order.
 
 :::
 
-::: tab "JavaScript API" id="removeallorderlines-javascript"
+::: tab "JavaScript API"
 
 ### Arguments
 
@@ -686,7 +686,7 @@ TC.removeAllOrderLines({storeId:1});
 
 :::
 
-::: tab "Razor API" id="removeallorderlines-razor"
+::: tab "Razor API"
 
 ### Arguments
 

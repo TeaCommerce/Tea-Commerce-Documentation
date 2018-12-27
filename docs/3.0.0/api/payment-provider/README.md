@@ -6,7 +6,7 @@ Generates and returns the full html for the form to post when going to payment. 
 
 :::: tabs
 
-::: tab "JavaScript API" id="generatepaymentform-javascript"
+::: tab "JavaScript API"
 
 The generated form will be submitted automatically.
 
@@ -35,7 +35,7 @@ TC.generatePaymentForm({storeId:1});
 
 :::
 
-::: tab "Razor API" id="generatepaymentform-razor"
+::: tab "Razor API"
 
 ### Arguments
 

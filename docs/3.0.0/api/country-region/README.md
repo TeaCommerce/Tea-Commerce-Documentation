@@ -6,7 +6,7 @@ Gets a country region from a specfic store.
 
 :::: tabs
 
-::: tab "JavaScript API" id="getcountryregion-javascript"
+::: tab "JavaScript API"
 
 ### Arguments
 
@@ -70,7 +70,7 @@ var countryRegion = TC.getCountryRegion({storeId:1, countryRegionId:2});
 
 :::
 
-::: tab "Razor API" id="getcountryregion-razor"
+::: tab "Razor API"
 
 ### Arguments
 
@@ -125,7 +125,7 @@ Gets the country regions for a specific store. Specify the countryId parameter t
 
 :::: tabs
 
-::: tab "JavaScript API" id="getcountryregions-javascript"
+::: tab "JavaScript API"
 
 ### Arguments
 
@@ -189,7 +189,7 @@ var countryRegions = TC.getCountryRegions({storeId:1});
 
 ::: 
 
-::: tab "Razor API" id="getcountryregions-razor"
+::: tab "Razor API"
 
 ### Arguments
 
@@ -244,7 +244,7 @@ Gets the current payment country region of the customer's session. If the custom
 
 :::: tabs
 
-::: tab "JavaScript API" id="getcurrentpaymentcountryregion-javascript"
+::: tab "JavaScript API"
 
 ### Arguments
 
@@ -302,7 +302,7 @@ var countryRegion = TC.getCurrentPaymentCountryRegion({storeId:1});
 
 :::
 
-::: tab "Razor API" id="getcurrentpaymentcountryregion-razor"
+::: tab "Razor API"
 
 ### Arguments
 
@@ -352,7 +352,7 @@ Gets the current shipping country region of the customer's session. If the custo
 
 :::: tabs
 
-::: tab "JavaScript API" id="getcurrentshippingcountryregion-javascript"
+::: tab "JavaScript API"
 
 ### Arguments
 
@@ -410,7 +410,7 @@ var countryRegion = TC.getCurrentShippingCountryRegion({storeId:1});
 
 :::
 
-::: tab "Razor API" id="getcurrentshippingcountryregion-razor"
+::: tab "Razor API"
 
 ### Arguments
 
@@ -460,7 +460,7 @@ Changes the current payment country region of the customer's session. The paymen
 
 :::: tabs
 
-::: tab "HTML API" id="setcurrentpaymentcountryregion-html"
+::: tab "HTML API"
 
 ### Arguments
 
@@ -495,7 +495,7 @@ Changes the current payment country region of the customer's session. The paymen
 
 ::: 
 
-::: tab "JavaScript API" id="setcurrentpaymentcountryregion-javascript"
+::: tab "JavaScript API"
 
 ### Arguments
 
@@ -560,7 +560,7 @@ TC.setCurrentPaymentCountryRegion({storeId:1, countryRegionId:2});
 
 :::
 
-::: tab "Razor API" id="setcurrentpaymentcountryregion-razor"
+::: tab "Razor API"
 
 ### Arguments
 
@@ -615,7 +615,7 @@ Changes the current shipping country region of the customer's session. The shipp
 
 :::: tabs
 
-::: tab "HTML API" id="setcurrentshippingcountryregion-html"
+::: tab "HTML API"
 
 ### Arguments
 
@@ -650,7 +650,7 @@ Changes the current shipping country region of the customer's session. The shipp
 
 :::
 
-::: tab "JavaScript API" id="setcurrentshippingcountryregion-javascript"
+::: tab "JavaScript API"
 
 ### Arguments
 
@@ -715,7 +715,7 @@ TC.setCurrentShippingCountryRegion({storeId:1, countryRegionId:2});
 
 :::
 
-::: tab "Razor API" id="setcurrentshippingcountryregion-razor"
+::: tab "Razor API"
 
 ### Arguments
 
