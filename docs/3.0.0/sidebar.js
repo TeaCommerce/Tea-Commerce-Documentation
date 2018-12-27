@@ -7,12 +7,12 @@ module.exports = [
         'getting-started/user-interface/',
       ]
     },
-    /*{
+    {
       title: 'Guides',
       children: [
-        'guides/',
+        'guides/building-an-ecommerce-site/',
       ]
-    },*/
+    },
     {
       title: 'API',
       children: [
