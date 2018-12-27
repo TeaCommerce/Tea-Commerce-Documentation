@@ -37,6 +37,8 @@ yarn install
 yarn docs:dev
 ````
 
+5. Launch http://localhost:8080 in a browser to view the site
+
 ### Preparing a Pull Request
 
 1. Create a branch in your local repository
