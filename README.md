@@ -56,13 +56,33 @@ Documentation files are written using markdown. If you need something more compl
 
 For details on the various supported markdown tags, checkout the [Vuepress documentation](https://vuepress.vuejs.org/guide/markdown.html).
 
+#### Custom Markdown Tags
+
+As well as the built in markdown tags, there are number of custom markdown tags available.
+
+##### Tabs
+
+Tabs allow you to show content in a tabbed interface. To create tabs you can use the following markdown syntax
+
+````markdown
+
+:::: tabs
+
+::: tab "Tab Name" id="tab-id"
+
+Tab content goes here
+
+:::
+
+::::
+
+````
+
 #### Static files
 
 If your documentation requires an image or static file to link to, these files should be placed in the `docs/.vuepress/public` folder / sub folder. Anything in this folder will be copied to the site root on compilation. To reference the files in your markdown, you can do so using an absolute path assuming the files have been copied to the root folder. 
 
 For example, if you place a file `myimage.png` into the `docs/.vuepress/public/img` folder, you can reference this image in your markdown using the path `/img/myimage.png`.
-
-#### Tabs
 
 #### Custom styles
 
