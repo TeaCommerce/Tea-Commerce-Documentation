@@ -47,6 +47,6 @@ Netaxept supports a wide range of different settings which you can read more abo
 
 ![netaxept-1.png](/img/8367848-netaxept-1.png)
 
-## Useful links
+## Useful Links
 
 * [Netaxept documentation](http://www.betalingsterminal.no/Netthandel-forside/Teknisk-veiledning/API/Register/)

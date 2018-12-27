@@ -4,13 +4,13 @@
 
 Login to the [2Checkout administration](https://www.2checkout.com/va/).
 
-## Secret word
+### Secret word
 
 Click **Account** in the top menu and then **Site Management**, the option to choose a secret word should be avaliable at the bottom of the resulting page.
 
 ![2checkout-1.png](/img/08a7901-2checkout-1.png)
 
-## Account number
+### Account number
 
 While you are logged into the 2Checkout administration you should also note down your Account Number because you will need it when you configure Tea Commerce later. It can be found by clicking the account-icon in the top right corner.
 
@@ -73,7 +73,7 @@ Create a payment method and select **2Checkout** as the payment provider. Now co
 
 ![2checkout-3.png](/img/af79048-2checkout-3.png)
 
-## Useful links
+## Useful Links
 
 * [2Checkout website](https://www.2checkout.com/) 
 * [2Checkout parameters documentation](https://www.2checkout.com/documentation/checkout/parameters)

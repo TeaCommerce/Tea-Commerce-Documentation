@@ -75,7 +75,7 @@ Create a payment method and select **2Checkout** as the payment provider. Now co
 
 ![2checkout-3.png](/img/af79048-2checkout-3.png)
 
-### Useful links
+### Useful Links
 
 * [2Checkout website](https://www.2checkout.com/) 
 * [2Checkout parameters documentation](https://www.2checkout.com/documentation/checkout/parameters)
@@ -173,7 +173,7 @@ Authorize.net supports a wide range of different settings which you can read mor
 
 ![authorize-net-7.png](/img/3caa253-authorize-net-7.png)
 
-### Useful links
+### Useful Links
 
 * [Authorize.net website](http://www.authorize.net/)
 * [Authorize.net SIM API](https://developer.authorize.net/api/sim/)
@@ -291,7 +291,7 @@ DIBS supports a wide range of different settings which you can read more about i
 
 ![dibs-4.png](/img/9deedac-dibs-4.png)
 
-### Useful links
+### Useful Links
 
 * [DIBS website](http://www.dibspayment.com/)
 * [DIBS API – input parameters](http://tech.dibspayment.com/D2/Hosted/Input_parameters/Standard)
@@ -382,7 +382,7 @@ To use the ePay payment provider, it is required by ePay, that you add the follo
 <script type="text/javascript" src="http://www.epay.dk/js/standardwindow.js"></script>
 ````
 
-### Useful links
+### Useful Links
 
 * [ePay website](http://www.epay.eu/)
 * [ePay API - input parameters](http://tech.epay.dk/en/payment-window-parameters)
@@ -469,7 +469,7 @@ Netaxept supports a wide range of different settings which you can read more abo
 
 ![netaxept-1.png](/img/8367848-netaxept-1.png)
 
-### Useful links
+### Useful Links
 
 * [Netaxept documentation](http://www.betalingsterminal.no/Netthandel-forside/Teknisk-veiledning/API/Register/)
 
@@ -562,7 +562,7 @@ Ogone supports a wide range of different settings which you can read more about 
 
 ![ogone-2.png](/img/c677800-ogone-2.png)
 
-### Useful links
+### Useful Links
 
   * [Ogone website](http://www.ogone.com/)
   * [Ogone registration form](https://secure.ogone.com/ncol/test/new_account.asp?BRANDING=ogone&ISP=OBE&SubID=1&SOLPRO=&MODE=STD&ACountry=BE&Lang=1)
@@ -640,7 +640,7 @@ Create a payment method and select **PayEx** as the payment provider. Now config
 
 ![payex-3.png](/img/125f960-payex-3.png)
 
-### Useful links
+### Useful Links
 
   * [PayEx website](http://payex.com/)
 
@@ -746,7 +746,7 @@ Create a payment method and select **PayPal** as the payment provider. Now confi
 
 ![paypal-4.png](/img/61166cd-paypal-4.png)
 
-### Useful links
+### Useful Links
 
   * [PayPal website](https://www.paypal.com/)
   * [PayPal Payments Standard documentation](https://developer.paypal.com/docs/classic/paypal-payments-standard/integration-guide/Appx_websitestandard_htmlvariables/)
@@ -825,7 +825,7 @@ QuickPay supports a wide range of different settings which you can read more abo
 
 ![quickpay-2.png](/img/486b006-quickpay-2.png)
 
-### Useful links
+### Useful Links
 
   * [QuickPay website](https://quickpay.net/)
   * [QuickPay API – input parameters](https://learn.quickpay.net/tech-talk/payments/form/##parameters)
@@ -896,7 +896,7 @@ QuickPay supports a wide range of different settings which you can read more abo
 
 ![quickpay-4.png](/img/1f8814d-quickpay-4.png)
 
-### Useful links
+### Useful Links
 
   * [QuickPay website](https://quickpay.net/)
   * [QuickPay API – input parameters](http://doc.quickpay.dk/api/specificationsandfeatures.html##index2h2)
@@ -970,7 +970,7 @@ Sage Pay support a wide range of different settings which you can read more abou
 
 ![sage-pay-4.png](/img/ba2a375-sage-pay-4.png)
 
-### Useful links
+### Useful Links
 
   * [Sage Pay website](http://www.sagepay.com/)
   * [Create Sage Pay simulator account](https://applications.sagepay.com/apply/RequestSimAccount.aspx)
@@ -1070,7 +1070,7 @@ To use the Wannafind payment provider, it is required by Wannafind, that you add
 <script type="text/javascript" src="https://betaling.wannafind.dk/customers/wannafind/js/openpaymentwindow.js"></script>
 ````
 
-### Useful links
+### Useful Links
 
   * [Wannafind website](https://www.wannafind.dk/)
   * [Wannafind API – input parameters](https://static.zitcom.dk/marketing/wannafind/paymentgateway_documentation.pdf)

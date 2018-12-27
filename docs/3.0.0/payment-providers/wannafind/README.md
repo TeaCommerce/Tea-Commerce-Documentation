@@ -72,7 +72,7 @@ Wannafind supports a wide range of different settings which you can read more ab
 
 ![wannafind-3.png](/img/319f174-wannafind-3.png)
 
-## Configure website
+## Configure Website
 
 To use the Wannafind payment provider, it is required by Wannafind, that you add the following script reference in your &lt;head&gt; section of your website. The script handles the opening of the payment window in a popup window.
 
@@ -80,7 +80,7 @@ To use the Wannafind payment provider, it is required by Wannafind, that you add
 <script type="text/javascript" src="https://betaling.wannafind.dk/customers/wannafind/js/openpaymentwindow.js"></script>
 ````
 
-## Useful links
+## Useful Links
 
   * [Wannafind website](https://www.wannafind.dk/)
   * [Wannafind API – input parameters](https://static.zitcom.dk/marketing/wannafind/paymentgateway_documentation.pdf)

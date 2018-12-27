@@ -4,13 +4,13 @@
 
 Login to the [PayEx administration](http://payex.com/login/).
 
-## Add server IP
+### Add server IP
 
 First you need to add the IP of your server running your webshop. Click **Merchant profile** in the left menu, enter the server IP and click **save**.
 
 ![payex-1.png](/img/e6e8651-payex-1.png)
 
-## Generate encryption key
+### Generate encryption key
 
 Next up is to generate an encryption key. Click **New encryption key** and copy it for later use and then click **Save encryption key**.
 
@@ -58,6 +58,6 @@ Create a payment method and select **PayEx** as the payment provider. Now config
 
 ![payex-3.png](/img/125f960-payex-3.png)
 
-## Useful links
+## Useful Links
 
   * [PayEx website](http://payex.com/)

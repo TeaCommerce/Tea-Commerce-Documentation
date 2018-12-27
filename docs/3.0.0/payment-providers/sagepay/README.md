@@ -65,7 +65,7 @@ Sage Pay support a wide range of different settings which you can read more abou
 
 ![sage-pay-4.png](/img/ba2a375-sage-pay-4.png)
 
-## Useful links
+## Useful Links
 
   * [Sage Pay website](http://www.sagepay.com/)
   * [Create Sage Pay simulator account](https://applications.sagepay.com/apply/RequestSimAccount.aspx)

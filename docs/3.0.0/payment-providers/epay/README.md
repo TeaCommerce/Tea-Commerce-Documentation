@@ -74,7 +74,7 @@ ePay supports a wide range of different settings which you can read more about i
 
 ![epay-3.png](/img/40133d0-epay-3.png)
 
-## Configure website
+## Configure Website
 
 To use the ePay payment provider, it is required by ePay, that you add the following script reference in your &lt;head&gt; section of your website. The script handles the opening of the payment window on the page itself or in a popup window.
 
@@ -82,7 +82,7 @@ To use the ePay payment provider, it is required by ePay, that you add the follo
 <script type="text/javascript" src="http://www.epay.dk/js/standardwindow.js"></script>
 ````
 
-## Useful links
+## Useful Links
 
 * [ePay website](http://www.epay.eu/)
 * [ePay API - input parameters](http://tech.epay.dk/en/payment-window-parameters)

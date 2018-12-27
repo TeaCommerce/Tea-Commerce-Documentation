@@ -4,19 +4,19 @@
 
 Login to the [DIBS administration](https://payment.architrade.com/login/login.action?request_locale=en_UK).
 
-## MD5 keys
+### MD5 keys
 
 Click **Integration -> MD5 Keys** in the menu to the left. Check the **Perform MD5 control** and click **Update**.
 
 ![dibs-1.png](/img/5d0bbd8-dibs-1.png)
 
-## Return values
+### Return values
 
 Next click on the **Integration -> Return values** menu item. Check the following items – **Order ID**, **Paytype**, **Card number with last four digits unmasked** and **All fields exclusive of card information response**.
 
 ![dibs-2.png](/img/855d0fa-dibs-2.png)
 
-## API user
+### API user
 
 Click **Setup -> User Setup -> API users** and create a new API user.
 
@@ -89,7 +89,7 @@ DIBS supports a wide range of different settings which you can read more about i
 
 ![dibs-4.png](/img/9deedac-dibs-4.png)
 
-## Useful links
+## Useful Links
 
 * [DIBS website](http://www.dibspayment.com/)
 * [DIBS API – input parameters](http://tech.dibspayment.com/D2/Hosted/Input_parameters/Standard)

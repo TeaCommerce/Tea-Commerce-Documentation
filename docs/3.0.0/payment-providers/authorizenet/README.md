@@ -8,19 +8,19 @@ You can apply for a [Authorize.net developer test account](https://developer.aut
 
 Login to the [Authorize.net administration](https://sandbox.authorize.net/).
 
-## MD5 Hash
+### MD5 Hash
 
 Click **Account** in the top menu and find the link named **MD5-Hash**. Write a new hash value and click **Submit**. Save this hash value for later use.
 
 ![authorize-net-2.png](/img/873074a-authorize-net-2.png)
 
-## Transaction Details API
+### Transaction Details API
 
 Activate the Transaction Details API by clicking **Account** and then **Transaction Details API**. Type in your answer to your secret question and hit **Enable Transaction Details API**.
 
 ![authorize-net-3.png](/img/ef97200-authorize-net-3.png)
 
-## Silent Post URL
+### Silent Post URL
 
 Now go to **Account** and click **Silent Post URL**. This is the callback url for your site so Authorize.net can finalize the order correctly.
 
@@ -32,13 +32,13 @@ You should replace [domain] with your sites domain, [storeId] with the store id 
 
 ![authorize-net-4.png](/img/e69ab6d-authorize-net-4.png)
 
-## Payment Form – Form Fields
+### Payment Form – Form Fields
 
 Next click **Account -> Payment Form -> Form fields**. You have to configure which fields should be presented to the end-user. For the Tea Commerce Authorize.net payment provider the only field that should be visible is the **Invoice No**. Check in the view column. All other fields must be set to not visible/edit
 
 ![authorize-net-5.png](/img/0c54bdd-authorize-net-5.png)
 
-## Receipt Link Text
+### Receipt Link Text
 
 Final step in the Authorize.net configuration is to set the link text for the end-user to click in the Authorize.net receipt page. Click **Account -> Response/Receipt URLs -> Default Receipt URL EDIT -> Receipt Link Text** and set the link text.
 
@@ -88,7 +88,7 @@ Authorize.net supports a wide range of different settings which you can read mor
 
 ![authorize-net-7.png](/img/3caa253-authorize-net-7.png)
 
-## Useful links
+## Useful Links
 
 * [Authorize.net website](http://www.authorize.net/)
 * [Authorize.net SIM API](https://developer.authorize.net/api/sim/)

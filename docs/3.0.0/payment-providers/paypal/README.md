@@ -10,7 +10,7 @@ As of June 2015 all callbacks done by PayPal **must** be to a domain with SSL an
 
 Login to the [PayPal administration](https://www.paypal.com/signin/?country.x=US).
 
-## API Information
+### API Information
 
 To set up your API credentials click on tools in the top menu and click on API credentials.
 
@@ -78,7 +78,7 @@ Create a payment method and select **PayPal** as the payment provider. Now confi
 
 ![paypal-4.png](/img/61166cd-paypal-4.png)
 
-## Useful links
+## Useful Links
 
   * [PayPal website](https://www.paypal.com/)
   * [PayPal Payments Standard documentation](https://developer.paypal.com/docs/classic/paypal-payments-standard/integration-guide/Appx_websitestandard_htmlvariables/)

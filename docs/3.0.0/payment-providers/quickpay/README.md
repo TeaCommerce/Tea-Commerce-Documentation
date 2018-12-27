@@ -61,7 +61,7 @@ QuickPay supports a wide range of different settings which you can read more abo
 
 ![quickpay-4.png](/img/1f8814d-quickpay-4.png)
 
-## Useful links
+## Useful Links
 
   * [QuickPay website](https://quickpay.net/)
   * [QuickPay API – input parameters](http://doc.quickpay.dk/api/specificationsandfeatures.html#index2h2)
