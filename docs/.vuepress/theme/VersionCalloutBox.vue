@@ -2,8 +2,8 @@
     <div class="content" 
       style="padding-bottom: 0;margin-top:2.5rem;margin-bottom: -6rem;"
       v-if="showVersionCalloutBox">
-      <callout-box type="warning" heading="Previous docs version">
-        <p>The documentation you are viewing is for a non-current version of Tea Commerce. <router-link :to="'/' + currentVersion + '/'">Click here</router-link> to jump to the current stable version.</p>
+      <callout-box type="warning" :heading=" versionTense + ' docs version' ">
+        <p>The documentation you are viewing is for a {{ versionTense.toLowerCase() }} version of Tea Commerce. <router-link :to="'/' + currentVersion + '/'">Click here</router-link> to jump to the current stable version.</p>
       </callout-box>
     </div>
 </template>
@@ -15,6 +15,7 @@ export default {
     data () {
         return {
             isVersionedPage: false,
+            nextVersion: 0,
             currentVersion: 0,
             selectedVersion: 0
         }
@@ -22,6 +23,9 @@ export default {
     computed: {
         showVersionCalloutBox () {
             return this.isVersionedPage && this.currentVersion != this.selectedVersion;
+        },
+        versionTense () {
+            return this.selectedVersion == this.nextVersion ? "Future" : "Previous"
         }
     },
     mounted () {
@@ -32,6 +36,7 @@ export default {
             const version = getVersionFromPath(path, self.$site.themeConfig.versions.all)
             if (version) {
                 self.isVersionedPage = true;
+                self.nextVersion = self.$site.themeConfig.versions.next
                 self.currentVersion = self.$site.themeConfig.versions.current
                 self.selectedVersion = self.$site.themeConfig.versions.selected
             } else {
