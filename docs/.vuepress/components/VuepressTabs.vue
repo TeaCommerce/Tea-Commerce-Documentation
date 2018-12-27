@@ -22,6 +22,7 @@ export default {
     },
     created() {
         this.tabs = this.$children;
+        this.tabs[0].selected = true;
     },
     mounted() {
         let self = this;
