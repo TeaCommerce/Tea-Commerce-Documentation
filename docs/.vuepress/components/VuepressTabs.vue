@@ -24,7 +24,10 @@ export default {
         this.tabs = this.$children;
     },
     mounted() {
-        this.selectTab(this.tabs[0])
+        let self = this;
+        self.$nextTick(function () {
+            self.selectTab(self.tabs[0])
+        })
     },
     methods: {
         selectTab(selectedTab) {
