@@ -1,4 +1,4 @@
-![Tea Commerce](docs/.vuepress/public/logo.png)
+<a href="https://www.teacommerce.net" target="_blank"><img src="docs/.vuepress/public/logo.png" alt="Tea Commerce" width="250"/></a>
 
 # Tea Commerce Documentation
 
