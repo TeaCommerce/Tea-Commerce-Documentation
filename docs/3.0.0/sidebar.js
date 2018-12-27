@@ -26,6 +26,7 @@ module.exports = [
         'api/country-region/',
         'api/shipping-method/',
         'api/payment-method/',
+        'api/vat-group/',
         'api/gift-card/',
         'api/discount-code/',
         'api/payment-provider/',
