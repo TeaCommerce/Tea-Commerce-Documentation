@@ -4,6 +4,8 @@
 
 This repository contains the raw source files for the documentation of the Umbraco eCommerce platform [Tea Commerce](https://www.teacommerce.net). The live version of these docs can be found at [https://docs.teacommerce.net](https://docs.teacommerce.net).
 
+<img src="screenshot.png" alt="Screenshot" style="border: 1px solid #ccc;" />
+
 ## Contributing
 
 If you would like to help improve our documentation, contributions via pull requests are our prefered method. I guide for which follows:
