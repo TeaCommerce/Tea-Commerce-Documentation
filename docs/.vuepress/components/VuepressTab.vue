@@ -28,7 +28,9 @@ export default {
     },
     
     mounted() {
-        this.isActive = this.selected;
+        if (this.selected) {
+            this.isActive = true;
+        }
     }
 }
 </script>

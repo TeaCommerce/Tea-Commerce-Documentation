@@ -20,12 +20,11 @@ export default {
             tabs: []
         }
     },
+    created() {
+        this.tabs = this.$children;
+    },
     mounted() {
-        let self = this;
-        self.tabs = this.$children;
-        self.$nextTick(function () {
-            self.selectTab(self.tabs[0])
-        })
+        this.selectTab(this.tabs[0])
     },
     methods: {
         selectTab(selectedTab) {
