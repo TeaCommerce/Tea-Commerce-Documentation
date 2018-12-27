@@ -55,6 +55,7 @@ module.exports = [
         'payment-providers/paypal/',
         'payment-providers/quickpay-v10/',
         'payment-providers/quickpay/',
+        'payment-providers/sage-pay/',
         'payment-providers/stripe/',
         'payment-providers/wannafind/',
         'payment-providers/worldpay/',
