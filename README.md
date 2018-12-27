@@ -52,7 +52,7 @@ When writing documentation there are a number of principles that should be follo
 
 #### Vuepress
 
-The Tea Commerce documentation site is powered by Vuepress, vuejs static site generator. You should read up on the basics of [Vuepress](https://v0.vuepress.vuejs.org/) to understand what is possible in the site.
+The Tea Commerce documentation site is powered by Vuepress, a vuejs static site generator. You should read up on the basics of [Vuepress](https://v0.vuepress.vuejs.org/) to get an understanding of the available features.
 
 #### Markdown
 
@@ -82,7 +82,7 @@ Tab content goes here
 
 ````
 
-#### Static files
+#### Static Files
 
 If your documentation requires an image or static file to link to, these files should be placed in the `docs/.vuepress/public` folder / sub folder. Anything in this folder will be copied to the site root on compilation. To reference the files in your markdown, you can do so using an absolute path assuming the files have been copied to the root folder. 
 
