@@ -93,7 +93,7 @@ For example, if you place a file `myimage.png` into the `docs/.vuepress/public/i
 
 #### New Pages
 
-If you need to create a new page, rather than creating a file with the page name, you should instead create a directory with the designer pages name and inside it create a `README.md` file in which to add the page contents.
+If you need to create a new page, rather than creating a file with the page name, you should instead create a directory with the desired page name and inside it create a `README.md` file in which to add the page contents.
 
 We do this to ensure all URL's are extentionless.
 
