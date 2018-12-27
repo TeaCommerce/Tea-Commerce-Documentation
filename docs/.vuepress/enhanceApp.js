@@ -18,13 +18,4 @@ export default ({
         siteData.themeConfig.versions.selected = version
       }
     })
-
-    // Redirect to current docs
-    // router.addRoutes([
-    //   { 
-    //     path: '/', redirect: to => {
-    //       return `/${siteData.themeConfig.versions.selected}/`
-    //     } 
-    //   },
-    // ])
 }

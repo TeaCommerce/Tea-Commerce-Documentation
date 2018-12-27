@@ -25,6 +25,9 @@ export default {
         > *:last-child 
             margin-bottom: 0;
 
+    .callout__heading 
+        margin-bottom: -.5rem;
+
     .callout--info
         background-color: #F5F7F9
         border-color: rgb(56, 132, 255)

@@ -8,7 +8,7 @@ Welcome to the Tea Commerce developer hub. You'll find comprehensive guides and 
 export default {
   computed: {
     redirectUrl() {
-      return this.$site.themeConfig.versions.selected + '/getting-started/installation/';
+      return '/' + this.$site.themeConfig.versions.selected + '/';
     }
   },
   created() {

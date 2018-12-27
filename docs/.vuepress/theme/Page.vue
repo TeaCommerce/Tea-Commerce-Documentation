@@ -2,6 +2,8 @@
   <div class="page">
     <slot name="top"/>
 
+    <version-callout-box />
+
     <Content :custom="false"/>
 
     <div class="page-edit">
@@ -62,12 +64,23 @@
 </template>
 
 <script>
+import VersionCalloutBox from './VersionCalloutBox'
 import { resolvePage, normalize, outboundRE, endingSlashRE } from './util'
 
 export default {
   props: ['sidebarItems'],
 
+  components: { VersionCalloutBox },
+
   computed: {
+    currentVersion () {
+      return this.$site.themeConfig.versions.current; 
+    },
+
+    selectedVersion () {
+      return this.$site.themeConfig.versions.selected; 
+    },
+
     lastUpdated () {
       if (this.$page.lastUpdated) {
         return new Date(this.$page.lastUpdated).toLocaleString(this.$lang)
