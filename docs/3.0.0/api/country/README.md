@@ -4,7 +4,7 @@
 
 Gets a country from a specfic store.
 
-:::: tabs 
+:::: tabs
 
 ::: tab "JavaScript API"
 
