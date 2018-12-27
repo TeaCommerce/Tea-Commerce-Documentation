@@ -8,7 +8,9 @@ This repository contains the raw source files for the documentation of the Umbra
 
 </div>
 
-<img src="screenshot.png?v=2" alt="Screenshot" />
+<a href="https://docs.teacommerce.net" target="_blank">
+    <img src="screenshot.png?v=2" alt="Screenshot" />
+</a>
 
 ## Contributing
 
