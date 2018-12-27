@@ -22,6 +22,7 @@ module.exports = {
     nav: [
       { text: "Docs", link: '/' },
       { text: "Changelog", link: '/changelog/3.x/' },
+      { text: "Forum", link: 'https://our.umbraco.com/packages/website-utilities/tea-commerce/tea-commerce-support/' },
     ],
     sidebar: { 
       '/changelog/': require('../changelog/sidebar.js'),
