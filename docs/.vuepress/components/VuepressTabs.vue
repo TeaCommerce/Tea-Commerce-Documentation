@@ -25,7 +25,7 @@ export default {
         self.tabs = self.$children;
         setTimeout(function () {
             self.selectTab(self.tabs[0]);
-        }, 10)
+        }, 5)
     },
     methods: {
         selectTab(selectedTab) {
