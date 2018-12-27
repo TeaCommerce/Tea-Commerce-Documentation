@@ -8,7 +8,7 @@ This repository contains the raw source files for the documentation of the Umbra
 
 </div>
 
-<img src="screenshot.png" alt="Screenshot" />
+<img src="screenshot.png?v=1" alt="Screenshot" />
 
 ## Contributing
 
