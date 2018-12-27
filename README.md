@@ -41,8 +41,9 @@ yarn docs:dev
 
 1. Create a branch in your local repository
 2. Make the changes you'd like to submit
-3. Push your changes to your GitHub repository
-4. Submit your changes as a [Pull Request](https://help.github.com/articles/creating-a-pull-request/) to our GitHub repository
+3. Commit you changes locally
+4. Push your changes to your GitHub repository
+5. Submit your changes as a [Pull Request](https://help.github.com/articles/creating-a-pull-request/) to our GitHub repository
 
 **NB** A Pull Request should only contain changes for a single "logical group" of changes. If you have multiple changes to make, you should create branches / Pull Request for each set of changes.
 
