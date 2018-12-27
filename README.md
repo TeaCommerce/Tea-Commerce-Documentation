@@ -106,6 +106,9 @@ You should check beforhand before creating any custom components to ensure the n
 
 #### Versioning
 
+This repository contains documentation for different versions of Tea Commerce. Versioned docs are located in numbered directories inside the `docs` folder. When making changes, you should ensure you are updating the correct version before you commit your changes. 
+
+If your changes affect multiple versions of Tea Commerce, you should update the files in each version the changes is required in.
 
 ## License
 
