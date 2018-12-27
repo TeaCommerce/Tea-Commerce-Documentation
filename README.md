@@ -59,7 +59,7 @@ The Tea Commerce documentation site is powered by Vuepress, a vuejs static site 
 
 #### Markdown
 
-Documentation files are written using markdown. If you need something more complex than is possible with markdown, you can write bespoke HTML instead, you should aim to write as much as you can in the markdown format.
+Documentation files are written using markdown. If you need something more complex than is possible with markdown, you can write bespoke HTML instead, however, you should aim to write as much as you can in the markdown format.
 
 For details on the various supported markdown tags, checkout the [Vuepress documentation](https://v0.vuepress.vuejs.org/guide/markdown.html).
 
