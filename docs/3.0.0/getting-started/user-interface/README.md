@@ -5,58 +5,30 @@ sidebarDepth: 2
 
 ## Orders
 
-::: tip Work in Progress
-
-If you want to help write the documentation for this section - just let us know 
-
-:::
+<work-in-progress />
 
 ## Marketing
 
-::: tip Work in Progress
-
-If you want to help write the documentation for this section - just let us know 
-
-:::
+<work-in-progress />
 
 ## Gift Cards
 
-::: tip Work in Progress
-
-If you want to help write the documentation for this section - just let us know 
-
-:::
+<work-in-progress />
 
 ## Property Editors
 
 ### Store Picker
 
-::: tip Work in Progress
-
-If you want to help write the documentation for this section - just let us know 
-
-:::
+<work-in-progress />
 
 ### VAT Group Picker
 
-::: tip Work in Progress
-
-If you want to help write the documentation for this section - just let us know 
-
-:::
+<work-in-progress />
 
 ### Stock Input
 
-::: tip Work in Progress
-
-If you want to help write the documentation for this section - just let us know 
-
-:::
+<work-in-progress />
 
 ### Variants Picker
 
-::: tip Work in Progress
-
-If you want to help write the documentation for this section - just let us know 
-
-:::
+<work-in-progress />
