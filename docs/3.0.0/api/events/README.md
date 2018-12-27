@@ -10,7 +10,7 @@ There are two kind of event types that your script can be notified about - "befo
 
 ### Before
 
-The notification for before events is invoked everytime a JavaScript API method is executed asynchronously or for each method specified in a [ajaxForm](##section-ajax-post) that is posted. Besides the more specific events being invoked, the universal "beforeCartUpdated" is also invoked, but just ones.
+The notification for before events is invoked everytime a JavaScript API method is executed asynchronously or for each method specified in a [ajaxForm](#section-ajax-post) that is posted. Besides the more specific events being invoked, the universal "beforeCartUpdated" is also invoked, but just ones.
 
 ### After
 
