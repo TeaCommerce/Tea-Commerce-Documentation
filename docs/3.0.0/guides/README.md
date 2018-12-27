@@ -1,7 +1,9 @@
+# Guides
+
 <script>
 export default {
   created() {
-    //this.$router.push('installation/')
+    this.$router.push('build-an-ecommerce-site/')
   }
 }
 </script>

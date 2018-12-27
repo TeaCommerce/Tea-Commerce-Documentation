@@ -1,3 +1,5 @@
+# Payment Providers
+
 <script>
 export default {
   created() {
