@@ -23,7 +23,7 @@ All contributions / contributors are expected to abide by our [Code of Conduct](
 
 ### Prerequisites
 
-* **Yarn** - [Yarn](https://yarnpkg.com/en/docs/install) is our prefered package installer so contributors should make sure Yarn has been installed globally
+* **Yarn** - [Yarn](https://yarnpkg.com/en/docs/install) is our prefered package installer so contributors should make sure Yarn has been installed globally on your machine
 
 ### Getting Setup
 
