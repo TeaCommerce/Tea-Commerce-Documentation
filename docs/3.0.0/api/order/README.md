@@ -27,7 +27,7 @@ Gets the customers current order.
 		<td>autoCreate</td>
 		<td>boolean</td>
 		<td>true</td>
-		<td>Indicate if a new order should be created if the customer doesn&##x27;t have one.</td>
+		<td>Indicate if a new order should be created if the customer doesn&#x27;t have one.</td>
 	</tr>
 	<tr>
 		<td>async</td>
@@ -88,7 +88,7 @@ var order = TC.getCurrentOrder({storeId:1});
 	<tr>
 		<td>autoCreate</td>
 		<td>bool</td>
-		<td>Indicate if a new order should be created if the customer doesn&##x27;t have one.</td>
+		<td>Indicate if a new order should be created if the customer doesn&#x27;t have one.</td>
 	</tr>
 </table>
 
@@ -557,7 +557,7 @@ Gets a collection of orders.
 		<td><strong>orderIds</strong></td>
 		<td>Guid[]</td>
 		<td></td>
-		<td>List of unique id&##x27;s of the orders.</td>
+		<td>List of unique id&#x27;s of the orders.</td>
 	</tr>
 	<tr>
 		<td>storeId</td>
@@ -624,7 +624,7 @@ var orders = TC.getOrders({storeId:1, orderIds:['dc354705-c1de-413e-a9d2-756294c
 	<tr>
 		<td><strong>orderIds</strong></td>
 		<td>IEnumerable&lt;Guid&gt;</td>
-		<td>List of unique id&##x27;s of the orders.</td>
+		<td>List of unique id&#x27;s of the orders.</td>
 	</tr>
 </table>
 

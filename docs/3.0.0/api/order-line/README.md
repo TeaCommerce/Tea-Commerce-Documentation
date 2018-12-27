@@ -34,7 +34,7 @@ This method has multiple use cases, but common for all is that its updating the 
 	<tr>
 		<td>quantity</td>
 		<td>decimal?</td>
-		<td>The quantity of the order line. Default behavior will add the quantity to the existing order line&##x27;s quantity. This can be changed using the overwriteQuantity parameter.</td>
+		<td>The quantity of the order line. Default behavior will add the quantity to the existing order line&#x27;s quantity. This can be changed using the overwriteQuantity parameter.</td>
 	</tr>
 	<tr>
 		<td>properties</td>
@@ -150,7 +150,7 @@ This example demonstrates how to add product bundles. A computer is added as the
 		<td>quantity</td>
 		<td>decimal?</td>
 		<td></td>
-		<td>The quantity of the order line. Default behavior will add the quantity to the existing order line&##x27;s quantity. This can be changed using the overwriteQuantity parameter.</td>
+		<td>The quantity of the order line. Default behavior will add the quantity to the existing order line&#x27;s quantity. This can be changed using the overwriteQuantity parameter.</td>
 	</tr>
 	<tr>
 		<td>properties</td>
@@ -274,7 +274,7 @@ TC.addOrUpdateOrderLine({storeId:1, productIdentifier:1073, quantity:1, parentBu
 	<tr>
 		<td>quantity</td>
 		<td>decimal?</td>
-		<td>The quantity of the order line. Default behavior will add the quantity to the existing order line&##x27;s quantity. This can be changed using the overwriteQuantity parameter.</td>
+		<td>The quantity of the order line. Default behavior will add the quantity to the existing order line&#x27;s quantity. This can be changed using the overwriteQuantity parameter.</td>
 	</tr>
 	<tr>
 		<td>properties</td>
@@ -396,7 +396,7 @@ Updates a single order line on the current order. If the customer does not have 
 	<tr>
 		<td>quantity</td>
 		<td>decimal?</td>
-		<td>The quantity of the order line. Default behavior will add the quantity to the existing order line&##x27;s quantity. This can be changed using the overwriteQuantity parameter.</td>
+		<td>The quantity of the order line. Default behavior will add the quantity to the existing order line&#x27;s quantity. This can be changed using the overwriteQuantity parameter.</td>
 	</tr>
 	<tr>
 		<td>properties</td>

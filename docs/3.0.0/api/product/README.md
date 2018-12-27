@@ -403,7 +403,7 @@ Returns a single variant from a product node. The product must have a property w
 	<tr>
 		<td>onlyValid</td>
 		<td>bool?</td>
-		<td>Will remove all variants that does not validate from the result set. A variant does not validate when there&##x27;s problems with the combination of variant types.</td>
+		<td>Will remove all variants that does not validate from the result set. A variant does not validate when there&#x27;s problems with the combination of variant types.</td>
 	</tr>
 </table>
 
@@ -463,7 +463,7 @@ Returns a a list of variants from a product node. The product must have a proper
 	<tr>
 		<td>onlyValid</td>
 		<td>bool?</td>
-		<td>Will remove all variants that does not validate from the result set. A variant does not validate when there&##x27;s problems with the combination of variant types.</td>
+		<td>Will remove all variants that does not validate from the result set. A variant does not validate when there&#x27;s problems with the combination of variant types.</td>
 	</tr>
 </table>
 
@@ -581,7 +581,7 @@ Returns a json object containing all variants for the product. The data contains
 	<tr>
 		<td>onlyValid</td>
 		<td>bool</td>
-		<td>Will remove all variants that does not validate from the result set. A variant does not validate when there&##x27;s problems with the combination of variant types.</td>
+		<td>Will remove all variants that does not validate from the result set. A variant does not validate when there&#x27;s problems with the combination of variant types.</td>
 	</tr>
 </table>
 
