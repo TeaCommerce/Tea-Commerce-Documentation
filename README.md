@@ -99,7 +99,7 @@ We do this to ensure all URL's are extentionless.
 
 #### Custom Styles
 
-If you need to create any custom CSS styles, these should be added to the `docs/.vuepress/styles.styl` file. These files are written in `stylus`, however you can write regular CSS inside them if you prefer.
+If you need to create any custom CSS styles, these should be added to the `docs/.vuepress/styles.styl` file. This file is written using `stylus` syntax, however you can write regular CSS if you prefer.
 
 #### Custom Vue Components
 
