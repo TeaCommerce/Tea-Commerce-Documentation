@@ -75,7 +75,7 @@ Tabs allow you to show content in a tabbed interface. To create tabs you can use
 
 :::: tabs
 
-::: tab "Tab Name" id="tab-id"
+::: tab "Tab Name"
 
 Tab content goes here
 
