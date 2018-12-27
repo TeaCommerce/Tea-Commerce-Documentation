@@ -41,9 +41,9 @@ var tabs = (function (md) {
       var attributes = tabsAttributes(token.info);
 
       if (token.nesting === 1) {
-        return '<vuepress-tabs ' + attributes + '>\n';
+        return '<ClientOnly><vuepress-tabs ' + attributes + '>\n';
       } else {
-        return '</vuepress-tabs>\n';
+        return '</vuepress-tabs></ClientOnly>\n';
       }
     }
   });
