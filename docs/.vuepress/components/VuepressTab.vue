@@ -1,5 +1,5 @@
 <template>
-    <section id="tab-10" role="tabpanel" class="tabs-component-panel"
+    <section :id="tabId" role="tabpanel" class="tabs-component-panel"
         v-show="isActive">
         <slot></slot>
     </section>
