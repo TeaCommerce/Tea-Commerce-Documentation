@@ -1,3 +1,5 @@
+# Changelog
+
 <script>
 export default {
   created() {
