@@ -21,6 +21,10 @@ If you would like to help improve our documentation, contributions via pull requ
 
 All contributions / contributors are expected to abide by our [Code of Conduct](https://www.contributor-covenant.org/version/1/1/0/code-of-conduct.html)
 
+### Prerequisites
+
+* **Yarn** - [Yarn](https://yarnpkg.com/en/docs/install) is our prefered package installer so contributors should make sure Yarn has been installed globally
+
 ### Getting Setup
 
 1. Fork this repository on GitHub.
