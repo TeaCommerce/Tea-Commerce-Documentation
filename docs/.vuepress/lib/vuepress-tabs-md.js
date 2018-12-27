@@ -41,9 +41,9 @@ var tabs = (function (md) {
       var attributes = tabsAttributes(token.info);
 
       if (token.nesting === 1) {
-        return '<div class="vuepress-tabs"><tabs ' + attributes + ' :options="{ useUrlFragment: false }">\n';
+        return '<vuepress-tabs ' + attributes + '>\n';
       } else {
-        return '</tabs></div>\n';
+        return '</vuepress-tabs>\n';
       }
     }
   });
@@ -58,9 +58,9 @@ var tab = (function (md) {
       var attributes = tabAttributes(token.info);
 
       if (token.nesting === 1) {
-        return '<tab id="tab-'+ idx +'" ' + attributes + '>\n';
+        return '<vuepress-tab ' + attributes + '>\n';
       } else {
-        return '</tab>\n';
+        return '</vuepress-tab>\n';
       }
     }
   });
