@@ -110,6 +110,8 @@ This repository contains documentation for different versions of Tea Commerce. V
 
 If your changes affect multiple versions of Tea Commerce, you should update the files in each version the changes is required in.
 
+Contributors shouldn't need to create new versions of the documentation, but if you do, to create a new version you should duplicate the current version folder, changing it's name to the new version number, and then update the `docs/.vuepress/versions.json` file to update the current, next and previous version numbers accordingly.
+
 ## License
 
 This project is licensed under the terms of the [MIT license](LICENSE).
