@@ -3,7 +3,7 @@
       style="padding-bottom: 0;margin-top:2.5rem;margin-bottom: -6rem;"
       v-if="showVersionCalloutBox">
       <callout-box type="warning" heading="Previous docs version">
-        <p>The documentation you are viewing is for a previous version of Tea Commerce. <router-link :to="'/' + currentVersion + '/'">Click here</router-link> to jump to the latest version.</p>
+        <p>The documentation you are viewing is for a non-current version of Tea Commerce. <router-link :to="'/' + currentVersion + '/'">Click here</router-link> to jump to the current stable version.</p>
       </callout-box>
     </div>
 </template>
