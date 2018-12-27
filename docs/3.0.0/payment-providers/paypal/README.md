@@ -1,10 +1,10 @@
 # PayPal
 
-<callout-box type="warning" heading="SSL">
+::: warning SSL
 
 As of June 2015 all callbacks done by PayPal **must** be to a domain with SSL and minumum SHA2 encrypted SSL certificate. This is also true for your dev url's. 
 
-</callout-box>
+:::
 
 ## Configure PayPal
 

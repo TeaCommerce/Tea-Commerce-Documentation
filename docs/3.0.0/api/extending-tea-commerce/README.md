@@ -488,11 +488,11 @@ When we build Tea Commerce we wanted it to be as flexible as possible. To achiev
 
 The SuppressDependency class attribute is used to either register a new dependency or override one of the default Tea Commerce providers in the .NET API. Start by adding the class attribute to your class. Then specify the fully qualified name that will be used as the identifier. Lastly specify the name of the assembly where the class/interface of the fully qualified name can be found.
 
-<callout-box type="info" heading="Note">
+::: tip Note
 
 When overriding a default provider in Tea Commerce you should always use the fully qualified name and assembly of the interface.
 
-</callout-box>
+:::
 
 See an example below of how to override the default shipping calculator in Tea Commerce. 
 

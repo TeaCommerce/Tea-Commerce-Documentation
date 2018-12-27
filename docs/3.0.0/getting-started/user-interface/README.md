@@ -5,27 +5,27 @@ sidebarDepth: 2
 
 ## Orders
 
-<callout-box type="info" heading="Work in progress">
+::: tip Work in Progress
 
 If you want to help write the documentation for this section - just let us know 
 
-</callout-box>
+:::
 
 ## Marketing
 
-<callout-box type="info" heading="Work in progress">
+::: tip Work in Progress
 
 If you want to help write the documentation for this section - just let us know 
 
-</callout-box>
+:::
 
 ## Gift Cards
 
-<callout-box type="info" heading="Work in progress">
+::: tip Work in Progress
 
 If you want to help write the documentation for this section - just let us know 
 
-</callout-box>
+:::
 
 ## Property Editors
 

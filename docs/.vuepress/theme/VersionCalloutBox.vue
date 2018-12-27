@@ -2,9 +2,10 @@
     <div class="content" 
       style="padding-bottom: 0;margin-top:2.5rem;margin-bottom: -6rem;"
       v-if="showVersionCalloutBox">
-      <callout-box type="warning" :heading=" versionTense + ' docs version' ">
-        <p>The documentation you are viewing is for a {{ versionTense.toLowerCase() }} version of Tea Commerce. <router-link :to="'/' + currentVersion + '/'">Click here</router-link> to jump to the current stable version.</p>
-      </callout-box>
+      <div class="warning custom-block">
+          <p class="custom-block-title">{{ versionTense }} Docs Version</p> 
+          <p>The documentation you are viewing is for a {{ versionTense.toLowerCase() }} version of Tea Commerce. <router-link :to="'/' + currentVersion + '/'">Click here</router-link> to jump to the current stable version.</p>
+      </div>
     </div>
 </template>
 

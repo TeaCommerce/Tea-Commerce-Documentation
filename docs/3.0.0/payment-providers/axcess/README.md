@@ -1,7 +1,7 @@
 # Axcess  
 
-<callout-box type="info" heading="Work in progress">
+::: tip Work in Progress
 
 If you want to help write the documentation for this provider - just let us know 
 
-</callout-box>
+:::

@@ -667,11 +667,11 @@ Returns a json object containing all variants for the product. The data contains
 
 Returns the value of a property on the product. Will traverse the content tree recursively to find the value. Will also use the master relation property of the product to search master products.
 
-<callout-box type="info" heading="Note">
+::: tip Note
 
 If you have a IPublishedContent model use that instead of the string productIdentifier, which is slightly slower.
 
-</callout-box>
+:::
 
 :::: tabs 
 

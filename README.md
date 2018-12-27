@@ -48,7 +48,25 @@ yarn docs:dev
 
 ### Writing Documentation
 
-TODO
+When writing documentation there are a number of principles that should be followed. These principles are documented below.
+
+#### Markdown
+
+Documentation files are written using markdown. If you need something more complex than is possible with markdown, you can write bespoke HTML instead. You should, however, aim to write as much as you can in the markdown format.
+
+#### Static files
+
+If your documentation requires an image or static file to link to, these files should be placed in the `docs/.vuepress/public` folder / sub folder. Anything in this folder will be copied to the site root on compilation. To reference the files in your markdown, you can do so using an absolute path assuming the files have been copied to the root folder. 
+
+For example, if you place a file `myimage.png` into the `docs/.vuepress/public/img` folder, you can reference this image in your markdown using the path `/img/myimage.png`.
+
+#### Tabs
+
+#### Callout Boxes
+
+#### Custom styles
+
+#### Custom Vue Components
 
 ## License
 
