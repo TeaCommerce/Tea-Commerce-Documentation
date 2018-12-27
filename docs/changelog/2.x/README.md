@@ -230,7 +230,7 @@ Download from [Our Umbraco](https://our.umbraco.com/packages/website-utilities/t
 <change-log-item change-type="Fixed">ServerSideOnly order/order lines properties would be exposed to the JavaScript API</change-log-item> 
 <change-log-item change-type="Fixed">SagePay didn't work if no shipping address was added to the order</change-log-item> 
 <change-log-item change-type="Fixed">Order/Order lines properties was nvarchar(255) instead of ntext</change-log-item> 
-<change-log-item change-type="Broken">Changed the format of order/order line properties in the HTML API - see new format <a href="https://docs.teacommerce.net/html-api/order-property/addorupdateorderproperties/" target="_blank">here</a></change-log-item>
+<change-log-item change-type="Broken">Changed the format of order/order line properties in the HTML API - see new format <a href="/3.0.0/api/order-property/#addorupdateorderproperty" target="_blank">here</a></change-log-item>
 <change-log-item change-type="Broken">Dependencies that needs to be suppressed should be specified in code using the SuppressDependency attribute instead of the config file in Tea Commerce</change-log-item>
 <change-log-item change-type="Broken">Changed BeforePaymentFormGenerated event to PaymentFormGenerating</change-log-item>
 <change-log-item change-type="Broken">ProductService has been moved to TeaCommerce.Api.Services and ProductSnapshot has been moved to TeaCommerce.Api.Models</change-log-item>
