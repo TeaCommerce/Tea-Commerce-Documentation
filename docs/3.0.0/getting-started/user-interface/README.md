@@ -31,8 +31,32 @@ If you want to help write the documentation for this section - just let us know
 
 ### Store Picker
 
+::: tip Work in Progress
+
+If you want to help write the documentation for this section - just let us know 
+
+:::
+
 ### VAT Group Picker
+
+::: tip Work in Progress
+
+If you want to help write the documentation for this section - just let us know 
+
+:::
 
 ### Stock Input
 
+::: tip Work in Progress
+
+If you want to help write the documentation for this section - just let us know 
+
+:::
+
 ### Variants Picker
+
+::: tip Work in Progress
+
+If you want to help write the documentation for this section - just let us know 
+
+:::
