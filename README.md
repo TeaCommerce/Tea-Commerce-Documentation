@@ -50,6 +50,10 @@ yarn docs:dev
 
 When writing documentation there are a number of principles that should be followed. These principles are documented below.
 
+#### Vuepress
+
+The Tea Commerce documentation site is powered by Vuepress, vuejs static site generator. You should read up on the basics of [Vuepress](https://v0.vuepress.vuejs.org/) to understand what is possible in the site.
+
 #### Markdown
 
 Documentation files are written using markdown. If you need something more complex than is possible with markdown, you can write bespoke HTML instead, you should aim to write as much as you can in the markdown format.
@@ -84,9 +88,24 @@ If your documentation requires an image or static file to link to, these files s
 
 For example, if you place a file `myimage.png` into the `docs/.vuepress/public/img` folder, you can reference this image in your markdown using the path `/img/myimage.png`.
 
-#### Custom styles
+#### New Pages
+
+If you need to create a new page, rather than creating a file with the page name, you should instead create a directory with the designer pages name and inside it create a `README.md` file in which to add the page contents.
+
+We do this to ensure all URL's are extentionless.
+
+#### Custom Styles
+
+If you need to create any custom CSS styles, these should be added to the `docs/.vuepress/styles.styl` file. These files are written in `stylus`, however you can write regular CSS inside them if you prefer.
 
 #### Custom Vue Components
+
+As we are using Vupress, you can also create custom Vue components should you need to add some new functionality. Components should be placed in the `docs/.vuepress/components` directory. And files in this directory will be regisered globally and can be used directly in your markdown files.
+
+You should check beforhand before creating any custom components to ensure the new behaviour is desired.
+
+#### Versioning
+
 
 ## License
 
