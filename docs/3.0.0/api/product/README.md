@@ -18,7 +18,7 @@ Format a decimal to a price using the current currency.
 		<th>Description</th>
 	</tr>
 	<tr>
-		<td>**price**</td>
+		<td><strong>price</strong></td>
 		<td>decimal</td>
 		<td></td>
 		<td>The price to format excl. VAT.</td>
@@ -81,12 +81,12 @@ var price = TC.formatPrice({storeId:1, price:99.99});
 		<th>Description</th>
 	</tr>
 	<tr>
-		<td>**storeId**</td>
+		<td><strong>storeId</strong></td>
 		<td>long</td>
 		<td>Id of the store.</td>
 	</tr>
 	<tr>
-		<td>**price**</td>
+		<td><strong>price</strong></td>
 		<td>decimal</td>
 		<td>The price to format excl. VAT.</td>
 	</tr>
@@ -137,7 +137,7 @@ Gets a price for a specific product in the current currency.
 		<th>Description</th>
 	</tr>
 	<tr>
-		<td>**productIdentifier**</td>
+		<td><strong>productIdentifier</strong></td>
 		<td>string</td>
 		<td></td>
 		<td>A unique identifier of the product. E.g. the node id from Umbraco.</td>
@@ -200,12 +200,12 @@ var price = TC.getPrice({storeId:1, productIdentifier:'1076'});
 		<th>Description</th>
 	</tr>
 	<tr>
-		<td>**storeId**</td>
+		<td><strong>storeId</strong></td>
 		<td>long</td>
 		<td>Id of the store.</td>
 	</tr>
 	<tr>
-		<td>**productIdentifier**</td>
+		<td><strong>productIdentifier</strong></td>
 		<td>string</td>
 		<td>A unique identifier of the product. E.g. the node id from Umbraco.</td>
 	</tr>
@@ -269,7 +269,7 @@ Gets the current stock for a specific product.
 		<th>Description</th>
 	</tr>
 	<tr>
-		<td>**productIdentifier**</td>
+		<td><strong>productIdentifier</strong></td>
 		<td>string</td>
 		<td></td>
 		<td>A unique identifier of the product. E.g. the node id from Umbraco.</td>
@@ -332,12 +332,12 @@ var stock = TC.getStock({storeId:1, productIdentifier:'1076'});
 		<th>Description</th>
 	</tr>
 	<tr>
-		<td>**storeId**</td>
+		<td><strong>storeId</strong></td>
 		<td>long</td>
 		<td>Id of the store.</td>
 	</tr>
 	<tr>
-		<td>**productIdentifier**</td>
+		<td><strong>productIdentifier</strong></td>
 		<td>string</td>
 		<td>A unique identifier of the product. E.g. the node id from Umbraco.</td>
 	</tr>
@@ -386,17 +386,17 @@ Returns a single variant from a product node. The product must have a property w
 		<th>Description</th>
 	</tr>
 	<tr>
-		<td>**storeId**</td>
+		<td><strong>storeId</strong></td>
 		<td>long</td>
 		<td>Id of the store.</td>
 	</tr>
 	<tr>
-		<td>**model**</td>
+		<td><strong>model</strong></td>
 		<td>IPublishedContent</td>
 		<td>A product.</td>
 	</tr>
 	<tr>
-		<td>**variantId**</td>
+		<td><strong>variantId</strong></td>
 		<td>string</td>
 		<td>Id of the variant.</td>
 	</tr>
@@ -451,12 +451,12 @@ Returns a a list of variants from a product node. The product must have a proper
 		<th>Description</th>
 	</tr>
 	<tr>
-		<td>**storeId**</td>
+		<td><strong>storeId</strong></td>
 		<td>long</td>
 		<td>Id of the store.</td>
 	</tr>
 	<tr>
-		<td>**storeId**</td>
+		<td><strong>storeId</strong></td>
 		<td>IPublishedContent</td>
 		<td>A product.</td>
 	</tr>
@@ -511,7 +511,7 @@ Returns a list of variant groups that define the product variants. You can use t
 		<th>Description</th>
 	</tr>
 	<tr>
-		<td>**variants**</td>
+		<td><strong>variants</strong></td>
 		<td>IEnumerable&lt;VariantPublishedContent&gt;</td>
 		<td>A list of variants.</td>
 	</tr>
@@ -569,12 +569,12 @@ Returns a json object containing all variants for the product. The data contains
 		<th>Description</th>
 	</tr>
 	<tr>
-		<td>**storeId**</td>
+		<td><strong>storeId</strong></td>
 		<td>long</td>
 		<td>Id of the store.</td>
 	</tr>
 	<tr>
-		<td>**model**</td>
+		<td><strong>model</strong></td>
 		<td>IPublishedContent</td>
 		<td>A product.</td>
 	</tr>
@@ -686,17 +686,17 @@ If you have a IPublishedContent model use that instead of the string productIden
 		<th>Description</th>
 	</tr>
 	<tr>
-		<td>**storeId**</td>
+		<td><strong>storeId</strong></td>
 		<td>long</td>
 		<td>Id of the store.</td>
 	</tr>
 	<tr>
-		<td>**productIdentifier**</td>
+		<td><strong>productIdentifier</strong></td>
 		<td>string</td>
 		<td>A unique identifier of the product. E.g. the node id from Umbraco.</td>
 	</tr>
 	<tr>
-		<td>**propertyAlias**</td>
+		<td><strong>propertyAlias</strong></td>
 		<td>string</td>
 		<td>Alias of the property to find.</td>
 	</tr>
@@ -716,17 +716,17 @@ If you have a IPublishedContent model use that instead of the string productIden
 		<th>Description</th>
 	</tr>
 	<tr>
-		<td>**storeId**</td>
+		<td><strong>storeId</strong></td>
 		<td>long</td>
 		<td>Id of the store.</td>
 	</tr>
 	<tr>
-		<td>**model**</td>
+		<td><strong>model</strong></td>
 		<td>IPublishedContent</td>
 		<td>A product.</td>
 	</tr>
 	<tr>
-		<td>**propertyAlias**</td>
+		<td><strong>propertyAlias</strong></td>
 		<td>string</td>
 		<td>Alias of the property to find.</td>
 	</tr>

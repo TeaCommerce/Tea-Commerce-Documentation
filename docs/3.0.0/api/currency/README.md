@@ -18,7 +18,7 @@ Gets a currency from a specfic store.
 		<th>Description</th>
 	</tr>
 	<tr>
-		<td>**currencyId**</td>
+		<td><strong>currencyId</strong></td>
 		<td>long</td>
 		<td></td>
 		<td>The currency id.</td>
@@ -81,12 +81,12 @@ var currency = TC.getCurrency({storeId:1, currencyId:2});
 		<th>Description</th>
 	</tr>
 	<tr>
-		<td>**storeId**</td>
+		<td><strong>storeId</strong></td>
 		<td>long</td>
 		<td>Id of the store.</td>
 	</tr>
 	<tr>
-		<td>**currencyId**</td>
+		<td><strong>currencyId</strong></td>
 		<td>long</td>
 		<td>The currency id.</td>
 	</tr>
@@ -200,7 +200,7 @@ var currencies = TC.getCurrencies({storeId:1});
 		<th>Description</th>
 	</tr>
 	<tr>
-		<td>**storeId**</td>
+		<td><strong>storeId</strong></td>
 		<td>long</td>
 		<td>Id of the store.</td>
 	</tr>
@@ -313,7 +313,7 @@ var currency = TC.getCurrency({storeId:1});
 		<th>Description</th>
 	</tr>
 	<tr>
-		<td>**storeId**</td>
+		<td><strong>storeId</strong></td>
 		<td>long</td>
 		<td>Id of the store.</td>
 	</tr>
@@ -363,12 +363,12 @@ Changes the current currency of the customer's session. The currency is also cha
 		<th>Description</th>
 	</tr>
 	<tr>
-		<td>**storeId**</td>
+		<td><strong>storeId</strong></td>
 		<td>long</td>
 		<td>Id of the store.</td>
 	</tr>
 	<tr>
-		<td>**currencyId**</td>
+		<td><strong>currencyId</strong></td>
 		<td>long</td>
 		<td>Id of the currency to change to.</td>
 	</tr>
@@ -399,7 +399,7 @@ Changes the current currency of the customer's session. The currency is also cha
 		<th>Description</th>
 	</tr>
 	<tr>
-		<td>**currencyId**</td>
+		<td><strong>currencyId</strong></td>
 		<td></td>
 		<td></td>
 		<td>The currency id.</td>
@@ -463,12 +463,12 @@ TC.setCurrency({storeId:1, currencyId:2});
 		<th>Description</th>
 	</tr>
 	<tr>
-		<td>**storeId**</td>
+		<td><strong>storeId</strong></td>
 		<td>long</td>
 		<td>Id of the store.</td>
 	</tr>
 	<tr>
-		<td>**currencyId**</td>
+		<td><strong>currencyId</strong></td>
 		<td>long</td>
 		<td>Id of the currency to change to.</td>
 	</tr>

@@ -17,7 +17,7 @@ Gets a specific store.
 		<th>Description</th>
 	</tr>
 	<tr>
-		<td>**storeId**</td>
+		<td><strong>storeId</strong></td>
 		<td>long</td>
 		<td>Id of the store.</td>
 	</tr>

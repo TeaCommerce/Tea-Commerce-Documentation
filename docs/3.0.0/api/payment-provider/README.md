@@ -46,12 +46,12 @@ TC.generatePaymentForm({storeId:1});
 		<th>Description</th>
 	</tr>
 	<tr>
-		<td>**storeId**</td>
+		<td><strong>storeId</strong></td>
 		<td>long</td>
 		<td>Id of the store.</td>
 	</tr>
 	<tr>
-		<td>**submitInput**</td>
+		<td><strong>submitInput</strong></td>
 		<td>string</td>
 		<td>A html button/input that should be outputted with the form.</td>
 	</tr>

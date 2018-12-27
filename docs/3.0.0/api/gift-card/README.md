@@ -17,12 +17,12 @@ Add a gift card code to the customer's current order.
 		<th>Description</th>
 	</tr>
 	<tr>
-		<td>**storeId**</td>
+		<td><strong>storeId</strong></td>
 		<td>long</td>
 		<td>Id of the store.</td>
 	</tr>
 	<tr>
-		<td>**code**</td>
+		<td><strong>code</strong></td>
 		<td>string</td>
 		<td>Code to add.</td>
 	</tr>
@@ -53,7 +53,7 @@ Add a gift card code to the customer's current order.
 		<th>Description</th>
 	</tr>
 	<tr>
-		<td>**code**</td>
+		<td><strong>code</strong></td>
 		<td>string</td>
 		<td></td>
 		<td>Code to add.</td>
@@ -117,12 +117,12 @@ TC.addGiftCard({storeId:1, code:'hsn7tl'});
 		<th>Description</th>
 	</tr>
 	<tr>
-		<td>**storeId**</td>
+		<td><strong>storeId</strong></td>
 		<td>long</td>
 		<td>Id of the store.</td>
 	</tr>
 	<tr>
-		<td>**code**</td>
+		<td><strong>code</strong></td>
 		<td>string</td>
 		<td>Code to add.</td>
 	</tr>
@@ -172,12 +172,12 @@ Remove a gift card code from the customer's current order.
 		<th>Description</th>
 	</tr>
 	<tr>
-		<td>**storeId**</td>
+		<td><strong>storeId</strong></td>
 		<td>long</td>
 		<td>Id of the store.</td>
 	</tr>
 	<tr>
-		<td>**code**</td>
+		<td><strong>code</strong></td>
 		<td>string</td>
 		<td>Code to remove.</td>
 	</tr>
@@ -208,7 +208,7 @@ Remove a gift card code from the customer's current order.
 		<th>Description</th>
 	</tr>
 	<tr>
-		<td>**code**</td>
+		<td><strong>code</strong></td>
 		<td>string</td>
 		<td></td>
 		<td>Code to remove.</td>
@@ -272,12 +272,12 @@ TC.removeGiftCard({storeId:1, code:'hsn7tl'});
 		<th>Description</th>
 	</tr>
 	<tr>
-		<td>**storeId**</td>
+		<td><strong>storeId</strong></td>
 		<td>long</td>
 		<td>Id of the store.</td>
 	</tr>
 	<tr>
-		<td>**code**</td>
+		<td><strong>code</strong></td>
 		<td>string</td>
 		<td>Code to remove.</td>
 	</tr>

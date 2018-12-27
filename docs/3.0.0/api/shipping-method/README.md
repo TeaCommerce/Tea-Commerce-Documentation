@@ -18,7 +18,7 @@ Gets a shipping method from a specfic store.
 		<th>Description</th>
 	</tr>
 	<tr>
-		<td>**shippingMethodId**</td>
+		<td><strong>shippingMethodId</strong></td>
 		<td>long</td>
 		<td></td>
 		<td>Id of the shipping method.</td>
@@ -81,12 +81,12 @@ var shippingMethod = TC.getshippingMethod({storeId:1, shippingMethodId:2});
 		<th>Description</th>
 	</tr>
 	<tr>
-		<td>**storeId**</td>
+		<td><strong>storeId</strong></td>
 		<td>long</td>
 		<td>Id of the store.</td>
 	</tr>
 	<tr>
-		<td>**shippingMethodId**</td>
+		<td><strong>shippingMethodId</strong></td>
 		<td>long</td>
 		<td>Id of the shipping method.</td>
 	</tr>
@@ -200,7 +200,7 @@ var shippingMethods = TC.getShippingMethods({storeId:1});
 		<th>Description</th>
 	</tr>
 	<tr>
-		<td>**storeId**</td>
+		<td><strong>storeId</strong></td>
 		<td>long</td>
 		<td>Id of the store.</td>
 	</tr>
@@ -313,7 +313,7 @@ var shippingMethod = TC.getCurrentShippingMethod({storeId:1});
 		<th>Description</th>
 	</tr>
 	<tr>
-		<td>**storeId**</td>
+		<td><strong>storeId</strong></td>
 		<td>long</td>
 		<td>Id of the store.</td>
 	</tr>
@@ -363,7 +363,7 @@ Changes the current shipping method of the customer's session. The shipping meth
 		<th>Description</th>
 	</tr>
 	<tr>
-		<td>**storeId**</td>
+		<td><strong>storeId</strong></td>
 		<td>long</td>
 		<td>Id of the store.</td>
 	</tr>
@@ -463,7 +463,7 @@ TC.setCurrentShippingMethod({storeId:1, shippingMethodId:2});
 		<th>Description</th>
 	</tr>
 	<tr>
-		<td>**storeId**</td>
+		<td><strong>storeId</strong></td>
 		<td>long</td>
 		<td>Id of the store.</td>
 	</tr>
@@ -519,7 +519,7 @@ Get the price for a specific shipping method, based on the customers current cur
 		<th>Description</th>
 	</tr>
 	<tr>
-		<td>**shippingMethodId**</td>
+		<td><strong>shippingMethodId</strong></td>
 		<td>long</td>
 		<td></td>
 		<td>Id of the shipping method.</td>
@@ -582,12 +582,12 @@ var price = TC.getPriceForShippingMethod({storeId:1, shippingMethodId:2});
 		<th>Description</th>
 	</tr>
 	<tr>
-		<td>**storeId**</td>
+		<td><strong>storeId</strong></td>
 		<td>long</td>
 		<td>Id of the store.</td>
 	</tr>
 	<tr>
-		<td>**shippingMethodId**</td>
+		<td><strong>shippingMethodId</strong></td>
 		<td>long</td>
 		<td>Id of the shipping method.</td>
 	</tr>

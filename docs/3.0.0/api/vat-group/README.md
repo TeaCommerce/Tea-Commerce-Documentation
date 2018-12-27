@@ -17,12 +17,12 @@ Gets a vat group from a specfic store.
 		<th>Description</th>
 	</tr>
 	<tr>
-		<td>**storeId**</td>
+		<td><strong>storeId</strong></td>
 		<td>long</td>
 		<td>Id of the store.</td>
 	</tr>
 	<tr>
-		<td>**vatGroupId**</td>
+		<td><strong>vatGroupId</strong></td>
 		<td>long</td>
 		<td>The vat group id.</td>
 	</tr>
@@ -72,7 +72,7 @@ Gets all vat groups for a specific store.
 		<th>Description</th>
 	</tr>
 	<tr>
-		<td>**storeId**</td>
+		<td><strong>storeId</strong></td>
 		<td>long</td>
 		<td>Id of the store.</td>
 	</tr>
@@ -122,7 +122,7 @@ Gets the current vat group of the customer's session. If the customer has a curr
 		<th>Description</th>
 	</tr>
 	<tr>
-		<td>**storeId**</td>
+		<td><strong>storeId</strong></td>
 		<td>long</td>
 		<td>Id of the store.</td>
 	</tr>
@@ -172,12 +172,12 @@ Changes the current vat group of the customer's session. The vat group is also c
 		<th>Description</th>
 	</tr>
 	<tr>
-		<td>**storeId**</td>
+		<td><strong>storeId</strong></td>
 		<td>long</td>
 		<td>Id of the store.</td>
 	</tr>
 	<tr>
-		<td>**vatGroupId**</td>
+		<td><strong>vatGroupId</strong></td>
 		<td>long</td>
 		<td>Id of the vat group to change to.</td>
 	</tr>

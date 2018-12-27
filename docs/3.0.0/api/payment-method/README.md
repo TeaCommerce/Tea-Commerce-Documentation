@@ -18,7 +18,7 @@ Gets a payment method from a specfic store.
 		<th>Description</th>
 	</tr>
 	<tr>
-		<td>**paymentMethodId**</td>
+		<td><strong>paymentMethodId</strong></td>
 		<td>long</td>
 		<td></td>
 		<td>Id of the payment method.</td>
@@ -81,12 +81,12 @@ var paymentMethod = TC.getPaymentMethod({storeId:1, paymentMethodId:2});
 		<th>Description</th>
 	</tr>
 	<tr>
-		<td>**storeId**</td>
+		<td><strong>storeId</strong></td>
 		<td>long</td>
 		<td>Id of the store.</td>
 	</tr>
 	<tr>
-		<td>**paymentMethodId**</td>
+		<td><strong>paymentMethodId</strong></td>
 		<td>long</td>
 		<td>Id of the payment method.</td>
 	</tr>
@@ -200,7 +200,7 @@ var paymentMethods = TC.getPaymentMethods({storeId:1});
 		<th>Description</th>
 	</tr>
 	<tr>
-		<td>**storeId**</td>
+		<td><strong>storeId</strong></td>
 		<td>long</td>
 		<td>Id of the store.</td>
 	</tr>
@@ -314,7 +314,7 @@ var paymentMethod = TC.getCurrentPaymentMethod({storeId:1});
 		<th>Description</th>
 	</tr>
 	<tr>
-		<td>**storeId**</td>
+		<td><strong>storeId</strong></td>
 		<td>long</td>
 		<td>Id of the store.</td>
 	</tr>
@@ -364,7 +364,7 @@ Changes the current payment method of the customer's session. The payment method
 		<th>Description</th>
 	</tr>
 	<tr>
-		<td>**storeId**</td>
+		<td><strong>storeId</strong></td>
 		<td>long</td>
 		<td>Id of the store.</td>
 	</tr>
@@ -464,7 +464,7 @@ TC.setCurrentPaymentMethod({storeId:1, paymentMethodId:2});
 		<th>Description</th>
 	</tr>
 	<tr>
-		<td>**storeId**</td>
+		<td><strong>storeId</strong></td>
 		<td>long</td>
 		<td>Id of the store.</td>
 	</tr>
@@ -520,7 +520,7 @@ Get the price for a specific payment method, based on the customers current curr
 		<th>Description</th>
 	</tr>
 	<tr>
-		<td>**paymentMethodId**</td>
+		<td><strong>paymentMethodId</strong></td>
 		<td>long</td>
 		<td></td>
 		<td>Id of the payment method.</td>
@@ -583,12 +583,12 @@ var price = TC.getPriceForPaymentMethod({storeId:1, paymentMethodId:2});
 		<th>Description</th>
 	</tr>
 	<tr>
-		<td>**storeId**</td>
+		<td><strong>storeId</strong></td>
 		<td>long</td>
 		<td>Id of the store.</td>
 	</tr>
 	<tr>
-		<td>**paymentMethodId**</td>
+		<td><strong>paymentMethodId</strong></td>
 		<td>long</td>
 		<td>Id of the payment method.</td>
 	</tr>

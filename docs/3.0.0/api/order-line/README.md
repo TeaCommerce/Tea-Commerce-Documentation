@@ -17,7 +17,7 @@ This method has multiple use cases, but common for all is that its updating the 
 		<th>Description</th>
 	</tr>
 	<tr>
-		<td>**storeId**</td>
+		<td><strong>storeId</strong></td>
 		<td>long</td>
 		<td>Id of the store.</td>
 	</tr>
@@ -262,12 +262,12 @@ TC.addOrUpdateOrderLine({storeId:1, productIdentifier:1073, quantity:1, parentBu
 		<th>Description</th>
 	</tr>
 	<tr>
-		<td>**storeId**</td>
+		<td><strong>storeId</strong></td>
 		<td>long</td>
 		<td>Id of the store.</td>
 	</tr>
 	<tr>
-		<td>**productIdentifier**</td>
+		<td><strong>productIdentifier</strong></td>
 		<td>string</td>
 		<td>A unique identifier of the product. E.g. the node id from Umbraco.</td>
 	</tr>
@@ -384,12 +384,12 @@ Updates a single order line on the current order. If the customer does not have 
 		<th>Description</th>
 	</tr>
 	<tr>
-		<td>**storeId**</td>
+		<td><strong>storeId</strong></td>
 		<td>long</td>
 		<td>Id of the store.</td>
 	</tr>
 	<tr>
-		<td>**orderLineId**</td>
+		<td><strong>orderLineId</strong></td>
 		<td>long</td>
 		<td>If of the order line.</td>
 	</tr>
@@ -454,12 +454,12 @@ Removes a single order line from the customer's current order.
 		<th>Description</th>
 	</tr>
 	<tr>
-		<td>**storeId**</td>
+		<td><strong>storeId</strong></td>
 		<td>long</td>
 		<td>Id of the store.</td>
 	</tr>
 	<tr>
-		<td>**orderLineId**</td>
+		<td><strong>orderLineId</strong></td>
 		<td>long</td>
 		<td>Id of the order line.</td>
 	</tr>
@@ -490,7 +490,7 @@ Removes a single order line from the customer's current order.
 		<th>Description</th>
 	</tr>
 	<tr>
-		<td>**orderLineId**</td>
+		<td><strong>orderLineId</strong></td>
 		<td>long</td>
 		<td></td>
 		<td>Id of the order line.</td>
@@ -554,12 +554,12 @@ TC.removeOrderLine({storeId:1, orderLineId: 172});
 		<th>Description</th>
 	</tr>
 	<tr>
-		<td>**storeId**</td>
+		<td><strong>storeId</strong></td>
 		<td>long</td>
 		<td>Id of the store.</td>
 	</tr>
 	<tr>
-		<td>**orderLineId**</td>
+		<td><strong>orderLineId</strong></td>
 		<td>long</td>
 		<td>Id of the order line.</td>
 	</tr>
@@ -609,7 +609,7 @@ Removes all order lines from the customer's current order.
 		<th>Description</th>
 	</tr>
 	<tr>
-		<td>**storeId**</td>
+		<td><strong>storeId</strong></td>
 		<td>long</td>
 		<td>Id of the store.</td>
 	</tr>
@@ -697,7 +697,7 @@ TC.removeAllOrderLines({storeId:1});
 		<th>Description</th>
 	</tr>
 	<tr>
-		<td>**storeId**</td>
+		<td><strong>storeId</strong></td>
 		<td>long</td>
 		<td>Id of the store.</td>
 	</tr>

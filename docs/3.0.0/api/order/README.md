@@ -81,7 +81,7 @@ var order = TC.getCurrentOrder({storeId:1});
 		<th>Description</th>
 	</tr>
 	<tr>
-		<td>**storeId**</td>
+		<td><strong>storeId</strong></td>
 		<td>long</td>
 		<td>Id of the store.</td>
 	</tr>
@@ -135,12 +135,12 @@ Sets the customers current order.
 		<th>Description</th>
 	</tr>
 	<tr>
-		<td>**storeId**</td>
+		<td><strong>storeId</strong></td>
 		<td>long</td>
 		<td>Id of the store.</td>
 	</tr>
 	<tr>
-		<td>**orderId**</td>
+		<td><strong>orderId</strong></td>
 		<td>Guid</td>
 		<td>Unique id of the order.</td>
 	</tr>
@@ -190,7 +190,7 @@ Removes the customers current order from session. The order will not be deleted.
 		<th>Description</th>
 	</tr>
 	<tr>
-		<td>**storeId**</td>
+		<td><strong>storeId</strong></td>
 		<td>long</td>
 		<td>Id of the store.</td>
 	</tr>
@@ -276,7 +276,7 @@ TC.removeCurrentOrder({storeId:1});
 		<th>Description</th>
 	</tr>
 	<tr>
-		<td>**storeId**</td>
+		<td><strong>storeId</strong></td>
 		<td>long</td>
 		<td>Id of the store.</td>
 	</tr>
@@ -384,7 +384,7 @@ var order = TC.getCurrentFinalizedOrder({storeId:1});
 		<th>Description</th>
 	</tr>
 	<tr>
-		<td>**storeId**</td>
+		<td><strong>storeId</strong></td>
 		<td>long</td>
 		<td>Id of the store.</td>
 	</tr>
@@ -435,7 +435,7 @@ Gets a specific order.
 		<th>Description</th>
 	</tr>
 	<tr>
-		<td>**orderId**</td>
+		<td><strong>orderId</strong></td>
 		<td>Guid</td>
 		<td></td>
 		<td>The unique identifier of the order.</td>
@@ -498,12 +498,12 @@ var order = TC.getOrder({storeId:1, orderId:'dc354705-c1de-413e-a9d2-756294cfa2e
 		<th>Description</th>
 	</tr>
 	<tr>
-		<td>**storeId**</td>
+		<td><strong>storeId</strong></td>
 		<td>long</td>
 		<td>Id of the store.</td>
 	</tr>
 	<tr>
-		<td>**orderId**</td>
+		<td><strong>orderId</strong></td>
 		<td>Guid</td>
 		<td>Unique id of the order.</td>
 	</tr>
@@ -554,7 +554,7 @@ Gets a collection of orders.
 		<th>Description</th>
 	</tr>
 	<tr>
-		<td>**orderIds**</td>
+		<td><strong>orderIds</strong></td>
 		<td>Guid[]</td>
 		<td></td>
 		<td>List of unique id&##x27;s of the orders.</td>
@@ -617,12 +617,12 @@ var orders = TC.getOrders({storeId:1, orderIds:['dc354705-c1de-413e-a9d2-756294c
 		<th>Description</th>
 	</tr>
 	<tr>
-		<td>**storeId**</td>
+		<td><strong>storeId</strong></td>
 		<td>long</td>
 		<td>Id of the store.</td>
 	</tr>
 	<tr>
-		<td>**orderIds**</td>
+		<td><strong>orderIds</strong></td>
 		<td>IEnumerable&lt;Guid&gt;</td>
 		<td>List of unique id&##x27;s of the orders.</td>
 	</tr>
@@ -676,7 +676,7 @@ Gets all finalized orders for a specific customer.
 		<th>Description</th>
 	</tr>
 	<tr>
-		<td>**customerId**</td>
+		<td><strong>customerId</strong></td>
 		<td>string</td>
 		<td></td>
 		<td>The id of the customer.</td>
@@ -739,12 +739,12 @@ var orders = TC.getFinalizedOrdersForCustomer({storeId:1, customerId:'10245'});
 		<th>Description</th>
 	</tr>
 	<tr>
-		<td>**storeId**</td>
+		<td><strong>storeId</strong></td>
 		<td>long</td>
 		<td>Id of the store.</td>
 	</tr>
 	<tr>
-		<td>**customerId**</td>
+		<td><strong>customerId</strong></td>
 		<td>string</td>
 		<td>Id of the customer.</td>
 	</tr>

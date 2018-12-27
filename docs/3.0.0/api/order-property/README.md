@@ -17,17 +17,17 @@ Adds or updates a single custom order property on the current order. If the cust
 		<th>Description</th>
 	</tr>
 	<tr>
-		<td>**storeId**</td>
+		<td><strong>storeId</strong></td>
 		<td>long</td>
 		<td>Id of the store.</td>
 	</tr>
 	<tr>
-		<td>**key**</td>
+		<td><strong>key</strong></td>
 		<td>string</td>
 		<td>The key/alias of the property.</td>
 	</tr>
 	<tr>
-		<td>**value**</td>
+		<td><strong>value</strong></td>
 		<td>string</td>
 		<td>Value of the property.</td>
 	</tr>
@@ -77,12 +77,12 @@ Adds or updates a collection of custom order properties on the current order. If
 		<th>Description</th>
 	</tr>
 	<tr>
-		<td>**storeId**</td>
+		<td><strong>storeId</strong></td>
 		<td>long</td>
 		<td>Id of the store.</td>
 	</tr>
 	<tr>
-		<td>**properties**</td>
+		<td><strong>properties</strong></td>
 		<td></td>
 		<td>A list of key/value pairs identifying the property alias and name of a html input to deliver the value.</td>
 	</tr>
@@ -116,7 +116,7 @@ Adds or updates a collection of custom order properties on the current order. If
 		<th>Description</th>
 	</tr>
 	<tr>
-		<td>**properties**</td>
+		<td><strong>properties</strong></td>
 		<td>object</td>
 		<td></td>
 		<td>An object containing keys and values for the properties you want to change.</td>
@@ -180,12 +180,12 @@ TC.addOrUpdateOrderProperties({storeId:1, properties: {company: 'Tea Commerce', 
 		<th>Description</th>
 	</tr>
 	<tr>
-		<td>**storeId**</td>
+		<td><strong>storeId</strong></td>
 		<td>long</td>
 		<td>Id of the store.</td>
 	</tr>
 	<tr>
-		<td>**properties**</td>
+		<td><strong>properties</strong></td>
 		<td>Dictionary&lt;string, string&gt;</td>
 		<td>A dictionary containing keys and values for the properties you want to change.</td>
 	</tr>

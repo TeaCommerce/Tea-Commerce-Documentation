@@ -18,7 +18,7 @@ Gets a country region from a specfic store.
 		<th>Description</th>
 	</tr>
 	<tr>
-		<td>**countryRegionId**</td>
+		<td><strong>countryRegionId</strong></td>
 		<td>long</td>
 		<td></td>
 		<td>Id of the country region</td>
@@ -81,12 +81,12 @@ var countryRegion = TC.getCountryRegion({storeId:1, countryRegionId:2});
 		<th>Description</th>
 	</tr>
 	<tr>
-		<td>**storeId**</td>
+		<td><strong>storeId</strong></td>
 		<td>long</td>
 		<td>Id of the store.</td>
 	</tr>
 	<tr>
-		<td>**countryRegionId**</td>
+		<td><strong>countryRegionId</strong></td>
 		<td>long</td>
 		<td>Id of the country region</td>
 	</tr>
@@ -200,7 +200,7 @@ var countryRegions = TC.getCountryRegions({storeId:1});
 		<th>Description</th>
 	</tr>
 	<tr>
-		<td>**storeId**</td>
+		<td><strong>storeId</strong></td>
 		<td>long</td>
 		<td>Id of the store.</td>
 	</tr>
@@ -313,7 +313,7 @@ var countryRegion = TC.getCurrentPaymentCountryRegion({storeId:1});
 		<th>Description</th>
 	</tr>
 	<tr>
-		<td>**storeId**</td>
+		<td><strong>storeId</strong></td>
 		<td>long</td>
 		<td>Id of the store.</td>
 	</tr>
@@ -421,7 +421,7 @@ var countryRegion = TC.getCurrentShippingCountryRegion({storeId:1});
 		<th>Description</th>
 	</tr>
 	<tr>
-		<td>**storeId**</td>
+		<td><strong>storeId</strong></td>
 		<td>long</td>
 		<td>Id of the store.</td>
 	</tr>
@@ -471,7 +471,7 @@ Changes the current payment country region of the customer's session. The paymen
 		<th>Description</th>
 	</tr>
 	<tr>
-		<td>**storeId**</td>
+		<td><strong>storeId</strong></td>
 		<td>long</td>
 		<td>Id of the store.</td>
 	</tr>
@@ -571,7 +571,7 @@ TC.setCurrentPaymentCountryRegion({storeId:1, countryRegionId:2});
 		<th>Description</th>
 	</tr>
 	<tr>
-		<td>**storeId**</td>
+		<td><strong>storeId</strong></td>
 		<td>long</td>
 		<td>Id of the store.</td>
 	</tr>
@@ -626,7 +626,7 @@ Changes the current shipping country region of the customer's session. The shipp
 		<th>Description</th>
 	</tr>
 	<tr>
-		<td>**storeId**</td>
+		<td><strong>storeId</strong></td>
 		<td>long</td>
 		<td>Id of the store.</td>
 	</tr>
@@ -726,7 +726,7 @@ TC.setCurrentShippingCountryRegion({storeId:1, countryRegionId:2});
 		<th>Description</th>
 	</tr>
 	<tr>
-		<td>**storeId**</td>
+		<td><strong>storeId</strong></td>
 		<td>long</td>
 		<td>Id of the store.</td>
 	</tr>

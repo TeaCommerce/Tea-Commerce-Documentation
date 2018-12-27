@@ -18,7 +18,7 @@ Gets a country from a specfic store.
 		<th>Description</th>
 	</tr>
 	<tr>
-		<td>**countryId**</td>
+		<td><strong>countryId</strong></td>
 		<td>long</td>
 		<td></td>
 		<td>Id of the country.</td>
@@ -81,12 +81,12 @@ var country = TC.getCountry({storeId:1, countryId:2});
 		<th>Description</th>
 	</tr>
 	<tr>
-		<td>**storeId**</td>
+		<td><strong>storeId</strong></td>
 		<td>long</td>
 		<td>Id of the store.</td>
 	</tr>
 	<tr>
-		<td>**countryId**</td>
+		<td><strong>countryId</strong></td>
 		<td>long</td>
 		<td>Id of the country.</td>
 	</tr>
@@ -194,7 +194,7 @@ var countries = TC.getCountries({storeId:1});
 		<th>Description</th>
 	</tr>
 	<tr>
-		<td>**storeId**</td>
+		<td><strong>storeId</strong></td>
 		<td>long</td>
 		<td>Id of the store.</td>
 	</tr>
@@ -302,7 +302,7 @@ var country = TC.getCurrentPaymentCountry({storeId:1});
 		<th>Description</th>
 	</tr>
 	<tr>
-		<td>**storeId**</td>
+		<td><strong>storeId</strong></td>
 		<td>long</td>
 		<td>Id of the store.</td>
 	</tr>
@@ -410,7 +410,7 @@ var country = TC.getCurrentShippingCountry({storeId:1});
 		<th>Description</th>
 	</tr>
 	<tr>
-		<td>**storeId**</td>
+		<td><strong>storeId</strong></td>
 		<td>long</td>
 		<td>Id of the store.</td>
 	</tr>
@@ -460,12 +460,12 @@ Changes the current payment country of the customer's session. The payment count
 		<th>Description</th>
 	</tr>
 	<tr>
-		<td>**storeId**</td>
+		<td><strong>storeId</strong></td>
 		<td>long</td>
 		<td>Id of the store.</td>
 	</tr>
 	<tr>
-		<td>**countryRegionId**</td>
+		<td><strong>countryRegionId</strong></td>
 		<td>long</td>
 		<td>Id of the country region to change to.</td>
 	</tr>
@@ -496,7 +496,7 @@ Changes the current payment country of the customer's session. The payment count
 		<th>Description</th>
 	</tr>
 	<tr>
-		<td>**countryId**</td>
+		<td><strong>countryId</strong></td>
 		<td>long</td>
 		<td></td>
 		<td>Id of the country to change to.</td>
@@ -560,12 +560,12 @@ TC.setCurrentPaymentCountry({storeId:1, countryId:2});
 		<th>Description</th>
 	</tr>
 	<tr>
-		<td>**storeId**</td>
+		<td><strong>storeId</strong></td>
 		<td>long</td>
 		<td>Id of the store.</td>
 	</tr>
 	<tr>
-		<td>**countryId**</td>
+		<td><strong>countryId</strong></td>
 		<td>long</td>
 		<td>Id of the country to change to.</td>
 	</tr>
@@ -615,7 +615,7 @@ Changes the current shipping country of the customer's session. The shipping cou
 		<th>Description</th>
 	</tr>
 	<tr>
-		<td>**storeId**</td>
+		<td><strong>storeId</strong></td>
 		<td>long</td>
 		<td>Id of the store.</td>
 	</tr>
@@ -715,7 +715,7 @@ TC.setCurrentShippingCountry({storeId:1, countryId:2});
 		<th>Description</th>
 	</tr>
 	<tr>
-		<td>**storeId**</td>
+		<td><strong>storeId</strong></td>
 		<td>long</td>
 		<td>Id of the store.</td>
 	</tr>
