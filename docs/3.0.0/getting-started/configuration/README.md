@@ -99,7 +99,7 @@ Shipping Methods define the different ways you are willing to ship your product.
 
 ## Order Statuses
 
-Order statuses can be thought of as a means of organising  received Orders, for example, new orders, fulfilled orders, canceled orders etc. Tea Commerce doesn't do anything to move Orders between statuses automatically, however it does [fire events](../../api/events/#notificationcenter) when an order changes status so that you can do things like send out an email when an Orders is moved to fulfilled.
+Order statuses can be thought of as a means of organising  received Orders, for example, new orders, fulfilled orders, canceled orders etc. Tea Commerce doesn't do anything to move Orders between statuses automatically, however when you change an Orders status it does [fire events](../../api/events/#notificationcenter) when an order changes status so that you can do things like send out an email when an Order is moved to fulfilled.
 
 Out of the box Tea Commerce comes with 3 pre-defined statuses, **New**, **Completed** and **Canceled**. You are free to change these as needed. Each status has a **Name**, **Alias** and whether the status should trigger **Recalculate finalized order**. For our example however, we will just leave them as is.
 
