@@ -2,9 +2,11 @@
 
 ## Package installation
 
-Download Tea Commerce at [our.umbraco.org](https://our.umbraco.org/projects/website-utilities/tea-commerce). Then go to the **Developer** section, select **Packages** and click **Install local**.
+In your Umbraco install, head to the **Developer** section and the select the **Packages** node in the tree. In the search box in the right hand side, search for **Tea Commerce** and select the Tea Commerce package in the results. On the next screen, click **Install Package** to start installing the package.
 
-Click the **Accept terms of use** checkbox, click **Install package** and let the package install. At the end of the installation you will see an install screen which tells you about the next steps.
+![Install Tea Commerce](/img/install-package.png)
+
+At the end of the installation you will see an install screen which tells you about the next steps.
 
 ## Post installation
 
