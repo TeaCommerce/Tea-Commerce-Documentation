@@ -55,6 +55,25 @@
     margin-top: -1rem;
 }
 
+.content h1,
+.content h2,
+.content h3,
+.content h4,
+.content h5,
+.content h6,
+.content p,
+.content li {
+  /* These are technically the same, but use both */
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+
+  -ms-word-break: break-all;
+  /* This is the dangerous one in WebKit, as it breaks things wherever */
+  word-break: break-all;
+  /* Instead use this non-standard one: */
+  word-break: break-word;
+}
+
 h4 {
     font-size: 1.1rem;
 }
@@ -127,7 +146,8 @@ hr {
 
 @media (max-width: $MQMobile) {
     .navbar {
-        padding-left: inherit;
+        padding-left: 0;
+        padding-right: 0;
         height 4rem;
         padding-top: 0.9rem;
         padding-bottom: 0.9rem;
@@ -137,7 +157,8 @@ hr {
     }
     .navbar .links {
         top: 50%;
-        margin-top: -1.2rem;    
+        margin-top: -1.2rem;  
+        padding-left: 0;  
     }
     .sidebar-button {
         top: 50%;
