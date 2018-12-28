@@ -21,7 +21,6 @@ When Tea Commerce is installed you need to do the following things.
 </script>
 ````
 
-2. Give your user access to the Tea Commerce section 
-
+2. Create a **Commerce** user group with access to the **Tea Commerce section**, assigning your user to the group by adding them to the **Users** list.
 
 ![install-users.png](/img/51d7310-install-users.png)

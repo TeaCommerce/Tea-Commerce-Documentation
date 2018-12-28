@@ -7,11 +7,13 @@ In this guide we will make an imaginary company called "Amazing Boats" selling y
 
 ## Store
 
-First we need to create a store. Let's create a store named "Amazing Boats". Right click **Stores**, click **Create**, type in the new name of the store and click **Create**. Now hit F5 to see the newly created store.
+First we need to create a store. Let's create a store named "Amazing Boats". Right click **Stores**, click **Create**, type in the new name of the store and click **Create**.
+
+![Store](/img/store.png)
 
 ## Currency
 
-Tea Commerce supports multiple currencies, but in this guide we want to keep it as simple as possible and only support the GBP currency. Click the **JDM** currency and configure it with the values shown below.
+Tea Commerce supports multiple currencies, but in this guide we want to keep it as simple as possible and only support the GBP currency. Click the existing **JDM** currency and re-configure it with the values shown below.
 
 <table>
 	<tr>
@@ -45,7 +47,7 @@ Tea Commerce supports multiple currencies, but in this guide we want to keep it 
 
 ## Country
 
-A country is used to specify which countries the shop will ship orders to. It's easy to create all the countries in the world (just right click and select "Create all"), but in this guide we will only be shipping to the UK. Click on the **Jamaica** country and configure the country as below.
+A country is used to specify which countries the shop will ship orders to (This shouldn't be confused with Umbraco languages which define the languages a site can be displayed in). It's easy to create all the countries in the world (just right click and select "Create all"), but in this guide we will only be shipping to the UK. Click on the existing **Jamaica** country and re-configure it as below.
 
 <table>
 	<tr>
@@ -66,7 +68,7 @@ A country is used to specify which countries the shop will ship orders to. It's 
 
 ## VAT group
 
-The VAT group is used to calculate the VAT/tax on products, shipping etc. As the shop is based in the UK we will configure it with the VAT rate of that. Rename the **Default VAT group** and configure it as below. It's possible to have multiple VAT groups to support different VAT rates for e.g food, baby equipment etc., but in this case the shop will only support one.
+The VAT group is used to calculate the VAT/tax on products, shipping etc. As the shop is based in the UK we will configure it with the VAT rate of 20%. Rename the **Default VAT group** and configure it as below. It's possible to have multiple VAT groups to support different VAT rates for e.g food, baby equipment etc., but in this case the shop will only support one.
 
 <table>
 	<tr>
@@ -87,7 +89,15 @@ The VAT group is used to calculate the VAT/tax on products, shipping etc. As the
 
 ## Payment Methods
 
-Payment methods define which methods of payment are accepted by the store. When you create a payment method, you provide general information such as any VAT charges and which countries the payment method is available for. In addition, each payment method will generaly have it's own configuration settings. See the specific Payment Provider in the [Payment Providers section](../../payment-providers/) for further details.
+Payment methods define which methods of payment are accepted by the store. When you create a payment method, you provide general information such as **Name**, **Alias**, **SKU** and optional **VAT Group**, **Image** and **Fee** as well as which countries the payment method is available in. Each payment method will also have it's own configuration settings. See the specific Payment Provider in the [Payment Providers section](../../payment-providers/) for further details.
+
+![Payment Method](/img/payment-method.png)
+
+## Shipping Methods
+
+Shipping Methods define the different ways you are willing to ship your product. As yachts are pretty big, we'll configure our store for pickup only. For each shipping method you can define a **Name**, **Alias**, **SKU** and optional **VAT Group**, **Image** and **Fee** as well as which countries the shipping method is available in.
+
+![Shipping Method](/img/shipping-method.png)
 
 ## Confirmation email
 
