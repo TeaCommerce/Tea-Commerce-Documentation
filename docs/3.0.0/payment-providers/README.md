@@ -3,7 +3,7 @@
 <script>
 export default {
   created() {
-    this.$router.push('2checkout/')
+    this.$router.replace('2checkout/')
   }
 }
 </script>

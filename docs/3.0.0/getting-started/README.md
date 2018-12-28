@@ -3,7 +3,7 @@
 <script>
 export default {
   created() {
-    this.$router.push('installation/')
+    this.$router.replace('installation/')
   }
 }
 </script>

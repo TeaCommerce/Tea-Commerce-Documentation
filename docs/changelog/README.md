@@ -3,7 +3,7 @@
 <script>
 export default {
   created() {
-    this.$router.push('/changelog/3.x/')
+    this.$router.replace('/changelog/3.x/')
   }
 }
 </script>

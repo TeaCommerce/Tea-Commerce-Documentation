@@ -3,7 +3,7 @@
 <script>
 export default {
   created() {
-    this.$router.push('api-types/')
+    this.$router.replace('api-types/')
   }
 } 
 </script>

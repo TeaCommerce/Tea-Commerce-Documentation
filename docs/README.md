@@ -12,7 +12,7 @@ export default {
     }
   },
   created() {
-    this.$router.push(this.redirectUrl)
+    this.$router.replace(this.redirectUrl)
   }
 }
 </script>

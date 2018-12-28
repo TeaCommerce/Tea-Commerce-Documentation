@@ -3,7 +3,7 @@
 <script>
 export default {
   created() {
-    this.$router.push('getting-started/')
+    this.$router.replace('getting-started/')
   }
 }
 </script>
