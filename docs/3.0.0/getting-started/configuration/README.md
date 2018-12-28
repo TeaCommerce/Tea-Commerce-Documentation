@@ -5,7 +5,7 @@ sidebarDepth: 2
 
 ## Store
 
-The first thing to do when setting up Tea Commerce is to create a store. To do so, right click **Stores** in the tree, and click **Create**, type in the new name of the store and click **Create**.
+The first thing to do when setting up Tea Commerce is to create a store. To do this, right click **Stores** in the tree, and click **Create**, type in the new name of the store and click **Create**.
 
 ![Store](/img/store.png)
 
