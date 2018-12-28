@@ -23,11 +23,23 @@ export default {
     mounted() {
         var self = this;
         self.tabs = self.$children;
-        setTimeout(function () {
-            self.selectTab(self.tabs[0]);
-        }, 5)
+        
+        var tmp = function (cnt) {
+            if (self.tabs[0]) {
+                self.selectFirstTab();
+            } else if (cnt < 20) {
+                setTimeout(function () {
+                    tmp(cnt*2);
+                }, cnt)
+            }
+        }
+
+        tmp(1);
     },
     methods: {
+        selectFirstTab() {
+            this.selectTab(this.tabs[0]);
+        },
         selectTab(selectedTab) {
             this.tabs.forEach(tab => {
                 tab.isActive = (tab.name == selectedTab.name);
