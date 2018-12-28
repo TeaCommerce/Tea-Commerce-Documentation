@@ -12,7 +12,7 @@ At the end of the installation you will see an install screen which tells you ab
 
 When Tea Commerce is installed you need to do the following things.  
 
-1. Add the scripts below to your HTML head section   
+1. Add the scripts below to your websites HTML head section   
 
 ````html
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
