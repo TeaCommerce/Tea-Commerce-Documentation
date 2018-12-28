@@ -38,6 +38,7 @@ module.exports = [
     {
       title: 'Payment Providers',
       children: [
+        'payment-providers/',
         'payment-providers/2checkout/',
         'payment-providers/authorizenet/',
         'payment-providers/axcess/',
