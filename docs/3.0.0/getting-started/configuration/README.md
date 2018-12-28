@@ -9,6 +9,27 @@ The first thing to do when setting up Tea Commerce is to create a store. To do t
 
 ![Store](/img/store.png)
 
+## Country
+
+A country is used to specify which countries the shop will ship orders to (This shouldn't be confused with Umbraco languages which define the languages a site can be displayed in). It's easy to create all the countries in the world (just right click and select "Create all"), but in this example we will setup a single country, the UK. Click on the existing **Jamaica** country and re-configure it as below.
+
+<table>
+	<tr>
+		<th>Field</th>
+		<th>Value</th>
+	</tr>
+	<tr>
+		<td>Name</td>
+		<td>United Kingdom</td>
+	</tr>
+	<tr>
+		<td>Region code</td>
+		<td>UK</td>
+	</tr>
+</table>
+
+![country.png](/img/973ee1d-country.png)
+
 ## Currency
 
 Tea Commerce supports multiple currencies, so you can set up as many as you wish to support. For this example we will keep it as simple as possible and only support the GBP currency. Click the existing **JDM** currency and re-configure it with the values shown below.
@@ -42,27 +63,6 @@ Tea Commerce supports multiple currencies, so you can set up as many as you wish
 </table>
 
 ![currency.png](/img/093b15d-currency.png)
-
-## Country
-
-A country is used to specify which countries the shop will ship orders to (This shouldn't be confused with Umbraco languages which define the languages a site can be displayed in). It's easy to create all the countries in the world (just right click and select "Create all"), but in this example we will setup a single country, the UK. Click on the existing **Jamaica** country and re-configure it as below.
-
-<table>
-	<tr>
-		<th>Field</th>
-		<th>Value</th>
-	</tr>
-	<tr>
-		<td>Name</td>
-		<td>United Kingdom</td>
-	</tr>
-	<tr>
-		<td>Region code</td>
-		<td>UK</td>
-	</tr>
-</table>
-
-![country.png](/img/973ee1d-country.png)
 
 ## VAT group
 
