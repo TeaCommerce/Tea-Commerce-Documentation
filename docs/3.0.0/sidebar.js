@@ -16,7 +16,7 @@ module.exports = [
     {
       title: 'API',
       children: [
-        'api/api-types/',
+        'api/',
         'api/store/',
         'api/order/',
         'api/order-line/',
