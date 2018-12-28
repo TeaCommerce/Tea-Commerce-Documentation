@@ -39,5 +39,6 @@ https://vibrant-easley-e6f6f9.netlify.com/* https://docs.teacommerce.net/:splat 
 /blog					            /changelog/				                	301
 /blog/*					            /changelog/             					301
 
-/reference				/3.0.0/api/					301
-/v3.0.0/reference			/3.0.0/api/					301
+/reference				            /3.0.0/api/					                301
+/v3.0.0/reference			        /3.0.0/api/					                301
+/search/                            /                                           301
