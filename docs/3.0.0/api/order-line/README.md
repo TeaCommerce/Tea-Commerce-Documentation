@@ -730,9 +730,6 @@ TC.removeAllOrderLines({storeId:1});
 
 ::::
 
-
-
-
 ## Automatic Properties
 
 When adding an item to an order, you can provide extra information to add to an OrderLine by passing a `properties` collection through to either of the `AddOrUpdateOrderLine` or `UpdateOrderLine` methods documented above. 
@@ -742,6 +739,14 @@ However, you can also configure Tea Commerce to automatically copy across certai
 To automatically copy node fields to an OrderLine, these can be configured by entering a comma separated list of property aliases into the **Product property aliases** field found on the **Store** editor, under the **Product** tab.
 
 ![Store Product Information](/img/store-product-config.png)
+
+## Product Uniqueness Properties
+
+When adding an item to an Order, you may want to allow different configurations of the same product to be added to an order as distinct order lines rather than having them all seen as the same order line. To achieve this you can configure which properties of a product node should be used to identify the "uniqueness" of a product. These can be configured by entering a comma separated list of property aliases into the **Product uniqueness property aliases** field found on the **Store** editor, under the **Product** tab.
+
+![Store Product Information](/img/store-product-config.png)
+
+With this field populated, when an item is added to an order, Tea Commerce will check the value of the product nodes uniqueness properties and create distinct order lines for each unique combination.
 
 ## System Properties
 
