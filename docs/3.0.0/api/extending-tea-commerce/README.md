@@ -1,6 +1,6 @@
 # Extending Tea Commerce
 
-## Order line calculator
+## Order Line Calculator
 
 An order line calculator is the engine used in Tea Commerce to calculate price for an order line. The order line calculator is used in the order calculator.
 
@@ -32,7 +32,7 @@ namespace TeaCommerce.Tests.PriceCalculators {
 }
 ````
 
-## Shipping calculator
+## Shipping Calculator
 
 A shipping calculator is the engine used in Tea Commerce to calculate the shipping costs for a specific shipping method. It can calculate the price based on order information or a country/-region.
 
@@ -64,7 +64,7 @@ namespace TeaCommerce.Tests.PriceCalculators {
 }
 ````
 
-## Payment calculator
+## Payment Calculator
 
 Tea Commerce uses a payment calculator to calculate the price for a specific payment method. It can calculate the price based on order information or a country/-region.
 
@@ -96,7 +96,7 @@ namespace TeaCommerce.Tests.PriceCalculators {
 }
 ````
 
-## Product calculator
+## Product Calculator
 
 The product calculator is used in Tea Commerce when a product price is needed for UI rendering in the shop. The calculator is NOT used in the order calculator.
 
@@ -128,7 +128,7 @@ namespace TeaCommerce.Tests.PriceCalculators {
 }
 ````
 
-## Product information extractor
+## Product Information Extractor
 
 So what is behind this fancy name. As you might know, Tea Commerce doesn't manage products, instead it relies on a 3rd party system to manage this information. An example of a 3rd party system is Umbraco, where the products are managed as nodes in the Umbraco node structure. The glue between a 3rd party system's product information and Tea Commerce is a product information extractor.
 
@@ -136,21 +136,21 @@ The product information extractor is mainly used in two scenarios. First case is
 
 Tea Commerce ships with a product information extractor for each 3rd party system that it supports. If you need to customize the way the built-in extractors work you can find more information here: [Umbraco](#customizing-umbraco-information-extractor). It is also possible to create a 100% custom product information extractor that supports a 3rd party system that Tea Commerce doesn't already know. When creating a new product information extractor you just need to implement the IProductInformationExtractor interface. Then use the [SuppressDependency](#override-default-providers) class attribute to register your product information extractor.
 
-### Generic products
+### Generic Products
 
 From version 3.2.0 Tea Commerce supports generic information extractors. This means you can feed the Tea Commerce API with an object of your own custom classes, and Tea Commerce will be able to get the information it needs directly, without needing to first find the product again. This means better performance and more control.
 
 Because of the generic products the information extrators have now been split into 3 parts. 
 
-### None generic part
+### None Generic Part
 
 This part only needs a product identifier to get the product and the information. Tea Commerce needs this to get information for the order lines, which is added with only the product identifier.
 
-### Generic product
+### Generic Product
 
 This part needs a model of the product and can interact directly with that to find the information.
 
-### Generic product and variant
+### Generic Product and Variant
 
 This part needs both a model og the product and the variant. This one is only needed if the website uses variants. Tea Commerce have a variants system, which can be used with your own product models. You can also choose to implement your own variants system and models. The example below will use the built in variant system of Tea Commerce.
 
@@ -160,7 +160,7 @@ This example uses the Examine SearchResult as its product model and the Tea Comm
 
 Note that there are three SuppressDependency attributes on the class, matching the three inherited interfaces. When you create your own make sure that the name spaces and class names in your SuppressDependency attributes matches exactly or your information extractor will not be loaded.
 
-### About the Examine index
+### About the Examine Index
 
 By default the examine index holds all the information that is entered on your Umbraco nodes. The index is extremely fast when searching and by adding all your product data to the index, you will have fast and easy access to your products even with tens of thousands of products.
 
@@ -174,7 +174,7 @@ This class is the information extractor. It will be responsible for getting the 
 
 This is a variant service helping Tea Commerce getting variants from the SearchResult. In this case we are using the standard Tea Commerce variants system, which depends on variants coming from a blob of json on the product. This blob is saved in Umbraco, and  indexed directly into the search index.
 
-### What else is needed
+### What else is Needed
 
 You will need to create a custom indexer for Umbraco for this to work proberly. Tea Commerce needs the store id of the products and instead of hardcoding it into the service we are indexing the store id onto each product in the index. This way you will also be able to use the store id when searching for products on multistore websites. To make your own indexer you must inherit from the UmbracoExamine.UmbracoContentIndexer class and override the OnDocumentWriting method. Make sure to check the dos and don'ts [here](https://our.umbraco.org/documentation/Reference/Common-Pitfalls/).
 
@@ -420,7 +420,7 @@ namespace Website.Extensions.Ecommerce.Services {
 
 ````
 
-### Customizing Umbraco information extractor
+### Customizing Umbraco Information Extractor
 
 The default [product information extractor](#product-information-extractor) in Umbraco use the node structure to manage products. This means you can use any document type as a product and create exactly the node structure you need for your e-commerce setup. Umbraco saves the node information in a XML cache which is used by the default product information extractor, for Umbraco, as the source for product information.
 
@@ -480,11 +480,11 @@ namespace TeaCommerce.Tests.InformationExtractors {
 }
 ````
 
-## Override default providers
+## Override Default Providers
 
 When we build Tea Commerce we wanted it to be as flexible as possible. To achieve this we used Autofac as our IoC container. This makes it possible for you as a developer to register a new dependency or to override almost any of the dependencies that Tea Commerce has internally.
 
-### Suppress dependency
+### Suppress Dependency
 
 The SuppressDependency class attribute is used to either register a new dependency or override one of the default Tea Commerce providers in the .NET API. Start by adding the class attribute to your class. Then specify the fully qualified name that will be used as the identifier. Lastly specify the name of the assembly where the class/interface of the fully qualified name can be found.
 
