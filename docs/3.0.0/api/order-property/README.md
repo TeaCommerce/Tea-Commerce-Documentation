@@ -227,7 +227,7 @@ When updating an order, as well as the properties passed via the ` AddOrUpdateOr
 
 | Name | Source | Description |
 | ---- | ------ | ----------- |
-| **CustomerId** | Current logged in Members member ID. Extracted at the time of [GeneratePaymentForm()](../payment-provider/#generatepaymentform) being called. | The ID of the customer making the order. Useful if you have a members only store and you want to find all order belonging to the same customer. |
+| **CustomerId** | Current logged in Members member ID. Extracted at the time of [GeneratePaymentForm()](../payment-provider/#generatepaymentform) being called. | The ID of the customer making the order. Useful if you have a members only store and you want to find all orders belonging to the same customer. |
 | **PaymentInformation.FirstName** | Extracted from an Orders `properties` collection. Property alias must be `"firstName"`. | The first name of the person making the order. |
 | **PaymentInformation.LastName** | Extracted from an Orders `properties` collection. Property alias must be `"lastName"`. | The last name of the person making the order. |
 | **PaymentInformation.Email** | Extracted from an Orders `properties` collection. Property alias must be `"email"`.</td> | The email address of the person making the order. |
