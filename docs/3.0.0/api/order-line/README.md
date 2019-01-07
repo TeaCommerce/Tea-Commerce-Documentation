@@ -748,3 +748,5 @@ When adding an item to an order, as well as the properties passed via the `AddOr
 </table>
 
 **NB** These fields are extracted via a [Product Information Extractor](../extending-tea-commerce/#product-information-extractor), if you need to extract these fields from alternative sources, you can do so by overriding the default Product Information Extractor with  your own.
+
+As well as these system properties, you can also define your own node properties that should be automatically copied to an OrderLine. These can be configured by entering a comma separated list of property aliases into the **Product property aliases** field found on the **Store** editor, under the **Product** tab.
