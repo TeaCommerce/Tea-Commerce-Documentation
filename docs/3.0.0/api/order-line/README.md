@@ -729,3 +729,22 @@ TC.removeAllOrderLines({storeId:1});
 :::
 
 ::::
+
+## System Properties
+
+When adding an item to an order, as well as the properties passed via the `AddOrUpdateOrderLine` or `UpdateOrderLine` methods `properties` collection as documented above, Tea Commerce will also add some system defined properties to the OrderLine who's values will be automatically extracted from the product node. In order for these properties to work, you must have fields on your product node with the documented property aliases defined below.
+
+<table>
+	<tr>
+		<th>Name</th>
+		<th>Property Alias</th>
+		<th>Description</th>
+	</tr>
+	<tr>
+		<td><strong>SKU</strong></td>
+		<td>sku</td>
+		<td>A product SKU code.</td>
+	</tr>
+</table>
+
+**NB** These fields are extracted via a [Product Information Extractor](../extending-tea-commerce/#product-information-extractor), if you need to extract these fields from alternative sources, you can do so by overriding the default Product Information Extractor with  your own.
