@@ -233,7 +233,7 @@ When updating an order, as well as the properties passed via the ` AddOrUpdateOr
 	</tr>
 	<tr>
 		<td><strong>CustomerId</strong></td>
-		<td>Current logged in Members member ID. Extracted at the time of [GeneratePaymentForm()](../payment-provider/#generatepaymentform) being called.</td>
+		<td>Current logged in Members member ID. Extracted at the time of <router-link to="../payment-provider/#generatepaymentform" append>GeneratePaymentForm()</router-link> being called.</td>
 		<td>The ID of the customer making the order. Useful if you have a members only store and you want to find all order belonging to the same customer.</td>
 	</tr>
 	<tr>
