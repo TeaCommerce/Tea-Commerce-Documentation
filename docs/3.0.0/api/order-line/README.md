@@ -730,6 +730,19 @@ TC.removeAllOrderLines({storeId:1});
 
 ::::
 
+
+
+
+## Automatic Properties
+
+When adding an item to an order, you can provide extra information to add to an OrderLine by passing a `properties` collection through to either of the `AddOrUpdateOrderLine` or `UpdateOrderLine` methods documented above. 
+
+However, you can also configure Tea Commerce to automatically copy across certain product information for you automatically. This can be useful if you have information you constantly want to display next to an OrderLine item but don't want to have to perform a node lookup every time.
+
+To automatically copy node fields to an OrderLine, these can be configured by entering a comma separated list of property aliases into the **Product property aliases** field found on the **Store** editor, under the **Product** tab.
+
+![Store Product Information](/img/store-product-config.png)
+
 ## System Properties
 
 When adding an item to an order, as well as the properties passed via the `AddOrUpdateOrderLine` or `UpdateOrderLine` methods `properties` collection as documented above, Tea Commerce will also add some system defined properties to the OrderLine who's values will be automatically extracted from the product node. In order for these properties to work, you must have fields on your product node with the documented property aliases defined below.
@@ -748,5 +761,3 @@ When adding an item to an order, as well as the properties passed via the `AddOr
 </table>
 
 **NB** These fields are extracted via a [Product Information Extractor](../extending-tea-commerce/#product-information-extractor), if you need to extract these fields from alternative sources, you can do so by overriding the default Product Information Extractor with  your own.
-
-As well as these system properties, you can also define your own node properties that should be automatically copied to an OrderLine. These can be configured by entering a comma separated list of property aliases into the **Product property aliases** field found on the **Store** editor, under the **Product** tab.
