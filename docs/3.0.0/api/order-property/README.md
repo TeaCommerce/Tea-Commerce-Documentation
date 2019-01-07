@@ -225,30 +225,9 @@ TC.addOrUpdateOrderProperties({storeId:1, properties: {company: 'Tea Commerce', 
 
 When updating an order, as well as the properties passed via the ` AddOrUpdateOrderProperty` or ` AddOrUpdateOrderProperties` methods `properties` collection as documented above, Tea Commerce will also add some system defined properties to the Order who's values will be automatically extracted. Details of these properties and how they are extracted can be found below.
 
-<table>
-	<tr>
-		<th>Name</th>
-		<th>Source</th>
-		<th>Description</th>
-	</tr>
-	<tr>
-		<td><strong>CustomerId</strong></td>
-		<td>Current logged in Members member ID. Extracted at the time of <router-link to="../payment-provider/#generatepaymentform" append>GeneratePaymentForm()</router-link> being called.</td>
-		<td>The ID of the customer making the order. Useful if you have a members only store and you want to find all order belonging to the same customer.</td>
-	</tr>
-	<tr>
-		<td><strong>PaymentInformation.FirstName</strong></td>
-		<td>Extracted from an Orders `properties` collection. Property alias must be `"firstName"`.</td>
-		<td>The first name of the person making the order.</td>
-	</tr>
-	<tr>
-		<td><strong>PaymentInformation.LastName</strong></td>
-		<td>Extracted from an Orders `properties` collection. Property alias must be `"lastName"`.</td>
-		<td>The last name of the person making the order.</td>
-	</tr>
-	<tr>
-		<td><strong>PaymentInformation.Email</strong></td>
-		<td>Extracted from an Orders `properties` collection. Property alias must be `"email"`.</td>
-		<td>The email address of the person making the order.</td>
-	</tr>
-</table>
+| Name | Source | Description |
+| ---- | ------ | ----------- |
+| **CustomerId** | Current logged in Members member ID. Extracted at the time of [GeneratePaymentForm()](../payment-provider/#generatepaymentform) being called. | The ID of the customer making the order. Useful if you have a members only store and you want to find all order belonging to the same customer. |
+| **PaymentInformation.FirstName** | Extracted from an Orders `properties` collection. Property alias must be `"firstName"`. | The first name of the person making the order. |
+| **PaymentInformation.LastName** | Extracted from an Orders `properties` collection. Property alias must be `"lastName"`. | The last name of the person making the order. |
+| **PaymentInformation.Email** | Extracted from an Orders `properties` collection. Property alias must be `"email"`.</td> | The email address of the person making the order. |
