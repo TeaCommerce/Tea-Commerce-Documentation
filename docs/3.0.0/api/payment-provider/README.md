@@ -4,7 +4,7 @@
 
 Generates and returns the full html for the form to post when going to payment. Will use the current payment method's payment provider.
 
-Note that if you use culture specific provider settings, it is based on the `order.LanguageId` property. So e.g. if you want to have a different lang-setting in your payment-provider, based on which culture the customer have, it is all based on this property.
+**NB** If you have configured culture specific settings for your payment provider, you must make sure to set the `order.LanguageId` property to the appropriate ISO code before calling `GeneratePaymentForm`.
 
 :::: tabs
 
