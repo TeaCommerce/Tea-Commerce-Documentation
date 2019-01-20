@@ -12,18 +12,6 @@ Finally, because Tea Commerce's role is purely to facilitate the checkout proces
 
 Login to the [Stripe dashboard](https://dashboard.stripe.com/).
 
-### Live API Keys
-
-Click **Developers** and then **API Keys** in the left hand side menu. On the right hand side you will find your **Publishable key**. To view your **Secret key**, click the **Reveal live key token**.
-
-![stripe_001.png](/img/stripe_001.png)
-
-### Test API Keys
-
-To retreieve your test API keys, click the **View test data** toggle switch in the left hand side menu and then repeat the steps outlined in the [Live API Keys](#live-api-keys) section above.
-
-![stripe_002.png](/img/stripe_002.png)
-
 ### Subscription Plans
 
 To create a Subscription Plan, click **Billing** and **Product** from the left hand side menu. On the right hand side, click **Create Product**.
@@ -43,6 +31,18 @@ On the next screen, fill in the details of the plan such as the recuring interva
 ![stripe_008.png](/img/stripe_008.png)
 
 Repeat the steps above for each subscription plan you wish to create.
+
+### Live API Keys
+
+Click **Developers** and then **API Keys** in the left hand side menu. On the right hand side you will find your **Publishable key**. To view your **Secret key**, click the **Reveal live key token**.
+
+![stripe_001.png](/img/stripe_001.png)
+
+### Test API Keys
+
+To retreieve your test API keys, click the **View test data** toggle switch in the left hand side menu and then repeat the steps outlined in the [Live API Keys](#live-api-keys) section above.
+
+![stripe_002.png](/img/stripe_002.png)
 
 ### Webhook Notifications
 
