@@ -18,7 +18,7 @@ To retreieve your test API keys, click the **View test data** toggle switch in t
 
 ### Webhook Notifications
 
-When using the Stripe provider, the payment status will be updated as actions occuring within the system. If you'd like payment statuses to be updated if a payment is updated from within Stripe (Refund, Capture, etc) then you can use Stripe webhooks to do this.
+When using the Stripe provider, the payment status will be updated as actions occur within the system. If you'd like payment statuses to be updated if a payment is updated from within Stripe (Refund, Capture, etc) then you can use Stripe webhooks to do this.
 
 Click **Developers** and then **Webhooks** in the left hand side menu. On the right hand side, click **Add Endpoint** and enter the Tea Commerce cummunication URL as follows (replacing the parameters in square brackets with the corisponding values taken from your store):
 
