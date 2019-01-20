@@ -1,4 +1,4 @@
-# Payment Provider
+# Payment Forms
 
 ## GeneratePaymentForm
 
@@ -6,7 +6,7 @@ Generates and returns the full html for the form to post when going to payment. 
 
 **NB** If you have configured culture specific settings for your payment provider, you must make sure to set the `order.LanguageId` property to the appropriate ISO code before calling `GeneratePaymentForm`.
 
-:::: tabs
+:::: tabs 
 
 ::: tab "JavaScript API"
 

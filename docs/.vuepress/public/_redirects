@@ -1,6 +1,9 @@
 # Redirect default Netlify subdomain to primary domain
 https://vibrant-easley-e6f6f9.netlify.com/* https://docs.teacommerce.net/:splat 301!
 
+# Renamed sections
+/3.0.0/api/payment-provider/        /3.0.0/api/payment-forms/
+
 # Old docs site redirects
 
 /docs					            /3.0.0/						                301
