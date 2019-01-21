@@ -22,7 +22,7 @@ On the next screen, enter a **name** for the subscription plan and click **Creat
 
 ![stripe_006.png](/img/stripe_006.png)
 
-On the next screen, fill in the details of the plan such as the recuring interval + pricing and then click **Add pricing plan**.
+On the next screen, fill in the details of the plan such as the recuring interval + pricing. Prices entered in Stripe should be exlcuding VAT as it is will be decided by Tea Commerce the relevant VAT Group and thus tax rate which applies. Once complete click **Add pricing plan**.
 
 ![stripe_007.png](/img/stripe_007.png)
 
