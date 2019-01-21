@@ -54,6 +54,7 @@ Create a payment method and select **Stripe - inline** as the payment provider. 
 | live_public_key | Your live stripe public key. |
 | mode | The mode of the provider - test/live. |
 | capture | Flag indicating if a payment should be captured instantly - true/false. |
+| send_stripe_receipt | Flag indicating whether to send a Stripe receipt to the customer - true/false. |
 
 ![stripe_004.png](/img/stripe_004.png)
 
