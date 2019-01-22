@@ -58,6 +58,7 @@ module.exports = [
         'payment-providers/quickpay/',
         'payment-providers/sage-pay/',
         'payment-providers/stripe/',
+        'payment-providers/stripe-subscription/',
         'payment-providers/wannafind/',
         'payment-providers/worldpay/',
       ]
