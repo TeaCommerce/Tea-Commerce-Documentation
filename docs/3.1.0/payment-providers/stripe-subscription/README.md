@@ -107,6 +107,35 @@ If you need to set the SKU to something other than the Plan ID however, you can 
 
 The simplest way to do this would be to use an umbraco property with the alias "planId" and then configure [OrderLine Automatic Properies](../../api/order-line/#automatic-properties) to copy the "planId" field to the OrderLine properties collection. 
 
+### Stripe Subscription Events
+
+Working with subscriptions is somewhat different to working with standard products as the state of the subscription can change over time and so it is often desirable to know when these changes occur. To assist with this the Stripe Subscription payment provider will trigger events when certain state changes occur (so long as a valid WebHook has been configured).
+
+To listen for events you should register an event handler like so:
+
+````csharp
+public StripeEventHandler: ApplicationEventHandler
+{
+    protected override void ApplicationStarted(UmbracoApplicationBase umbracoApplication, ApplicationContext applicationContext)
+    {
+        StripeSubscription.StripeSubscriptionEvent += (sender, args) {
+            // Handling logic goes here
+        }
+    }
+}
+````
+
+The subscribed event handler will receive a `sender` argument, which is the instance of the StripeSubscription payment provider sending the event and an `args` argument which is an instance of the `StripeSubscriptionEventArgs` class.
+
+The `StripeSubscriptionEventArgs` class contains the following properties:
+
+| Name | Description |
+| ---- | ----------- |
+| Order | A copy of the Tea Commerce order this event relates to. |
+| Subscription | An instance of the Stripe subscription object this event relates to. |
+| Invoice | An instance of the Stripe invoice object this event relates to. Not all events have an invoice instance. |
+| Type | The type of event being fired. Can be one of `SubscriptionCreated`, `SubscriptionStarted`, `SubscriptionRenewing`, `SubscriptionRenewed`, `SubscriptionPastDue`, `SubscriptionTrialEnding`, `SubscriptionUpdated` or `SubscriptionDeleted` |
+
 ## Useful Links
 
 * [Stripe Website](https://www.stripe.com/) 
