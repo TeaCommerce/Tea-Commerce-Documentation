@@ -114,7 +114,7 @@ Working with subscriptions is somewhat different to working with standard produc
 To listen for events you should register an event handler like so:
 
 ````csharp
-public StripeEventHandler: ApplicationEventHandler
+public StripeSubscriptionEventHandler: ApplicationEventHandler
 {
     protected override void ApplicationStarted(UmbracoApplicationBase umbracoApplication, ApplicationContext applicationContext)
     {
