@@ -109,7 +109,7 @@ The simplest way to do this would be to use an umbraco property with the alias "
 
 ### Stripe Subscription Events
 
-Working with subscriptions is somewhat different to working with standard products as the state of the subscription can change over time and so it is often desirable to know when these changes occur. To assist with this the Stripe Subscription payment provider will trigger events when certain state changes occur (so long as a valid WebHook has been configured).
+Working with subscriptions is somewhat different to working with standard products as the state of the subscription can change over time and so it is often desirable to know when these changes occur. To assist with this the Stripe Subscription payment provider will trigger events when certain state changes occur (so long as a valid [Webhook](#webhook-notifications) has been configured).
 
 To listen for events you should register an event handler like so:
 
