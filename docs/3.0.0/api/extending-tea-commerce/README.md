@@ -164,7 +164,7 @@ Note that there are three SuppressDependency attributes on the class, matching t
 
 By default the examine index holds all the information that is entered on your Umbraco nodes. The index is extremely fast when searching and by adding all your product data to the index, you will have fast and easy access to your products even with tens of thousands of products.
 
-For more information on Examine [click here](https://our.umbraco.org/documentation/reference/searching/examine/)
+For more information on Examine [click here](https://our.umbraco.com/documentation/reference/searching/examine/)
 
 ### SearchResultProductInformationExtractor
 
@@ -176,7 +176,7 @@ This is a variant service helping Tea Commerce getting variants from the SearchR
 
 ### What else is Needed
 
-You will need to create a custom indexer for Umbraco for this to work proberly. Tea Commerce needs the store id of the products and instead of hardcoding it into the service we are indexing the store id onto each product in the index. This way you will also be able to use the store id when searching for products on multistore websites. To make your own indexer you must inherit from the UmbracoExamine.UmbracoContentIndexer class and override the OnDocumentWriting method. Make sure to check the dos and don'ts [here](https://our.umbraco.org/documentation/Reference/Common-Pitfalls/).
+You will need to create a custom indexer for Umbraco for this to work proberly. Tea Commerce needs the store id of the products and instead of hardcoding it into the service we are indexing the store id onto each product in the index. This way you will also be able to use the store id when searching for products on multistore websites. To make your own indexer you must inherit from the UmbracoExamine.UmbracoContentIndexer class and override the OnDocumentWriting method. Make sure to check the dos and don'ts [here](https://our.umbraco.com/documentation/Reference/Common-Pitfalls/).
 
 ````csharp
 using Examine;
