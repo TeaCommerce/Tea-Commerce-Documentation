@@ -1,10 +1,10 @@
 <div align="center">
 
-<a href="https://www.teacommerce.net" target="_blank"><img src="docs/.vuepress/public/logo.png" alt="Tea Commerce" width="250"/></a>
+<a href="https://teacommerce.net" target="_blank"><img src="docs/.vuepress/public/logo.png" alt="Tea Commerce" width="250"/></a>
 
 # Tea Commerce Documentation
 
-This repository contains the raw source files for the documentation of the Umbraco eCommerce platform [Tea Commerce](https://www.teacommerce.net).
+This repository contains the raw source files for the documentation of the Umbraco eCommerce platform [Tea Commerce](https://teacommerce.net).
 The live version of these docs can be found at [https://docs.teacommerce.net](https://docs.teacommerce.net).
 
 </div>
