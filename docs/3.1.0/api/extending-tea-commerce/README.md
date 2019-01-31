@@ -442,7 +442,9 @@ using umbraco.cms.businesslogic.member;
 
 namespace TeaCommerce.Tests.InformationExtractors {
 
-  [SuppressDependency( "TeaCommerce.Umbraco.Configuration.InformationExtractors.IPublishedContentProductInformationExtractor", "TeaCommerce.Umbraco.Configuration" )]
+  [SuppressDependency( "TeaCommerce.Api.InformationExtractors.IProductInformationExtractor", "TeaCommerce.Api" )]
+  [SuppressDependency( "TeaCommerce.Api.InformationExtractors.IProductInformationExtractor`1[[Umbraco.Core.Models.IPublishedContent, Umbraco.Core]]", "TeaCommerce.Api" )]
+  [SuppressDependency( "TeaCommerce.Api.InformationExtractors.IProductInformationExtractor`2[[Umbraco.Core.Models.IPublishedContent, Umbraco.Core],    [TeaCommerce.Umbraco.Configuration.Variants.Models.VariantPublishedContent, TeaCommerce.Umbraco.Configuration]]", "TeaCommerce.Api" )]
   public class CustomPublishedContentProductInformationExtractor : PublishedContentProductInformationExtractor {
 
     public CustomPublishedContentProductInformationExtractor( IStoreService storeService, ICurrencyService currencyService, IVatGroupService vatGroupService )
