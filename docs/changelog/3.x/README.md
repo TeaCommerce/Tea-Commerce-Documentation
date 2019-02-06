@@ -100,7 +100,7 @@ Umbraco Cloud is a great tool made by the great people at Umbraco HQ. Tea Commer
 
 Packages for Umbraco normally use package actions to do custom install tasks - e.g. installing DB scheme, adding application trees etc. Package actions is not supported in the flow of Umbraco Cloud. So to better support it, we removed all the package actions and made Tea Commerce bootstrap the install process on application load. This means that Tea Commerce will detect if it is fully installed, else it will run its install tasks. So now Tea Commerce will auto install in all your Umbraco Cloud environments.
 
-:: tip No data is moved
+::: tip No data is moved
 
 At the moment, we don't move any Tea Commerce data on Umbraco Cloud. So when you create a new shipping method on your local, you also need to create it in your other environments. That is by purpose, because when a shop is online you don't want a payment method deleted by accident, because you deleted it on your local machine for testing.
 
