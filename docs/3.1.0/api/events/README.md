@@ -1,6 +1,8 @@
 # Events
 
-## Bind
+## Javascript Events
+
+### Bind
 
 Attaches a handler to a Tea Commerce event.
 
@@ -58,7 +60,9 @@ TC.bind('afterAddOrUpdateOrderLine', function (model, data, jQForm) {
 });
 ````
 
-## NotificationCenter
+## .NET Events
+
+### NotificationCenter
 
 The notification center is the heart of the Tea Commerce event model. This is where your code can be notified when different events happens in the Tea Commerce system. The way to subscribe to the notification center using Umbraco, depends on which version you use. Read about the [Application event registration](http://our.umbraco.com/documentation/Reference/Events/application-startup) to learn how.
 
@@ -103,10 +107,10 @@ namespace TeaCommerce.Tests.Notifications {
 
 #### Order specific
 
-* NotificationCenter.Order.Finalized
 * NotificationCenter.Order.Creating/Created
 * NotificationCenter.Order.Updating/Updated
 * NotificationCenter.Order.Deleting/Deleted
+* NotificationCenter.Order.Finalizing/Finalized
 
 #### Order lines
 
