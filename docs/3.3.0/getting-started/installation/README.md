@@ -31,7 +31,7 @@ When Tea Commerce is installed you need to do the following things.
 
 ### Backup
 
-Before upgrading it's always advisable to take a complete backup of your site / database, but at a bare minium you should make sure to backup your `Partials\MacroScripts` folder just in case you made any changes to the default email templates / edit order view. If you duplicated these files and made your own versions before editing them then everything should upgrade without a problem, but it's always better to be safe and take a backup.
+Before upgrading it's always advisable to take a complete backup of your site / database, but at a bare minium you should make sure to backup your `MacroScripts\tea-commerce` folder just in case you made any changes to the default email templates / edit order view. If you duplicated these files and made your own versions before editing them then everything should upgrade without a problem, but it's always better to be safe and take a backup.
 
 ### Upgrade
 
