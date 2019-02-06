@@ -4,6 +4,14 @@
 
 Download from [Our Umbraco](https://our.umbraco.com/packages/website-utilities/tea-commerce/)
 
+### Install notes
+
+Because payment providers are new ILMerged into a singel DLL to prevent conflicts, if you are upgrading from a previous install the old DLLs will remain in the bin folder. It isn't essential these are removed as the ones inside the payment providers DLL will take presedence, but if you would like to keep you bin folder tidy, you can safely delete the following DLLs:
+
+* Klarna.Checkout.dll  
+* Paynova.Api.Client.dll  
+* Stripe.net.dll  
+
 **Changelog** 
 
 <change-log>
