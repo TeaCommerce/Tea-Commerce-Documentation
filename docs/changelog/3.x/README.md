@@ -16,6 +16,7 @@ Download from [Our Umbraco](https://our.umbraco.com/packages/website-utilities/t
 <change-log-item change-type="Improved">AuthorizeNet payment provider has been Upgraded to Accept Hosted as previous implementation has been depricated <br />(<strong>NB</strong> provider settings may have changed so please read the <a href="/3.3.0/payment-providers/authorizenet/">docs</a> before upgrading)</change-log-item>
 <change-log-item change-type="Improved">Stripe payment provider has been Upgraded to the lastest implementation including TLS 1.2 support <br />(<strong>NB</strong> provider settings may have changed so please read the <a href="/3.3.0/payment-providers/stripe/">docs</a> before upgrading)</change-log-item> 
 <change-log-item change-type="Improved">Payment providers DLL now ILMerge's any third party dependencies into the one DLL meaning less to deploy and less likliehood of conflicts</change-log-item> 
+<change-log-item change-type="Fixed">Fixed issue with variants property editor not showing variants doctype properties</change-log-item> 
 <change-log-item change-type="Fixed">Fixed issue where you would get logged out when creating new entities where the parent node previously had no children</change-log-item>  
 <change-log-item change-type="Fixed">Fixed trees not highlighting current position</change-log-item>  
 <change-log-item change-type="Fixed">Fixed missing icons in security section</change-log-item>    
