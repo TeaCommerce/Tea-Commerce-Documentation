@@ -1,5 +1,27 @@
 # Changelog
 
+## Version 3.3.0 (In Progress)
+
+Download from [Our Umbraco](https://our.umbraco.com/packages/website-utilities/tea-commerce/)
+
+**Changelog** 
+
+<change-log>
+<change-log-item change-type="Added">Added additional method signature to <strong>TC.GetOrder</strong> to support getting an order by <strong>cartNumber</strong>.</change-log-item>
+<change-log-item change-type="Added">Added distributed cache support so internal caches will stay in sync on load balanced environments</change-log-item>
+<change-log-item change-type="Added">Added <strong>Updated</strong> events to all entity types</change-log-item>
+<change-log-item change-type="Added">Added <strong>Finalizing</strong> event to orders about to be finalized</change-log-item>
+<change-log-item change-type="Added">Added azurewebsites.net as an allowed dev/staging top level domain</change-log-item>
+<change-log-item change-type="Added">New Stripe Subscriptions payment provider has been added</change-log-item>
+<change-log-item change-type="Improved">AuthorizeNet payment provider has been Upgraded to Accept Hosted as previous implementation has been depricated <br />(<strong>NB</strong> provider settings may have changed so please read the <a href="/3.3.0/payment-providers/authorizenet/">docs</a> before upgrading)</change-log-item>
+<change-log-item change-type="Improved">Stripe payment provider has been Upgraded to the lastest implementation including TLS 1.2 support <br />(<strong>NB</strong> provider settings may have changed so please read the <a href="/3.3.0/payment-providers/stripe/">docs</a> before upgrading)</change-log-item> 
+<change-log-item change-type="Improved">Payment providers DLL now ILMerge's any third party dependencies into the one DLL meaning less to deploy and less likliehood of conflicts</change-log-item> 
+<change-log-item change-type="Fixed">Fixed issue where you would get logged out when creating new entities where the parent node previously had no children</change-log-item>  
+<change-log-item change-type="Fixed">Fixed trees not highlighting current position</change-log-item>  
+<change-log-item change-type="Fixed">Fixed missing icons in security section</change-log-item>    
+<change-log-item change-type="Broken">Payment providers are now compailed against .NET 4.5 (was previously 4.0)</change-log-item> 
+</change-log>
+
 ## Version 3.2.5
 
 Download from [Our Umbraco](https://our.umbraco.com/packages/website-utilities/tea-commerce/)
