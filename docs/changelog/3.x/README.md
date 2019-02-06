@@ -18,6 +18,7 @@ Download from [Our Umbraco](https://our.umbraco.com/packages/website-utilities/t
 <change-log-item change-type="Improved">Payment providers DLL now ILMerge's any third party dependencies into the one DLL meaning less to deploy and less likliehood of conflicts</change-log-item> 
 <change-log-item change-type="Fixed">Fixed issue with variants property editor not showing variants doctype properties</change-log-item> 
 <change-log-item change-type="Fixed">Fixed issue where you would get logged out when creating new entities where the parent node previously had no children</change-log-item>  
+<change-log-item change-type="Fixed">Fixed console errors when attempting to add campaign rule but with no rule type selected</change-log-item>  
 <change-log-item change-type="Fixed">Fixed trees not highlighting current position</change-log-item>  
 <change-log-item change-type="Fixed">Fixed missing icons in security section</change-log-item>    
 <change-log-item change-type="Broken">Payment providers are now compailed against .NET 4.5 (was previously 4.0)</change-log-item> 
