@@ -45,3 +45,6 @@ https://vibrant-easley-e6f6f9.netlify.com/* https://docs.teacommerce.net/:splat 
 /reference				            /3.0.0/api/					                301
 /v3.0.0/reference			        /3.0.0/api/					                301
 /search/                            /                                           301
+
+# Accidentaly created a 3.1.0 version when it should have been 3.3.0
+/3.1.0/*                            /3.3.0/:splat                               301
