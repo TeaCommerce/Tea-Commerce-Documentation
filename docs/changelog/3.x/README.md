@@ -22,6 +22,7 @@ Download from [Our Umbraco](https://our.umbraco.com/packages/website-utilities/t
 <change-log-item change-type="Fixed">Fixed console errors when attempting to add campaign rule but with no rule type selected</change-log-item>  
 <change-log-item change-type="Fixed">Fixed trees not highlighting current position</change-log-item>  
 <change-log-item change-type="Fixed">Fixed missing icons in security section</change-log-item>    
+<change-log-item change-type="Fixed">Fixed error when removing an image from a payment/shipping method</change-log-item> 
 <change-log-item change-type="Broken">Payment providers are now compailed against .NET 4.5 (was previously 4.0)</change-log-item> 
 </change-log>
 
