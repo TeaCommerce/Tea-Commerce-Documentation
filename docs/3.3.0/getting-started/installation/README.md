@@ -37,4 +37,4 @@ Before upgrading it's always advisable to take a complete backup of your site / 
 
 Once you are backed up, upgrading should be a case of reinstalling the Tea Commerce package over the top. Tea Commerce has an inbuilt migrations system which will detect what version you are currently on and will perform the relevant migration steps to get you to the latest version.
 
-Tea Commerce will **NOT** override any of your custom partials which means you won't loose any changes you made to these, however post install you should check the default editor order macro template for any changes you may wish to port over.
+Tea Commerce will **NOT** override any of your custom macro partials which means you won't loose any changes you made to these, however post install you should check the default edit order macro template for any changes you may wish to port over.
