@@ -31,10 +31,10 @@ When Tea Commerce is installed you need to do the following things.
 
 ### Backup
 
-Before upgrading it's always advisable to take a complete backup of your site / database, but at a bare minium you should make sure to backup your `MacroScripts\tea-commerce` folder just in case you made any changes to the default email templates / edit order view. If you duplicated these files and made your own versions before editing them then everything should upgrade without a problem, but it's always better to be safe and take a backup.
+Before upgrading it's always advisable to take a complete backup of your site / database. Every effort has been made to make Tea Commerce upgrade gracefully but it's always better to err on the side of caution.
 
 ### Upgrade
 
 Once you are backed up, upgrading should be a case of reinstalling the Tea Commerce package over the top. Tea Commerce has an inbuilt migrations system which will detect what version you are currently on and will perform the relevant migration steps to get you to the latest version.
 
-Once installed, if you did make any changes to the default templates you can either re-apply them now, or even better, copy the files back with a new name and update your stores configuration to use these files instead of the defaults (for the edit order view this is via the **Store -> UI Tab -> Editor order UI file** and for the email templates this is via the emails template definitions **Template file** field).
+Tea Commerce will **NOT** override any of your custom partials which means you won't loose any changes you made to these, however post install you should check the default editor order macro template for any changes you may wish to port over.
