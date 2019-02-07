@@ -1,6 +1,6 @@
 # Changelog
 
-## Version 3.3.0 (In Progress)
+## Version 3.3.0
 
 Download from [Our Umbraco](https://our.umbraco.com/packages/website-utilities/tea-commerce/)
 
