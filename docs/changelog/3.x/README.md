@@ -32,7 +32,7 @@ Because payment providers are now ILMerged into a single DLL to prevent conflict
 <change-log-item change-type="Fixed">Fixed trees not highlighting current position</change-log-item>  
 <change-log-item change-type="Fixed">Fixed missing icons in security section</change-log-item>    
 <change-log-item change-type="Fixed">Fixed error when removing an image from a payment/shipping method</change-log-item> 
-<change-log-item change-type="Broken">Payment providers are now compailed against .NET 4.5 (was previously 4.0)</change-log-item> 
+<change-log-item change-type="Broken">Payment providers are now compiled against .NET 4.5 (was previously 4.0)</change-log-item> 
 </change-log>
 
 ## Version 3.2.5
