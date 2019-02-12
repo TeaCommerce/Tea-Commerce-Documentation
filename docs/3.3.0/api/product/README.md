@@ -707,7 +707,7 @@ If you have a IPublishedContent model use that instead of the string productIden
 	</tr>
 </table>
 
-## Arguments 2
+### Arguments 2
 
 <table>
 	<tr>
