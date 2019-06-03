@@ -68,6 +68,8 @@ Click **Add endpoint** to create the webhook endpoint registration and be send t
 
 Finally, from this screen, locate the **Signing secret** section and click the **Click to reveal** button to display of the webhook signing secret. Be sure to take note of this as we will need this later so that we can validate webhook requests.
 
+![stripe_003c.png](/img/stripe_003c.png)
+
 **NB** You'll need to configure a webhook endpoint for both test and live configurations. To configure the test webhook, toggle the **View test data** toggle in the left hand side menu and then repeat the steps from above.
 
 **TIP** To test payments locally we recommend you use a tool such as [ngrok](https://ngrok.com/) which can create a temporary public URL that safely proxies to your localhost server, allowing you to receive the Stripe webhook requests without the need to alter your firewall settings.
