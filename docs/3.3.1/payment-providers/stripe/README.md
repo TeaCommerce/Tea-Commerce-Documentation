@@ -35,7 +35,7 @@ From the **Version** dropdown select **Latest API version (2019-05-16)** and the
 
 Click **Add endpoint** to create the webhook endpoint registration and be send to the webhook details screen.
 
-Finally, from this screen, located the **Signing secret** section and click the **Click to reveal** button to display and take note of the webhook signing secret as we will need this later so that we can validate webhook requests.
+Finally, from this screen, locate the **Signing secret** section and click the **Click to reveal** button to display and take note of the webhook signing secret as we will need this later so that we can validate webhook requests.
 
 ![stripe_003a.png](/img/stripe_003c.png)
 

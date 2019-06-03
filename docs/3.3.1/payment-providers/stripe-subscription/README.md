@@ -46,17 +46,27 @@ To retreieve your test API keys, click the **View test data** toggle switch in t
 
 ### Webhook Notifications
 
-When the Stripe Subscription provider processes an order, it will create a subscription and initial invoice within Stripe. Because of how this works, it's not possible for the payment provider to be instantly notified that a transaction is captured.
-
-In order for Tea Commerce to be notified of successfull initial payment, you need to register a webhook handler as follows. 
+When using the Stripe Subscription provider, the status of an order is updated based on responses from Stripe sent over webhooks. Tea Commerce automatically creates a webhook communication URL for you which should be registered with Stripe as follows.
 
 Click **Developers** and then **Webhooks** in the left hand side menu. On the right hand side, click **Add Endpoint** and enter the Tea Commerce cummunication URL as follows (replacing the parameters in square brackets with the corisponding values taken from your store):
 
 `https://[domain]/base/TC/PaymentCommunicationWithoutOrderId/[storeId]/StripeSubscription%20-%20inline/[paymentMethodId]`
 
-![stripe_003.png](/img/stripe_003.png)
+![stripe_003b.png](/img/stripe_003b.png)
 
-You can leave **Filter events** set to all event types, or you can select just the **invoice** based event types. Click **Add endpoint** to add the endpoint.
+From the **Version** dropdown select **Latest API version (2019-05-16)** and then in the **Events to send** dropdown select the following events:
+
+* `customer.subscription.created`
+* `customer.subscription.updated`
+* `customer.subscription.deleted`
+* `customer.subscription.trial_will_end`
+* `invoice.payment_succeeded`
+* `invoice.payment_failed`
+* `invoice.upcoming`
+
+Click **Add endpoint** to create the webhook endpoint registration and be send to the webhook details screen.
+
+Finally, from this screen, locate the **Signing secret** section and click the **Click to reveal** button to display and take note of the webhook signing secret as we will need this later so that we can validate webhook requests.
 
 **NB** You'll need to configure a webhook endpoint for both test and live configurations. To configure the test webhook, toggle the **View test data** toggle in the left hand side menu and then repeat the steps from above.
 
@@ -90,10 +100,13 @@ Create a payment method and select **StripeSubscription - inline** as the paymen
 | billing_zip_code_property_alias | The alias of the property containing the billing address zip code - e.g. zipCode. Used by Stripe for Radar verification. |
 | test_secret_key | Your test stripe secret key. |
 | test_public_key | Your test stripe public key. |
+| test_webhook_secret | Your test webhook signing secret for validating webhook requests. |
 | live_secret_key | Your live stripe secret key. |
 | live_public_key | Your live stripe public key. |
+| live_webhook_secret | Your live webhook signing secret for validating webhook requests. |
 | mode | The mode of the provider - test/live. |
-| billing_mode | Whether to charge payments instantly via credit card or to send out Stripe invoices - charge/invoice.. |
+| billing_mode | Whether to charge payments instantly via credit card or to send out Stripe invoices - charge/invoice. |
+| invoice_days_until_due | If billing mode is set to 'invoice', the number of days untill the invoice is due. |
 
 ![stripe_004.png](/img/stripe_004.png)
 
