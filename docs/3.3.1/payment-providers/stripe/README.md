@@ -41,6 +41,8 @@ Finally, from this screen, locate the **Signing secret** section and click the *
 
 **NB** You'll need to configure a webhook endpoint for both test and live configurations. To configure the test webhook, toggle the **View test data** toggle in the left hand side menu and then repeat the steps from above.
 
+**TIP** To test payments locally we recommend you use a tool such as [ngrok](https://ngrok.com/) which can create a temporary public URL that safely proxies to your localhost server, allowing you to receive the Stripe webhook requests without the need to alter your firewall settings.
+
 ### Radar
 
 The Stripe payment provider is automatically configured to send through billing contact information, this is in order for you to be able to perform validation rules using Stripe Radar. It is optional, but strongly recommended that you configure Radar Rules to validate the submitted Credit Card against these billing details. See the [Radar documentation](https://stripe.com/docs/radar/rules) for more details.
