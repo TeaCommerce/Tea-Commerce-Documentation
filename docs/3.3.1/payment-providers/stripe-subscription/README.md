@@ -54,7 +54,7 @@ Click **Developers** and then **Webhooks** in the left hand side menu. On the ri
 
 ![stripe_003b.png](/img/stripe_003b.png)
 
-From the **Version** dropdown select **Latest API version (2019-05-16)** and then in the **Events to send** dropdown select the following events:
+From the **Version** dropdown select **Latest API version (2019-05-16)** and then in the **Events to send** dropdown select the following event types:
 
 * `customer.subscription.created`
 * `customer.subscription.updated`
@@ -66,7 +66,7 @@ From the **Version** dropdown select **Latest API version (2019-05-16)** and the
 
 Click **Add endpoint** to create the webhook endpoint registration and be send to the webhook details screen.
 
-Finally, from this screen, locate the **Signing secret** section and click the **Click to reveal** button to display and take note of the webhook signing secret as we will need this later so that we can validate webhook requests.
+Finally, from this screen, locate the **Signing secret** section and click the **Click to reveal** button to display of the webhook signing secret. Be sure to take note of this as we will need this later so that we can validate webhook requests.
 
 **NB** You'll need to configure a webhook endpoint for both test and live configurations. To configure the test webhook, toggle the **View test data** toggle in the left hand side menu and then repeat the steps from above.
 
