@@ -1,18 +1,38 @@
 # Wannafind
 
-You can apply for a [Wannafind demo account](https://www.wannafind.dk/betalingssystem/) to get you started.
+::: warning Legacy
+
+The Wannafind payment provider is built upon a legacy API. There isn't currently a confirmed deactivation timeframe for this API, however implementors should be aware that it may be replaced in future. Wannafind is being replaced with OnPay.
+
+:::
+
+Before you begin, please ensure you have signed up for a [Wannafind account](https://www.wannafind.dk/betalingssystem/). A trial account should be enough to get you started. You will want to sign up for the **Payment System** product. Once signed up, you will receive an email saying you have been invited to the **OnPay** platform. 
+
+![OnPay Email](/img/onpay_email.png)
+
+Click the **Finish Registration** link in the email and compelte the online form to register for the **OnPay** portal.
 
 ## Configure Wannafind
 
-Login to the [Wannafind administration](https://betaling.wannafind.dk/).
+Login to the [OnPay Portal](https://manage.onpay.io/login).
 
-Click **Indstillinger** in the top menu and find the section named **MD5 checksum indstillinger**. Activate MD5 check and then select the different values in the dropdowns. Be sure to have the same order as in the screenshot below. You will also have to generate a MD5 auth secret and a MD5 callback secret for the last two fields. Generate two secrets – min. 10 charaters, a-Z 0-9. Click the **Opdater** button to save.
+In the menu, under **Legacy industillinger**, click the **Integrationer** link. 
 
-![wannafind-1.png](/img/7cd930f-wannafind-1.png)
+![Menu](/img/onpay_legacy_menu.png)
 
-Now find the section named **API indstillinger** and enter the IP addresses that will make API calls – like capture, refund etc.
+Next, under the **MD5 indistillinger** heading, check the **MD5 aktiveret** checkbox and fill in the **MD5 godkendelse af checksum** and **MD5 callback checksum** dropdowns and fields as follows.
 
-![wannafind-2.png](/img/71f3c35-wannafind-2.png)
+![Integrations](/img/onpay_legacy_md5.png)
+
+Be sure to have the same order as in the screenshot above. You will also have to change the MD5 auth secret and a MD5 callback secret for the last two fields. Generate two secrets – min. 10 charaters, a-Z 0-9. 
+
+Click the **Gem indstillinger** button to save.
+
+Finally we need to create an API user in order to perform tasks on an order within the back office. In the menu, under **Legacy industillinger**, click the **API user** link. 
+
+![API User](/img/onpay_legacy_apiuser.png)
+
+In the form on the right hand side, enter and **user name** and **password** for the API user and click the **Create** button. 
 
 ## Configure Tea Commerce
 
@@ -27,8 +47,7 @@ Wannafind supports a wide range of different settings which you can read more ab
 	</tr>
 	<tr>
 		<td>shopid</td>
-		<td>Find it in Wannafind administration
-**Indstillinger -&gt; ShopID**</td>
+		<td>Find it in OnPay menu under the heading <b>Gateway ID</b></td>
 	</tr>
 	<tr>
 		<td>lang</td>
@@ -48,21 +67,19 @@ Wannafind supports a wide range of different settings which you can read more ab
 	</tr>
 	<tr>
 		<td>md5AuthSecret</td>
-		<td>Find it in Wannafind administration
-**Indstillinger -&gt; MD5 checksum indstillinger**</td>
+		<td>The secret string entered in the last field of the <b>Integrations &gt; MD5 approval for checksum</b> configuration earlier</td>
 	</tr>
 	<tr>
 		<td>md5CallbackSecret</td>
-		<td>Find it in Wannafind administration
-**Indstillinger -&gt; MD5 checksum indstillinger**</td>
+		<td>The secret string entered in the last field of the <b>Integrations &gt; MD5 callback checksum</b> configuration earlier</td>
 	</tr>
 	<tr>
 		<td>apiUser</td>
-		<td>Same as your Wannafind username</td>
+		<td>The API user username created earlier</td>
 	</tr>
 	<tr>
 		<td>apiPassword</td>
-		<td>Same as your Wannafind password</td>
+		<td>The API user password created earier</td>
 	</tr>
 	<tr>
 		<td>testmode</td>
@@ -70,7 +87,7 @@ Wannafind supports a wide range of different settings which you can read more ab
 	</tr>
 </table>
 
-![wannafind-3.png](/img/319f174-wannafind-3.png)
+![Wannafind Settings](/img/wannafind_settings.png)
 
 ## Configure Website
 
