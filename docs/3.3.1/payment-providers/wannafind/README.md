@@ -2,7 +2,7 @@
 
 ::: warning Legacy
 
-The Wannafind payment provider is built upon a legacy API. There isn't currently a confirmed deactivation timeframe for this API, however implementors should be aware that it may be replaced in future. Wannafind is being replaced with OnPay.
+The Wannafind payment provider is built upon a legacy API. There isn't currently a confirmed deactivation timeframe for this API, however implementors should be aware that it may be deactivated in future. Wannafind is being replaced with OnPay.
 
 :::
 
@@ -10,7 +10,7 @@ Before you begin, please ensure you have signed up for a [Wannafind account](htt
 
 ![OnPay Email](/img/onpay_email.png)
 
-Click the **Finish Registration** link in the email and compelte the online form to register for the **OnPay** portal.
+Click the **Finish Registration** link in the email and complete the online form to register for the **OnPay** portal.
 
 ## Configure Wannafind
 
@@ -20,7 +20,7 @@ In the menu, under **Legacy industillinger**, click the **Integrationer** link.
 
 ![Menu](/img/onpay_legacy_menu.png)
 
-Next, under the **MD5 indistillinger** heading, check the **MD5 aktiveret** checkbox and fill in the **MD5 godkendelse af checksum** and **MD5 callback checksum** dropdowns and fields as follows.
+Under the **MD5 indistillinger** heading, check the **MD5 aktiveret** checkbox and fill in the **MD5 godkendelse af checksum** and **MD5 callback checksum** dropdowns and fields as follows.
 
 ![Integrations](/img/onpay_legacy_md5.png)
 
@@ -33,6 +33,12 @@ Finally we need to create an API user in order to perform tasks on an order with
 ![API User](/img/onpay_legacy_apiuser.png)
 
 In the form on the right hand side, enter and **user name** and **password** for the API user and click the **Create** button. 
+
+### Going Live
+
+When you are ready to go live, in the **Indstillinger &gt; Generelle Indstillinger** section, you'll need to check the **Produktionstilstand** checkbox and click **Gem** to save changes.
+
+![Production Mode](/img/onpay_production_mode.png)
 
 ## Configure Tea Commerce
 
