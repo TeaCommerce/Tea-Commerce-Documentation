@@ -1,3 +1,0 @@
-# Worldpay  
-
-<work-in-progress />

@@ -1,3 +1,0 @@
-# Payer  
-
-<work-in-progress />
