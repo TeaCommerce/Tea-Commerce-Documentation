@@ -8,7 +8,7 @@ If you cant't find a Payment Provider for the gateway you wish to use however, y
 
 The source code for all the Payment Providers is available open source, so if you do want to write your own, they can be used as a great starting point, or if you find a bug in a provider, then it's easy to submit a Pull Request with an update.
 
-The source code for the Paymnet Providers can be found at [https://github.com/TeaCommerce/Payment-providers](https://github.com/TeaCommerce/Payment-providers)
+The source code for the Payment Providers can be found at [https://github.com/TeaCommerce/Payment-providers](https://github.com/TeaCommerce/Payment-providers)
 
 <script>
 // export default {
