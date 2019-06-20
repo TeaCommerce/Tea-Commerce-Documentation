@@ -1,3 +1,0 @@
-# Paynova  
-
-<work-in-progress />

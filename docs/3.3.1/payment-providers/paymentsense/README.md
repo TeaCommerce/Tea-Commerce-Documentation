@@ -1,3 +1,0 @@
-# Paymentsense  
-
-<work-in-progress />

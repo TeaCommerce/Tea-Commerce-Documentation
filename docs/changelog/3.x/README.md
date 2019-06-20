@@ -1,24 +1,5 @@
 # Changelog
 
-## Version 3.3.1
-
-Download from [Our Umbraco](https://our.umbraco.com/packages/website-utilities/tea-commerce/)
-
-**Changelog** 
-
-<change-log>
-<change-log-item change-type="Fixed">Order calculations no longer error if a product rule is defined against an unpublished product node (Issue #84)</change-log-item>  
-<change-log-item change-type="Fixed">Fixed error in Tea Commerce section when Security/License node access is removed for a user (Issue #86)</change-log-item>  
-<change-log-item change-type="Fixed">Variants property editor is now hidden untill initial save (Issue #88)</change-log-item>  
-<change-log-item change-type="Fixed">Fixed error if an order is saved too quickly (Issue #90)</change-log-item> 
-<change-log-item change-type="Fixed">Fixed core data types not playing nicely with Umbraco Deploy (Issue #82)</change-log-item> 
-<change-log-item change-type="Fixed">Added productContent null check to OrderLinesThatMatchProductOrProductCategory which was causing errors (PR #85)</change-log-item> 
-<change-log-item change-type="Fixed">Fixed master relations not working for MNTP / content pickers in Umbraco v7 (Issue #32 / PR #77)</change-log-item> 
-<change-log-item change-type="Improved">Tea Commerce can now render partial views as well as macroscripts (Issue #79 / PR #80)</change-log-item>
-<change-log-item change-type="Improved">Stripe payment provider has been updated with the latest Strong Customer Authentication (SCA) recomendations <br />(<strong>NB</strong> provider settings may have changed so please read the <a href="/3.3.1/payment-providers/stripe/">docs</a> before upgrading)</change-log-item> 
-<change-log-item change-type="Broken">Klarna payment provider has been removed due to depricated API (If you are using the previoulsy built in Klarna provider, you should move to an alternative provider prior to upgrading)</change-log-item> 
-</change-log>
-
 ## Version 3.3.0
 
 Download from [Our Umbraco](https://our.umbraco.com/packages/website-utilities/tea-commerce/)
