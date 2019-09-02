@@ -1,5 +1,18 @@
 # Changelog
 
+## Version 3.3.2
+
+Download from [Our Umbraco](https://our.umbraco.com/packages/website-utilities/tea-commerce/)
+
+**Changelog** 
+
+<change-log>
+<change-log-item change-type="Fixed">Stripe payment provider updated to sel register webhooks as it wasn't possible in the Stripe dashboard to select a specific webhook API version</change-log-item> 
+<change-log-item change-type="Improved">Stripe now updated to the lates version</change-log-item>
+<change-log-item change-type="Improved">Payment providers now merged with ILRepack as ILMerge was causing some issues</change-log-item>
+<change-log-item change-type="Broken">Payment providers now require Tea Commerce 3.3.0 minimum dependency</change-log-item> 
+</change-log>
+
 ## Version 3.3.1
 
 Download from [Our Umbraco](https://our.umbraco.com/packages/website-utilities/tea-commerce/)
