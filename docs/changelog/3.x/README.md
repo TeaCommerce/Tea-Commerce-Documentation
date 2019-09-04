@@ -347,7 +347,7 @@ So now everyone can contribute!
 Remember to read the install notes - both when installing or upgrading!
 
 ### Install note
-If you install this on an Umbraco version that uses an older version of Newtonsoft.Json than v6.x, you have to unzip the install package, copy the Newtonsoft.Json.dll to the bind folder. Now make a dependentAssembly entry in your web.config to redirect the assembly to v6.x.
+If you install this on an Umbraco version that uses an older version of Newtonsoft.Json than v6.x, you have to unzip the install package, copy the Newtonsoft.Json.dll to the bin folder. Now make a dependentAssembly entry in your web.config to redirect the assembly to v6.x.
 
 ````xml
 <dependentAssembly>
