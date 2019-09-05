@@ -379,7 +379,7 @@ So now everyone can contribute!
 Remember to read the install notes - both when installing or upgrading!
 
 ### Install note
-If you install this on an Umbraco version that uses an older version of Newtonsoft.Json than v6.x, you have to unzip the install package, copy the Newtonsoft.Json.dll to the bind folder. Now make a dependentAssembly entry in your web.config to redirect the assembly to v6.x.
+If you install this on an Umbraco version that uses an older version of Newtonsoft.Json than v6.x, you have to unzip the install package, copy the Newtonsoft.Json.dll to the bin folder. Now make a dependentAssembly entry in your web.config to redirect the assembly to v6.x.
 
 ````xml
 <dependentAssembly>
@@ -390,7 +390,7 @@ If you install this on an Umbraco version that uses an older version of Newtonso
 
 All custom code has to be recompiled using the new dll files because the Assembly versions of the files has changed. Because of changes to the price object structure, you need to update templates that use these objects - both email templates and page templates.
 
-If you upgrade an existing site that has orders that is not yet finalized but has been paid at the payment gateway. The gateway can't send notifications to Tea Commerce for these orders as the URL's in Tea Commerce has changed. So upgrade with this in mind - properly a late night with tea and biscuits :)
+If you upgrade an existing site that has orders that is not yet finalized but has been paid at the payment gateway. The gateway can't send notifications to Tea Commerce for these orders as the URL's in Tea Commerce has changed. So upgrade with this in mind - probably a late night with tea and biscuits :)
 
 Download from [Our Umbraco](https://our.umbraco.com/packages/website-utilities/tea-commerce/)
 
