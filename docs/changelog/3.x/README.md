@@ -15,6 +15,7 @@ Download from [Our Umbraco](https://our.umbraco.com/packages/website-utilities/t
 <change-log-item change-type="Improved">Stripe now updated to the latest version</change-log-item>
 <change-log-item change-type="Improved">Stripe one-time payment provider now uses a synchronous approach so no need for webhooks <br />(<strong>NB</strong> provider settings may have changed so please read the <a href="/3.4.0/payment-providers/stripe/">docs</a> before upgrading)</change-log-item> </change-log-item>
 <change-log-item change-type="Improved">Stripe subscription payment provider now requires manual webhook registration rather than the auto-magic registration <br />(<strong>NB</strong> provider settings may have changed so please read the <a href="/3.4.0/payment-providers/stripe-subscription/">docs</a> before upgrading)</change-log-item> </change-log-item>
+<change-log-item change-type="Broken">Some TeaCommerceHelper methods have had a change of signature, but these are all via optional params with a backwards compatible default</change-log-item> 
 </change-log>
 
 ## Version 3.3.2
