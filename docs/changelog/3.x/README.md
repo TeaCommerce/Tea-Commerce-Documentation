@@ -1,5 +1,22 @@
 # Changelog
 
+## Version 3.4.0
+
+Download from [Our Umbraco](https://our.umbraco.com/packages/website-utilities/tea-commerce/)
+
+**Changelog** 
+
+<change-log>
+<change-log-item change-type="Fixed">Distributed cache clearing on ALL servers rather than just child servers</change-log-item>
+<change-log-item change-type="Fixed">Payment provider dependencies now internalized to prevent conflicts (mostly with JSON.NET)</change-log-item>
+<change-log-item change-type="Fixed">Removed Transaction added in previous update due to it causing multiple deadlocks</change-log-item>
+<change-log-item change-type="Improved">Improved HTML API performance by only persisting an Order once per request</change-log-item>
+<change-log-item change-type="Improved">Improved Cache performance by moving to ConcurrentDictionary over the old List + Lock approach</change-log-item>
+<change-log-item change-type="Improved">Stripe now updated to the latest version</change-log-item>
+<change-log-item change-type="Improved">Stripe one-time payment provider now uses a synchronous approach so no need for webhooks <br />(<strong>NB</strong> provider settings may have changed so please read the <a href="/3.4.0/payment-providers/stripe/">docs</a> before upgrading)</change-log-item> </change-log-item>
+<change-log-item change-type="Improved">Stripe subscription payment provider now requires manual webhook registration rather than the "magic" automatic registration <br />(<strong>NB</strong> provider settings may have changed so please read the <a href="/3.4.0/payment-providers/stripe-subscription/">docs</a> before upgrading)</change-log-item> </change-log-item>
+</change-log>
+
 ## Version 3.3.2
 
 Download from [Our Umbraco](https://our.umbraco.com/packages/website-utilities/tea-commerce/)
@@ -8,7 +25,7 @@ Download from [Our Umbraco](https://our.umbraco.com/packages/website-utilities/t
 
 <change-log>
 <change-log-item change-type="Fixed">Stripe payment provider updated to sel register webhooks as it wasn't possible in the Stripe dashboard to select a specific webhook API version</change-log-item> 
-<change-log-item change-type="Improved">Stripe now updated to the lates version</change-log-item>
+<change-log-item change-type="Improved">Stripe now updated to the latest version</change-log-item>
 <change-log-item change-type="Improved">Payment providers now merged with ILRepack as ILMerge was causing some issues</change-log-item>
 <change-log-item change-type="Broken">Payment providers now require Tea Commerce 3.3.0 minimum dependency</change-log-item> 
 </change-log>
