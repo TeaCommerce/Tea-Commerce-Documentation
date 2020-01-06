@@ -10,6 +10,7 @@ Download from [Our Umbraco](https://our.umbraco.com/packages/website-utilities/t
 <change-log-item change-type="Fixed">Distributed cache clearing on ALL servers rather than just child servers</change-log-item>
 <change-log-item change-type="Fixed">Payment provider dependencies now internalized to prevent conflicts (mostly with JSON.NET)</change-log-item>
 <change-log-item change-type="Fixed">Removed Transaction added in previous update due to it causing multiple deadlocks</change-log-item>
+<change-log-item change-type="Fixed">Clicking on an Order Status tree node whilst viewing an Order now takes you back to the Order list for that Status</change-log-item>
 <change-log-item change-type="Improved">Improved HTML API performance by only persisting an Order once per request</change-log-item>
 <change-log-item change-type="Improved">Improved Cache performance by moving to ConcurrentDictionary over the old List + Lock approach</change-log-item>
 <change-log-item change-type="Improved">Stripe now updated to the latest version</change-log-item>
