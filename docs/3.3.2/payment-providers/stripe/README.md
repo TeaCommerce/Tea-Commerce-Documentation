@@ -54,7 +54,7 @@ Create a payment method and select **Stripe - inline** as the payment provider. 
 | test_secret_key | Your test stripe secret key. |
 | test_public_key | Your test stripe public key. |
 | test_webhook_id | ID of the auto created test Stripe webhook. Automatically generated. |
-| test_webhook_secret | Tive webhook signing secret for validating webhook requests. Automatically generated. |
+| test_webhook_secret | Test webhook signing secret for validating webhook requests. Automatically generated. |
 | test_base_url | An explicit base URL to use when generating the live webhook notification URL. |
 | live_secret_key | Your live stripe secret key. |
 | live_public_key | Your live stripe public key. |
