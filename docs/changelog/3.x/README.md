@@ -1,5 +1,16 @@
 # Changelog
 
+## Version 3.4.2
+
+Download from [Our Umbraco](https://our.umbraco.com/packages/website-utilities/tea-commerce/)
+
+**Changelog** 
+
+<change-log>
+<change-log-item change-type="Fixed">Fixed issue with internal cache storing null values by mistake</change-log-item>
+<change-log-item change-type="Improved">Improved variants property editor to remove invalid combinations on save</change-log-item>
+</change-log>
+
 ## Version 3.4.1
 
 Download from [Our Umbraco](https://our.umbraco.com/packages/website-utilities/tea-commerce/)
