@@ -202,7 +202,7 @@ Changes the current vat group of the customer's session. The vat group is also c
 @using TeaCommerce.Umbraco.Web
 @using TeaCommerce.Api.Models
 @{
-  VatGroup vatGroup = TC.GetVatGroup(1, 2);
+  VatGroup vatGroup = TC.SetCurrentVatGroup(1, 2);
 }
 ````
 
