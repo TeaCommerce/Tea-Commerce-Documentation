@@ -1,5 +1,16 @@
 # Changelog
 
+## Version 3.4.3
+
+Download from [Our Umbraco](https://our.umbraco.com/packages/website-utilities/tea-commerce/)
+
+**Changelog** 
+
+<change-log>
+<change-log-item change-type="Fixed">Fixed bug where payment inconsistency was being treated as a transaction fee. Now only assumes this is the inconsistency is an over payment.</change-log-item>
+<change-log-item change-type="Fixed">Fixed bug in cache refresher throwing error if there is no cache to update.</change-log-item>
+</change-log>
+
 ## Version 3.4.2
 
 Download from [Our Umbraco](https://our.umbraco.com/packages/website-utilities/tea-commerce/)
