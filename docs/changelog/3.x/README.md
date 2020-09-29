@@ -1,5 +1,16 @@
 # Changelog
 
+## Version 3.4.4
+
+Download from [Our Umbraco](https://our.umbraco.com/packages/website-utilities/tea-commerce/)
+
+**Changelog** 
+
+<change-log>
+<change-log-item change-type="Fixed">Fixed bug where SagePay provider was defaulting to non 3D Secure payments.</change-log-item>
+<change-log-item change-type="Improved">Upgraded SagePay provider to use the 3.x API.</change-log-item>
+</change-log>
+
 ## Version 3.4.3
 
 Download from [Our Umbraco](https://our.umbraco.com/packages/website-utilities/tea-commerce/)
