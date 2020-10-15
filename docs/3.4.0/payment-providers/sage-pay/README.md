@@ -61,6 +61,10 @@ Sage Pay support a wide range of different settings which you can read more abou
 		<td>testMode</td>
 		<td>Whether or not demo mode is enabled</td>
 	</tr>
+	<tr>
+		<td>Apply3DSecure</td>
+		<td>This should be added and set to 0 to ensure 3D Secure is used when possible</td>
+	</tr>
 </table>
 
 ![sage-pay-4.png](/img/ba2a375-sage-pay-4.png)
